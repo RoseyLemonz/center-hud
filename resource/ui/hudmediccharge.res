@@ -275,4 +275,19 @@
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 	}
+
+	"NaderClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NaderClusterIcon"
+		"xpos"			"2"
+		"ypos"			"16"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"0"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ico_health_cluster_nader"
+		"scaleImage"	"1"	
+	}
 }

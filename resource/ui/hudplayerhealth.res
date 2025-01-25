@@ -603,6 +603,22 @@
 		"image"			"../HUD/civilian_buff_blue"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatusCivilianBuffHaste"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusCivilianBuffHaste"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/civilian_haste_blue"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatusDurationValue"
 	{
 		"ControlName"	"CExLabel"
