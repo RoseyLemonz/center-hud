@@ -20,8 +20,8 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_4"		"../hud/ammo_green_bg"
 		"teambg_5"		"../hud/ammo_yellow_bg"
-		"vertical_offset_special"	"-100"
-		"horizontal_offset_special"	"15"
+		"vertical_offset_special"	"-145"
+		"horizontal_offset_special"	"-5"
 	}
 	"HudWeaponLowAmmoImage"
 	{
