@@ -15,7 +15,7 @@
   - <a href="https://github.com/grousk">grousk (Turkish)</a>
   - <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a>
   - <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
-  - Ashe wiki.tf (Spanish)
+  - <a href="https://gamebanana.com/members/1932153">Ashe_tf (Spanish)</a>
   - <a href="https://github.com/Yellow-Dev1l">Yellow-Dev1l (Korean)</a>
   
   <h2>Credits / Special Thanks</h2>
