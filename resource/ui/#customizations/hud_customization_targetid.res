@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"TargetID"
 				"xpos"								"305"
-				"ypos"								"358"
+				"ypos"								"408"
 				"zpos"								"0"
 				"wide"								"147"
 				"tall"								"80"

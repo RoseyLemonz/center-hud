@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Health"
 				"xpos"								"376"
-				"ypos"								"5"
+				"ypos"								"55"
 				"zpos"								"0"
 				"wide"								"147"
 				"tall"								"80"

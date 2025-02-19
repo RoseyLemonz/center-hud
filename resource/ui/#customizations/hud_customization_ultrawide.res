@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Ultrawide"
 				"xpos"								"437"
-				"ypos"								"272"
+				"ypos"								"322"
 				"zpos"								"0"
 				"wide"								"86"
 				"tall"								"80"

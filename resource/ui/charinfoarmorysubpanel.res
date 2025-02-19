@@ -169,7 +169,7 @@
 			"xpos"			"5"
 			"ypos"			"138"
 			"wide"			"260"
-			"tall"			"120"
+			"tall"			"125"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

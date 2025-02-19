@@ -8,7 +8,7 @@
 	"CharacterSetupButton"
 	{
 		"xpos"			"c-290"
-		"ypos"			"238"
+		"ypos"			"200"
 		"wide"			"120"
 		"tall"			"26"
 
@@ -29,8 +29,8 @@
 
 	"GeneralStoreButton"
 	{
-		"xpos"			"c-166"
-		"ypos"			"238"
+		"xpos"			"3"
+		"ypos"			"0"
 		"wide"			"120"
 		"tall"			"26"
 
@@ -51,8 +51,8 @@
 
 	"AReplayButton"
 	{
-		"xpos"			"c-290"
-		"ypos"			"268"
+		"xpos"			"0"
+		"ypos"			"-29"
 		"wide"			"120"
 		"tall"			"26"
 
@@ -73,8 +73,8 @@
 
 	"ASettingsButton"
 	{
-		"xpos"			"c-166"
-		"ypos"			"268"
+		"xpos"			"3"
+		"ypos"			"0"
 		"wide"			"120"
 		"tall"			"26"
 
