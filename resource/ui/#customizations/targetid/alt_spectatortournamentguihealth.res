@@ -9,12 +9,12 @@
 	}
 	"PlayerStatusHealthValueTargetID"
 	{
-		"xpos_minmode"	"2"
-		"ypos_minmode"	"11"
+		"xpos_minmode"	"1"
+		"ypos_minmode"	"10"
 	}
 	"PlayerStatusHealthValueTargetIDBlur"
 	{
-		"xpos_minmode"	"1"
-		"ypos_minmode"	"10"
+		"xpos_minmode"	"2"
+		"ypos_minmode"	"11"
 	}
 }

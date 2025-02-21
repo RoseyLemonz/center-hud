@@ -44,7 +44,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"TanLight"
 		
 		"mouseinputenabled"	"0"

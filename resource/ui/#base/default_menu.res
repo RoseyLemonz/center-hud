@@ -1700,7 +1700,6 @@
 
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 
 		"use_proportional_insets" "1"
 		"proportionaltoparent"	"1"

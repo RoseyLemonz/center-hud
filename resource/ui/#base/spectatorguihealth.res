@@ -62,7 +62,7 @@
 		"ypos"			"4"
 		"ypos_minmode"	"8"
 		"zpos"			"3"
-		"wide"			"24"
+		"wide"			"25"
 		"wide_minmode"	"12"
 		"tall"			"24"
 		"tall_minmode"	"12"
