@@ -138,7 +138,7 @@
 			"labelText"						"HUD Wiki"
 			"font"							"ItemFontNameLarge"
 			"textAlignment"					"center"
-			"Command"						"url https://github.com/Rorriis/center-hud/wiki"
+			"Command"						"url https://github.com/RoseyLemonz/center-hud/wiki"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"

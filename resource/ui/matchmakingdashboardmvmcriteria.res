@@ -131,7 +131,7 @@
 		"xpos"			"5"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"270"
+		"wide"			"265"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"6"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"f20"

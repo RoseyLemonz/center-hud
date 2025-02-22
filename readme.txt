@@ -20,4 +20,4 @@ mat_colorcorrection 0
 
 ------------------------------------------------
 
-If you would like to help translate the HUD to other languages, message me on Discord (rorriis), or go to this issue on GitHub: https://github.com/Rorriis/center-hud/issues/3
+If you would like to help translate the HUD to other languages, message me on Discord (roseylemonz), or go to this issue on GitHub: https://github.com/RoseyLemonz/center-hud/issues/3

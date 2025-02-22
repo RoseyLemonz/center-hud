@@ -12,6 +12,7 @@
 		"FreezePanelHealth"
 		{
 			"xpos"			"12"
+			"ypos"			"161"
 			"wide"			"30"
 		}
 

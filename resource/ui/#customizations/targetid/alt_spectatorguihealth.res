@@ -24,7 +24,7 @@
 	}
 	"BuildingStatusHealthImageBG"
 	{
-		"xpos"			"1"
+		"xpos"			"0"
 		"xpos_minmode"	"4"
 	}
 	"PlayerStatusHealthValueTargetID"
