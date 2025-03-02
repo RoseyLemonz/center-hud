@@ -515,7 +515,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -527,7 +527,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"8"
 				"weight"	"900"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -539,7 +539,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"6"
 				"weight"	"900"
 				"antialias" "1"
 				"dropshadow" "1"
