@@ -1,11 +1,11 @@
-![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
+![centerhud3long](https://github.com/RoseyLemonz/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106)
 
-  <h1>TF2C version of Center HUD</h1>
+  <h1>NOTE: I won't really update this until TF2c is finally on Steam. TF2C version of Center HUD</h1>
   
-  - <a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
-  - <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
-  - <a href="https://github.com/Rorriis/center-hud/tree/main">Normal Version (Windows)</a>
-  - <a href="https://github.com/Rorriis/center-hud/tree/lite">Normal Version (Lite)</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/releases">Downloads</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/tree/main">Normal Version (Windows)</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/tree/lite">Normal Version (Lite)</a>
 
   <h2>Credits / Special Thanks</h2>
   
