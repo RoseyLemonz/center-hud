@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Player_class"
 				"xpos"								"305"
-				"ypos"								"90"
+				"ypos"								"140"
 				"zpos"								"0"
 				"wide"								"147"
 				"tall"								"80"

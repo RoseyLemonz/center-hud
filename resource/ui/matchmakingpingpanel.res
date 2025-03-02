@@ -44,7 +44,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"TanLight"
 		
 		"mouseinputenabled"	"0"
@@ -215,6 +215,8 @@
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+
+		"mouseinputenabled"	"0"
 	}
 
 	"CurrentPingLabel"
@@ -222,7 +224,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
 		"xpos"		"27"
-		"ypos"		"156"
+		"ypos"		"182"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"20"
@@ -239,7 +241,7 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-8"
-		"ypos"		"170"
+		"ypos"		"158"
 		"wide"		"f40"
 		"tall"		"32"
 		"autoResize"		"0"

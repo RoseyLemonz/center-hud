@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Refont"
 				"xpos"								"355"
-				"ypos"								"272"
+				"ypos"								"322"
 				"zpos"								"0"
 				"wide"								"80"
 				"tall"								"80"

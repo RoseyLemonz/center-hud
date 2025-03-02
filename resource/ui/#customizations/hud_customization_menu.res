@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"MenuStyle"
 				"xpos"								"5"
-				"ypos"								"272"
+				"ypos"								"322"
 				"zpos"								"0"
 				"wide"								"348"
 				"tall"								"80"

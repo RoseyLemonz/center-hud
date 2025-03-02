@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Crosshair"
 				"xpos"								"5"
-				"ypos"								"175"
+				"ypos"								"225"
 				"zpos"								"0"
 				"wide"								"518"
 				"tall"								"93"

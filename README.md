@@ -1,16 +1,16 @@
-![centerhud3long](https://github.com/Rorriis/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106) 
+![centerhud3long](https://github.com/RoseyLemonz/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106) 
   <h1>Center HUD</h1>
   A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
   <h3><b>IMPORTANT: Keep the folder name as "center-hud", otherwise customizations will break.</b></h3>
   
-  - <a href="https://github.com/Rorriis/center-hud/releases">Downloads</a>
-  - <a href="https://github.com/Rorriis/center-hud/wiki">Wiki</a>
-  - <a href="https://github.com/Rorriis/center-hud/tree/lite">Lite Version</a>
-  - <a href="https://github.com/Rorriis/center-hud/tree/tf2c">TF2C Version</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/releases">Downloads</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/tree/lite">Lite Version</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/tree/tf2c">TF2C Version</a>
   
   <h2>Translators</h2>
   
-  Everyone that has helped translate Center HUD to other languages, if you're interested in helping, <a href="https://github.com/Rorriis/center-hud/wiki/Translating">look here.</a>
+  Everyone that has helped translate Center HUD to other languages, if you're interested in helping, <a href="https://github.com/RoseyLemonz/center-hud/wiki/Translating">look here.</a>
   
   - <a href="https://github.com/grousk">grousk (Turkish)</a>
   - <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a>

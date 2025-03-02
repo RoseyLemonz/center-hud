@@ -118,6 +118,7 @@
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"    "0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}
@@ -149,6 +150,7 @@
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"    "0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}

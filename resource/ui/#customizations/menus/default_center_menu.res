@@ -48,11 +48,6 @@
 		"xpos"			"cs-0.5"
 	}
 
-	"StatsBorder"
-	{
-		"xpos"			"cs-0.5"
-	}
-
 	"QuestLogButton2"
 	{
 		"ControlName"	"EditablePanel"
@@ -665,21 +660,6 @@
 	"CharacterSetupButton"
 	{
 		"xpos"			"c-124"
-	}
-
-	"AReplayButton"
-	{
-		"xpos"			"c-124"
-	}
-
-	"GeneralStoreButton"
-	{
-		"xpos"			"c0"
-	}
-
-	"ASettingsButton"
-	{
-		"xpos"			"c0"
 	}
 
 	// command comes from GameMenu.res
