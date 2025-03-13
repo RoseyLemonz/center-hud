@@ -254,8 +254,8 @@ Scheme
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedTextColor		"TanLight"
+		Button.DepressedBgColor			"Black"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"

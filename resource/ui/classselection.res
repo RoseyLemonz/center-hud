@@ -1,6 +1,7 @@
 // CUSTOMIZATIONS
 
 #base "../../../../cfg/centerhud/hud_classsel.txt"
+#base "../../cfg/centerhud/hud_classsel.txt"
 
 // BASE
 

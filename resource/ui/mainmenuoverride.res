@@ -3,6 +3,10 @@
 #base "../../../../cfg/centerhud/hud_menuicons.txt"
 #base "../../../../cfg/centerhud/hud_menu.txt"
 
+#base "../../cfg/centerhud/hud_menuicons.txt"
+#base "../../cfg/centerhud/hud_menu.txt"
+
+
 // DEV MODE
 
 #base "../../dev/mainmenuoverride_dev.res"
