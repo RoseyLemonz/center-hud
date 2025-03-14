@@ -36,7 +36,7 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_primary_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_primary_meter_blue"
 		"teambg_4"		"replay/thumbnails/meter/hud_primary_meter_green"
-		"teambg_5"		"replay/thumbnails/meter/hud_primary_meter_ylw"
+		"teambg_5"		"replay/thumbnails/meter/hud_primary_meter_yellow"
 	}
 
 	"MinmodeMeterBG"
