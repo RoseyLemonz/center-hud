@@ -164,28 +164,6 @@
 		"enabled"		"1"
 	}
 
-	"SupportCommunityMapMakersButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"SupportCommunityMapMakersButton"
-		"xpos"			"c140"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-	}
-
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"	"CheckButton"
