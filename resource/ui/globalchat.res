@@ -46,8 +46,6 @@
 		
 		"bgcolor_override"	"0 0 0 50"
 
-		"pinCorner"		"2"
-		"autoResize"	"1"
 
 		"ScrollBar"
 		{
@@ -98,8 +96,6 @@
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
-		"pinCorner"		"2"
-		//"autoResize"	"1"
 	}
 	"EntryShadow"
 	{
@@ -119,6 +115,5 @@
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 
-		"pinCorner"		"2"
 	}
 }

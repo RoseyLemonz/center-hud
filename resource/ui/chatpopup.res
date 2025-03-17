@@ -29,7 +29,6 @@
 		"font"			"HudFontSmallest"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
-		"skip_autoresize"	"1"
 
 		"bgcolor_override"	"0 0 0 250"
 

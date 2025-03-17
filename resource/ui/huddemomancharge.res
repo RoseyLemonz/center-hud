@@ -13,8 +13,6 @@
 		"tall"			"6"
 		"wide_minmode"	"40"
 		"tall_minmode"	"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"

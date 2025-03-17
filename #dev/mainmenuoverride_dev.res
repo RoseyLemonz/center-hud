@@ -14,8 +14,6 @@
 		"zpos"				"1"
 		"wide"				"250"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"font"				"HudFontMediumBold"
@@ -51,9 +49,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -96,9 +91,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -141,9 +133,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -186,9 +175,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -231,9 +217,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -276,9 +259,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -321,9 +301,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -366,9 +343,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"tabPosition"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"

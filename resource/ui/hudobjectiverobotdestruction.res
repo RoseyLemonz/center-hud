@@ -45,8 +45,6 @@
 			"bgcolor_override"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			"AutoResize" "0"
-			"skip_autoresize" "1"
 		}
 	}	
 	
