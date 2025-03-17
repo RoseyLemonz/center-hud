@@ -121,8 +121,6 @@
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -143,8 +141,6 @@
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -197,7 +193,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 			"scaleImage"	"1"
 		}
 	}

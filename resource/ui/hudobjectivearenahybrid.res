@@ -51,12 +51,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
 		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -88,18 +85,13 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
 		"zpos"			"3"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -765,8 +757,6 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontBig"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"font_minmode"	"HudFontMedium"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
@@ -788,8 +778,6 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontBig"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"font_minmode"	"HudFontMedium"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
@@ -826,8 +814,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontBig"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"font_minmode"	"HudFontMedium"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
@@ -849,8 +835,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontBig"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"font_minmode"	"HudFontMedium"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"

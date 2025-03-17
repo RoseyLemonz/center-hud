@@ -8,6 +8,9 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
+// run cuekis casual preloader script if present
+exec w/config.cfg
+
 // run center_hud_init
 exec center_hud_init.cfg
 

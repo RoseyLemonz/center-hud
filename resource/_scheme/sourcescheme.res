@@ -139,13 +139,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"MenuLarge"
-		{
-			"1"	[$X360]
-			{
-				"tall_hidef"		"24"
-			}
-		}
 
 		"ServerBrowserTitle"
 		{
@@ -153,7 +146,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -256,6 +248,5 @@ Scheme
 				"antialias"		"1" [!$OSX]
 			}
 		}
-
 	}
 }

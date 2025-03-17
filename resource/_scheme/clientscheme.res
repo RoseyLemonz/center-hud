@@ -1111,36 +1111,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		GameUIButtons
-		{
-			"1"	//[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
 		GameUIButtonsSteamController
 		{
 			"1"

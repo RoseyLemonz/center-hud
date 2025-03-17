@@ -457,38 +457,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		GameUIButtons
-		{
-			"1"	//[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
 		GameUIButtonsSteamController
 		{
 			"1"
@@ -496,9 +464,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -610,11 +576,6 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Courier New"
-				"outline"	"1"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
 				"outline"	"1"
 			}
 		}		
