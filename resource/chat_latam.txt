@@ -25,10 +25,6 @@
         "CHud_Loadout"         	  "EQUIPAMIENTO (&E)"
         "CHud_Random"         	  "ALEATORIO (&R)"
 
-		// Quickplay Stuff
-		"CHud_Matchmaking_HeaderQuickplay"	"Partida rápida"
-        "CHud_GameModeDesc_Quickplay"		"Busca un servidor de la comunidad organizado por jugadores como tú. (partida rápida de comfig)"
-
 		// Main Menu Stuff
 		"CHud_Menu_ReloadHUD"		"Recargar HUD"
 

@@ -25,10 +25,6 @@
         "CHud_Loadout"         	  "СНАРЯЖЕНИЕ (&E)"
         "CHud_Random"         	  "СЛУЧАЙНО (&R)"
 
-		// Quickplay Stuff
-		"TF_Matchmaking_HeaderQuickplay"	"Быстрая Игра"
-        "TF_GameModeDesc_Quickplay"			"Найдите сервер сообщества, созданный такими же игроками, как вы. (comfig quickplay)"
-
 		// Main Menu Stuff
 		"CHud_Menu_ReloadHUD"		"Перезагрузить интерфейс"
 
