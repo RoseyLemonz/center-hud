@@ -6,6 +6,7 @@
   
   - <a href="https://github.com/RoseyLemonz/center-hud/releases">Downloads</a>
   - <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
+  - <a href="https://discord.gg/p5JV3k5CfE">Discord</a>
   - <a href="https://github.com/RoseyLemonz/center-hud/tree/lite">Lite Version</a>
   - <a href="https://github.com/RoseyLemonz/center-hud/tree/tf2c">TF2C Version</a>
   
