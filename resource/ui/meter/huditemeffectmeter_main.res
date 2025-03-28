@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c212"
+		"xpos"			"c232"
 		"ypos"			"r54"
-		"xpos_minmode"	"c234"
+		"xpos_minmode"	"c260"
 		"ypos_minmode"	"r20"
 		"wide"			"90"
 		"tall"			"45"
@@ -52,10 +52,10 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 
-		"src_corner_height"	"50"
-		"src_corner_width"	"50"
-		"draw_corner_width"	"8"
-		"draw_corner_height" 	"8"
+		"src_corner_height"	"60"
+		"src_corner_width"	"60"
+		"draw_corner_width"	"6"
+		"draw_corner_height" 	"6"
 	}
 	
 	"ItemEffectMeterLabel"

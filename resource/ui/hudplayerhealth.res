@@ -5,19 +5,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-274"
-		"xpos_minmode"	"c-260"
+		"xpos"			"c-282"
+		"xpos_minmode"	"c-264"
 		"ypos"			"r120"
-		"ypos_minmode"	"r87"
+		"ypos_minmode"	"r88"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}
+	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

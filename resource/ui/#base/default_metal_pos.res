@@ -3,9 +3,9 @@
 	"CHudAccountPanel"
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c212"
+		"xpos"					"c232"
 		"ypos"					"r152"
-		"xpos_minmode"			"c216"
+		"xpos_minmode"			"c244"
 		"ypos_minmode"			"r134"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"116"

@@ -9,10 +9,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-		"delta_item_x_minmode"			"32"
-		"delta_item_start_y_minmode"	"100"
-		"delta_item_end_y_minmode"		"92"
-		"delta_item_font_minmode"		"HudFontMediumSmall"
+		"delta_item_x_minmode"			"9999"
 	}
 	
 	"AccountBG"
@@ -92,26 +89,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmall"
-	}
-	"AccountValueShadow2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AccountValueShadow2"
-		"xpos"			"25"
-		"ypos"			"113"
-		"xpos_minmode"	"21"
-		"ypos_minmode"	"114"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
-		"visible"		"0"
-		"visible_minmode"	"1"
-		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
-		"fgcolor"		"Black"
 	}
 }
