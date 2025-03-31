@@ -1,11 +1,11 @@
 
-Please keep the HUDs folder name as "center-hud", changing it will break customizations
-
 Aspect ratios that are lower than 4:3, like 5:4 or 1:1 are not supported
 
 To enable dev mode, simply remove the # from the #dev folder
 
 For the transparent viewmodels; if you're using mastercomfig, get the addon from the website, but if not then put this in your autoexec file in "tf/cfg/autoexec.cfg" or create one if it doesn't exist
+
+FOR LINUX: Please keep / change the HUDs folder name to "center-hud", otherwise customizations will not work
 
 ------------------------------------------------
 
@@ -20,4 +20,4 @@ mat_colorcorrection 0
 
 ------------------------------------------------
 
-If you would like to help translate the HUD to other languages, message me on Discord (roseylemonz), or go to this issue on GitHub: https://github.com/RoseyLemonz/center-hud/issues/3
+If you would like to help translate the HUD to other languages, message me on Discord (roseylemonz, or the server: https://discord.gg/p5JV3k5CfE), or go to this issue on GitHub: https://github.com/RoseyLemonz/center-hud/issues/3

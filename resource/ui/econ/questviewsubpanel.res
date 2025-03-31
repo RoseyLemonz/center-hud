@@ -23,11 +23,8 @@
 		"zpos"			"10"
 		"wide"			"80"
 		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labeltext"		"#TF_QuestView_Accept"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -88,7 +85,6 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
 		"fgcolor_override"	"TanLight"
-		"skip_autoresize"	"1"
 
 		"fonts"
 		{
@@ -175,7 +171,6 @@
 		"keyboardinputenabled"	"0"
 		"bgcolor_override"	"QuestMap_ActiveOrange"
 		"Alpha"			"0"
-		"skip_autoresize"	"1"
 	}
 
 	"SelectHint"
@@ -194,7 +189,6 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
 		"fgcolor_override"	"0 255 0 255"
-		"skip_autoresize"	"1"
 		"alpha"	"0"
 	}
 
@@ -215,7 +209,6 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
 		"fgcolor_override"	"0 255 0 255"
-		"skip_autoresize"	"1"
 		"alpha"	"0"
 	}
 
@@ -308,11 +301,8 @@
 				"zpos"			"101"
 				"wide"			"f0"	
 				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"labeltext"		"#QuestLog_TurnIn"
 				"textAlignment"	"center"
 				"dulltext"		"0"

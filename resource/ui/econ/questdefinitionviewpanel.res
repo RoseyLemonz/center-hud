@@ -9,11 +9,8 @@
 		"zpos"			"1005"
 		"wide"			"8"
 		"tall"			"8"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -59,11 +56,8 @@
 		"zpos"			"1000"
 		"wide"			"12"
 		"tall"			"o1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -117,7 +111,6 @@
 		"TextAlignment"		"center"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
-		"autoresize"	"1"	// Stick to the right.  It's going to resize and we want to resize with it
 	}
 
 	"StateBorderOverlay"
@@ -129,7 +122,6 @@
 		"zpos"			"999"
 		"wide"			"f0"
 		"tall"			"f0"
-		"autoresize"	"3"	// Stick to the bottom and right.  It's going to resize and we want to resize with it
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"border"		"CYOANodeViewBorder_Inactive"
@@ -161,7 +153,6 @@
 		"zpos"			"1"
 		"wide"			"199"
 		"tall"			"f3"
-		"autoresize"	"2"	// Stick to the bottom.  It's going to resize and we want to resize with it
 		"proportionaltoparent"	"1"
 
 		"ContractsLabel"

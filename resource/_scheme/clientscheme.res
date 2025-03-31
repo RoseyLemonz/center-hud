@@ -254,8 +254,8 @@ Scheme
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedTextColor		"TanLight"
+		Button.DepressedBgColor			"Black"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -1109,36 +1109,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		GameUIButtons
-		{
-			"1"	//[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
 			}
 		}
 		GameUIButtonsSteamController
@@ -3434,8 +3404,8 @@ Scheme
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"3"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 
 		StoreFreeTrialBorder

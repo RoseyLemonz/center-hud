@@ -25,10 +25,6 @@
         "CHud_Loadout"         	  "로드아웃 (&E)"
         "CHud_Random"         	  "무작위 (&R)"
 
-		// Quickplay Stuff
-		"CHud_Matchmaking_HeaderQuickplay"	"퀵플레이"
-        "CHud_GameModeDesc_Quickplay"		"자신과 같은 플레이어가 운영하는 커뮤니티 서버 매칭하기 (comfig 퀵플레이)"
-
 		// Main Menu Stuff
 		"CHud_Menu_ReloadHUD"		"HUD 재설정"
 

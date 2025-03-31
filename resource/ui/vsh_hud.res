@@ -39,8 +39,6 @@
 			"bgcolor_override"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			"AutoResize" "0"
-			"skip_autoresize" "1"
 		}
 	}
 
@@ -64,8 +62,6 @@
 			"zpos"			"0"
 			"wide"			"50"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
@@ -112,8 +108,6 @@
 			"zpos"			"0"
 			"wide"			"62"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../vgui/replay/thinlineborder"
@@ -162,11 +156,8 @@
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"Image"			"vssaxtonhale/boss_bar_layer1"
 			"scaleImage"	"1"					
 		}
@@ -193,11 +184,8 @@
 				"zpos"			"5"
 				"wide"			"218"
 				"tall"			"18"
-				"autoResize"	"1"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"scaleImage"	"0"	
 				"Image"			"vssaxtonhale/boss_bar"
 			}

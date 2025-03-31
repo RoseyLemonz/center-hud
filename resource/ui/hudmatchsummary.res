@@ -4,9 +4,6 @@
 	{
 		"ControlName"	"CTFMatchSummary"
 		"fieldName"		"MatchSummary"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"tabPosition"	"0"
 		"paintbackground"	"0"
 		"zpos"			"20"
 		"visible"		"0"
@@ -181,7 +178,6 @@
 			"tall"			"15"
 			"visible"		"0"
 			"enabled"		"1"
-			"autoResize"	"0"
 
 			"StatsAndMedals"
 			{
@@ -195,8 +191,6 @@
 				"zpos"			"4"
 				"wide"			"200"
 				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 			}
@@ -214,8 +208,6 @@
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 			}
@@ -254,8 +246,6 @@
 					"zpos"			"2"
 					"wide"			"p.213"
 					"tall"			"36"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderBlueBGOpaque"
@@ -277,8 +267,6 @@
 					"zpos"			"4"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -301,8 +289,6 @@
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -323,8 +309,6 @@
 					"zpos"			"4"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -346,8 +330,6 @@
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -387,8 +369,6 @@
 					"zpos"			"20"
 					"wide"			"195"
 					"tall"			"20"
-					"autoResize"		"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -459,8 +439,6 @@
 						"tall"			"179"
 						"visible"		"1"
 						"enabled"		"1"
-						"tabPosition"	"0"
-						"autoresize"	"0"
 						"linespacing"	"24"
 						"linegap"		"4"
 						//"show_columns"	"1"
@@ -490,8 +468,6 @@
 					"zpos"			"0"
 					"wide"			"p.2"
 					"tall"			"206"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
@@ -524,8 +500,6 @@
 					"zpos"			"2"
 					"wide"			"p.213"
 					"tall"			"36"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderRedBGOpaque"
@@ -547,8 +521,6 @@
 					"zpos"			"4"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -570,8 +542,6 @@
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -592,8 +562,6 @@
 					"zpos"			"4"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -615,8 +583,6 @@
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 
@@ -656,8 +622,6 @@
 					"zpos"			"20"
 					"wide"			"195"
 					"tall"			"20"
-					"autoResize"		"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -728,8 +692,6 @@
 						"tall"			"179"
 						"visible"		"1"
 						"enabled"		"1"
-						"tabPosition"	"0"
-						"autoresize"	"0"
 						"linespacing"	"24"
 						"linegap"		"4"
 						//"show_columns"	"1"
@@ -759,8 +721,6 @@
 					"zpos"			"0"
 					"wide"			"p.2"
 					"tall"			"206"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
@@ -815,8 +775,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -846,8 +804,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -877,8 +833,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -926,8 +880,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -957,8 +909,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}
@@ -988,8 +938,6 @@
 					"zpos"			"6"
 					"wide"			"15"
 					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 				}

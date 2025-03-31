@@ -4,9 +4,10 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c208"
-		"ypos"			"r92"
+		"ypos"	"r92"
+		"ypos_minmode"	"r20"
 	}
+
 	"SkullIcon"
 	{
 		"xpos"			"2"

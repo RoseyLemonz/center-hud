@@ -25,10 +25,6 @@
         "CHud_Loadout"         	  "OPPAKNING (&E)"
         "CHud_Random"         	  "TILFELDIG (&R)"
 
-		// Quickplay Stuff
-		"CHud_Matchmaking_HeaderQuickplay"	"Hurtigspill"
-        "CHud_GameModeDesc_Quickplay"		"Søk etter en samfunnstjener der andre spillere som deg er vert. (comfig hurtigspill)"
-
 		// Main Menu Stuff
 		"CHud_Menu_ReloadHUD"		"Last inn HUD på nytt"
 

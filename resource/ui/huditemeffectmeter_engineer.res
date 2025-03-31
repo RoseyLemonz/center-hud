@@ -2,6 +2,10 @@
 
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 {
+	HudItemEffectMeter
+	{
+		"ypos_minmode"	"r40"
+	}
 	"SkullIcon"
 	{
 		"xpos"			"3"
