@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 // CUSTOMIZATIONS
 
 #base "../../../../cfg/centerhud/hud_menuicons.txt"

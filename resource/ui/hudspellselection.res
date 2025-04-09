@@ -8,7 +8,7 @@
 		"wide"	 "80"
 		"tall"	 "45"
 		"zpos" 	"2"
-		"xpos"			"c-317"
+		"xpos"			"c-314"
 		"ypos"			"r52"
 		"xpos_minmode"	"c-330"
 		"ypos_minmode"	"r60"

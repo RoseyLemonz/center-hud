@@ -5,10 +5,10 @@
   <b>FOR LINUX: Please keep / change the HUDs folder name to "center-hud", otherwise customizations will not work.</b>
   
   - <a href="https://github.com/RoseyLemonz/center-hud/releases">Downloads</a>
-  - <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
   - <a href="https://discord.gg/p5JV3k5CfE">Discord</a>
   - <a href="https://github.com/RoseyLemonz/center-hud/tree/lite">Lite Version</a>
   - <a href="https://github.com/RoseyLemonz/center-hud/tree/tf2c">TF2C Version</a>
+  - <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
   
   <h2>Translators</h2>
   
@@ -19,6 +19,8 @@
   - <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
   - <a href="https://gamebanana.com/members/1932153">Ashe_tf (Spanish)</a>
   - <a href="https://github.com/Yellow-Dev1l">Yellow-Dev1l (Korean)</a>
+  - chillyy (French)
+  - <a href="https://github.com/Hardingfele2212">Hardingfele221v2 (Norwegian)</a>
   
   <h2>Credits / Special Thanks</h2>
   
