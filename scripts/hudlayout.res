@@ -15,15 +15,20 @@
 
 #base "../cfg/centerhud/hud_killfeed.txt"
 
+
+#base "../cfg/centerhud/hud_friendslist.txt"
+
+
 // BASE
 
+#base "hudlayout_reload.res"
 #base "../resource/ui/#base/default_uber_pos.res"
 #base "../resource/ui/#base/default_metal_pos.res"
 #base "../resource/ui/#base/killfeed_base.res"
 #base "../resource/ui/#base/transparent_viewmodels_base.res"
 
 "Resource/HudLayout.res"
-{
+{	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

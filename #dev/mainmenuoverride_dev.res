@@ -1,17 +1,12 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
-	{
-
-	}
-
 	"DevModePanel"
 	{
 		"ControlName"	"CMatchHistoryEntryPanel"
 		"fieldName"		"DevModePanel"
 		"xpos"			"c50"
 		"ypos"			"60"
-		"zpos"			"500"
+		"zpos"			"10"
 		"wide"			"250"
 		"tall"			"195"
 
