@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\menu\glyph_forum"
+	"$basetexture" "vgui/replay/thumbnails/menu/glyph_forum"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

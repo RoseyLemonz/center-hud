@@ -183,7 +183,7 @@
 				"ypos"			"0"
 				"wide"			"o1"
 				"tall"			"50"
-				"image"			"casual\gametype_koth"
+				"image"			"casual/gametype_koth"
 				"proportionaltoparent"	"1"	
 			}
 
@@ -196,7 +196,7 @@
 				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"40"
-				"image"			"training\gradient_black"
+				"image"			"training/gradient_black"
 				"proportionaltoparent"	"1"	
 				"rotation"		"1"
 			}
@@ -211,7 +211,7 @@
 				"wide"			"o1"
 				"tall"			"10"
 				"zpos"			"100"
-				"image"			"competitive\competitive_coin_bronze"
+				"image"			"competitive/competitive_coin_bronze"
 				"proportionaltoparent"	"1"	
 			}
 
@@ -260,7 +260,7 @@
 				"wide"			"o1"
 				"tall"			"10"
 				"zpos"			"100"
-				"image"			"competitive\competitive_coin_bronze"
+				"image"			"competitive/competitive_coin_bronze"
 				"proportionaltoparent"	"1"	
 			}
 
@@ -292,7 +292,7 @@
 				"wide"			"o1"
 				"tall"			"10"
 				"zpos"			"100"
-				"image"			"competitive\competitive_coin_bronze"
+				"image"			"competitive/competitive_coin_bronze"
 				"proportionaltoparent"	"1"	
 			}
 
@@ -323,7 +323,7 @@
 				"wide"			"o1"
 				"tall"			"10"
 				"zpos"			"100"
-				"image"			"competitive\competitive_coin_bronze"
+				"image"			"competitive/competitive_coin_bronze"
 				"proportionaltoparent"	"1"	
 			}
 
@@ -354,7 +354,7 @@
 				"wide"			"o1"
 				"tall"			"10"
 				"zpos"			"100"
-				"image"			"competitive\competitive_coin_bronze"
+				"image"			"competitive/competitive_coin_bronze"
 				"proportionaltoparent"	"1"	
 			}
 

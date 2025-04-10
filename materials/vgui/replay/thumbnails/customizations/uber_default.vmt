@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\uber_default"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/uber_default"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

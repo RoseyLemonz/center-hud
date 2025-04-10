@@ -1373,6 +1373,49 @@
 		}
 	}
 
+	"ToggleFriendsList"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ToggleFriendsList"
+		"xpos"			"c-66"
+		"ypos"			"269"
+		"zpos"			"501"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		""
+		
+		"command"		"engine hud_hide_friends_on; toggle mat_aaquality"
+
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+
+		"image_drawcolor"	"50 50 50 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image" "replay/thumbnails/menu/glyph_noview"
+		}
+	}
+
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -2207,7 +2250,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"border_default"    "EconItemBorder"
-			"border_armed"      " "
+			"border_armed"      ""
 
 			"paintbackground"   "1"
 
@@ -2417,6 +2460,8 @@
 			"angles_z"		"0"
 		}
 	}
+
+
 
 	"StoreHasNewItemsImage"
 	{

@@ -10,8 +10,8 @@
 	}
 
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_blue"
-	"$detail" "vgui\replay\thumbnails\meter\hud_primary_meter"
+	"$baseTexture" "hud/gradient_blue"
+	"$detail" "vgui/replay/thumbnails/meter/hud_primary_meter"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
