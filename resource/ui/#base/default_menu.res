@@ -1281,7 +1281,7 @@
 		"enabled"		"1"
 		"labeltext"		""
 		
-		"command"		"engine hud_hide_friends_on; hud_reloadscheme"
+		"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"

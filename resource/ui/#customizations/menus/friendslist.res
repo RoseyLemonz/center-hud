@@ -28,7 +28,7 @@
 
 	"ToggleFriendsListButton"
 	{
-		"command"		"engine hud_hide_friends_off; hud_reloadscheme"
+		"command"		"engine hud_hide_friends_off; wait 5; hud_reloadscheme"
 
 		"SubImage"
 		{

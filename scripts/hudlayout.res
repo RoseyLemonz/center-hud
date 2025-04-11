@@ -15,6 +15,7 @@
 
 #base "../cfg/centerhud/hud_killfeed.txt"
 
+// FRIENDS LIST
 
 #base "../cfg/centerhud/hud_friendslist.txt"
 
