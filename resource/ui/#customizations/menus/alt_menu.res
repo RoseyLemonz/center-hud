@@ -88,7 +88,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-290"
+		"xpos"			"c-297"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"

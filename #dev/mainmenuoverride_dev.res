@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CMatchHistoryEntryPanel"
 		"fieldName"		"DevModePanel"
-		"xpos"			"c50"
-		"ypos"			"60"
+		"xpos"			"c-35"
+		"ypos"			"33"
 		"zpos"			"10"
 		"wide"			"250"
 		"tall"			"195"
@@ -81,7 +81,7 @@
 				"paintbackground"   "0"
 
 				"actionsignallevel"	"3"
-				"command"			"engine +vgui_drawtree"
+				"command"			"engine vgui_drawtree_draw_selected 1; +vgui_drawtree"
 
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "232 222 182 255"

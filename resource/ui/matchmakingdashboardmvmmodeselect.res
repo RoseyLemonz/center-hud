@@ -30,108 +30,6 @@
 		"scaleImage"	"1"
 	}
 
-	"PotatoMVMButton"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"PotatoMVMButton"
-		"xpos"					"42"
-		"ypos"					"375"
-		"zpos"					"102"
-		"wide"					"25"
-		"tall"					"25"
-		"visible"				"1"
-		"enabled"				"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		" "
-			"default"		"1"
-			"command"		"url https://potato.tf/"
-			"proportionaltoparent"	"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"paintbackgroundtype"	"2"
-
-			"image_default"			"replay/thumbnails/menu/glyph_potatomvm_grey"
-			"image_armed"			"replay/thumbnails/menu/glyph_potatomvm"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
-	"MoonlightMVMButton"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"MoonlightMVMButton"
-		"xpos"					"195"
-		"ypos"					"375"
-		"zpos"					"102"
-		"wide"					"25"
-		"tall"					"25"
-		"visible"				"1"
-		"enabled"				"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		" "
-			"default"		"1"
-			"command"		"url https://moonlight.tf/"
-			"proportionaltoparent"	"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"paintbackgroundtype"	"2"
-			"image_drawcolor"	"225 216 192 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f5"
-				"tall"			"f5"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/glyph_moonlightmvm"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"MannUpGroupBox"
 	{
 		//"ControlName"	"EditablePanel"
@@ -314,7 +212,7 @@
 		{
 			//"ControlName"	"CExButton"
 			"fieldName"		"PracticeButton"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.5-20"
 			"ypos"			"rs1-5"
 			"zpos"			"20"
 			"tall"			"25"
@@ -337,6 +235,59 @@
 			"armedFgColor_override"		"TanLight"
 			"depressedFgColor_override" "TanLight"
 		}
+
+		"PotatoMVMButton"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"PotatoMVMButton"
+			"xpos"					"168"
+			"ypos"					"rs1-5"
+			"zpos"					"102"
+			"wide"					"25"
+			"tall"					"25"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		" "
+				"default"		"1"
+				"command"		"url https://potato.tf/"
+				"proportionaltoparent"	"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"paintbackground"	"1"
+				"paintbackgroundtype"	"2"
+
+				"image_default"			"replay/thumbnails/menu/glyph_potatomvm_grey"
+				"image_armed"			"replay/thumbnails/menu/glyph_potatomvm"
+
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"f2"
+					"tall"			"f2"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+		}
+
 
 		"PlayOnCommunityServerExplanation"
 		{

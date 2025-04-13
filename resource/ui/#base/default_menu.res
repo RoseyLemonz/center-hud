@@ -1411,7 +1411,7 @@
 		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"27"
+		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -1504,7 +1504,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
+				"xpos"			"cs-0.44"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -1753,10 +1753,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-295"
+		"xpos"			"c-296"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"27"
+		"wide"			"28"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1784,7 +1784,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.6"
+			"xpos"			"cs-0.62"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -1804,7 +1804,7 @@
 		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"27"
+		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1835,7 +1835,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.54"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -1855,7 +1855,7 @@
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1886,7 +1886,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.52"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -1906,7 +1906,7 @@
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1937,7 +1937,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.52"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -1957,7 +1957,7 @@
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1988,7 +1988,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.52"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2008,7 +2008,7 @@
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2039,7 +2039,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.52"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2060,7 +2060,7 @@
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"26"
+		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2101,7 +2101,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.56"
+				"xpos"			"cs-0.54"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -2121,8 +2121,8 @@
 		"fieldname"		"ShowHUDOptionsButton"
 		"xpos"			"-3"
 		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"27"
+		"zpos"			"7"
+		"wide"			"28"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2159,7 +2159,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.46"
+				"xpos"			"cs-0.44"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"16"
@@ -2355,8 +2355,6 @@
 			"angles_z"		"0"
 		}
 	}
-
-
 
 	"StoreHasNewItemsImage"
 	{
