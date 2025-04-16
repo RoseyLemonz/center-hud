@@ -776,53 +776,12 @@
 			}
 		}
 	}
-
+	"DevModePanel"
+	{
+		"xpos"			"cs-0.5"
+	}
 	"DevModeEnabledLabel"
 	{
 		"wide"			"0"
-	}
-
-	"DrawTreeButton"
-	{
-		"xpos"			"c150"
-		"wide"			"180"
-	}
-	"ShowConsoleButton"
-	{
-		"xpos"			"c150"
-		"wide"			"180"
-	}
-	"ReloadschemeButton"
-	{
-		"xpos"			"c150"
-		"wide"			"180"
-	}
-	"FullHUDReloadButton"
-	{
-		"xpos"			"c150"
-		"wide"			"180"
-	}
-	"SV_CheatsButton"
-	{
-		"xpos"			"c150"
-		"wide"			"180"
-	}
-	"AddRedPuppetButton"
-	{
-		"xpos"			"c140"
-		"ypos"			"c0"
-		"wide"			"100"
-	}
-	"AddBluePuppetButton"
-	{
-		"xpos"			"c240"
-		"ypos"			"c0"
-		"wide"			"100"
-	}
-	"KickPuppetButton"
-	{
-		"xpos"			"c150"
-		"ypos"			"c-30"
-		"wide"			"180"
 	}
 }

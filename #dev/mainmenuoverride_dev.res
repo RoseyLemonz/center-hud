@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CMatchHistoryEntryPanel"
 		"fieldName"		"DevModePanel"
-		"xpos"			"c-35"
-		"ypos"			"33"
-		"zpos"			"10"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"c-298"
+		"ypos"			"74"
+		"zpos"			"49"
+		"wide"			"260"
+		"tall"			"345"
 
 		"ignorescheme"		"1"
 
-		"collapsed_height"	"22"
-		"expanded_height"	"195"
+		"collapsed_height"	"21"
+		"expanded_height"	"345"
 		"resize_time"		"0.4"
 
 		"Container"        { "visible"        "0" }
@@ -28,7 +28,7 @@
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
 			"ypos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"20"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -47,16 +47,32 @@
 			"proportionaltoparent"	"1"
 		}
 
+		"MenuContainerBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"MenuContainerBG"
+			"xpos"			"0"
+			"ypos"			"20"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"321"
+			"visible"		"1"
+			"border"		"MainMenuBGBorder"
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"	"1"
+		}
+
 		"DrawTreeButton"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"DrawTreeButton"
-			"xpos"			"0"
-			"ypos"			"22"
+			"xpos"			"5"
+			"ypos"			"26"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -64,13 +80,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Draw Tree Button"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -96,12 +112,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"ShowConsoleButton"
-			"xpos"			"0"
-			"ypos"			"22+24"
+			"xpos"			"5"
+			"ypos"			"26+24"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -109,13 +126,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Game Console"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -141,12 +158,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"ReloadHUDButton"
-			"xpos"			"0"
-			"ypos"			"22+24+24"
+			"xpos"			"5"
+			"ypos"			"26+24+24"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -154,13 +172,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Reloads HUD Scheme"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -186,12 +204,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FullReloadHUDButton"
-			"xpos"			"0"
-			"ypos"			"22+24+24+24"
+			"xpos"			"5"
+			"ypos"			"26+24+24+24"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -199,13 +218,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Full HUD Reload"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -231,12 +250,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"CheatsButton"
-			"xpos"			"0"
-			"ypos"			"22+24+24+24+24"
+			"xpos"			"5"
+			"ypos"			"26+24+24+24+24"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -244,13 +264,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Enable Cheats"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -276,12 +296,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"AddRedPuppetButton"
-			"xpos"			"0"
-			"ypos"			"22+24+24+24+24+24"
+			"xpos"			"5"
+			"ypos"			"26+24+24+24+24+24"
 			"zpos"			"2"
 			"wide"			"125"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -295,7 +316,7 @@
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Red Puppet"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -321,12 +342,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"AddBluePuppetButton"
-			"xpos"			"125"
-			"ypos"			"22+24+24+24+24+24"
+			"xpos"			"130"
+			"ypos"			"26+24+24+24+24+24"
 			"zpos"			"2"
 			"wide"			"125"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -340,7 +362,7 @@
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Blue Puppet"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -366,12 +388,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"KickPuppetButton"
-			"xpos"			"0"
-			"ypos"			"22+24+24+24+24+24+24"
+			"xpos"			"5"
+			"ypos"			"26+24+24+24+24+24+24"
 			"zpos"			"2"
-			"wide"			"250"
+			"wide"			"f0"
 			"tall"			"25"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 
 			"SubButton"
 			{
@@ -379,13 +402,13 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"f10"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"labeltext"    	"Kick Puppet Bots"
-				"centerwrap"	"1"
+				"textAlignment"		"center"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -397,6 +420,52 @@
 
 				"actionsignallevel"	"3"
 				"command"			"engine mp_teams_unbalance_limit 0; bot_kick all"
+
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "232 222 182 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"use_proportional_insets"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+
+		"MpTournamentButton"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"MpTournamentButton"
+			"xpos"			"5"
+			"ypos"			"26+24+24+24+24+24+24+24"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"25"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f10"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"			"HudFontSmallBold"
+				"labeltext"    	"MP Tournament"
+				"textAlignment"		"center"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"border_default"    "MainMenuButtonDefault"
+				"border_armed"      "MainMenuButtonArmed"
+
+				"paintbackground"   "0"
+
+				"actionsignallevel"	"3"
+				"command"			"engine toggle mp_tournament; mp_tournament_restart"
 
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "232 222 182 255"
@@ -421,7 +490,7 @@
 		"enabled"			"1"
 		"font"				"HudFontMediumBold"
 		"labelText"			"Dev Mode Enabled"
-		"centerwrap"		"1"
+		"textAlignment"		"center"
 
 		"sound_released"	"ui/hi.mp3"
 

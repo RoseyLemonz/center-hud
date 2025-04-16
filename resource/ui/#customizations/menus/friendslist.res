@@ -2,12 +2,22 @@
 {
 	"FriendsContainer"
 	{
+		"ToggleFriendsListButton"
+		{
+			"command"		"engine hud_hide_friends_off; wait 5; hud_reloadscheme"
+
+			"SubImage"
+			{
+				"scaleImage"	"1"
+				"image" "replay/thumbnails/menu/glyph_yesview"
+			}
+		}
+
 		"SteamFriendsList"
 		{
 			"xpos"			"9999"
 			"wide"			"0"
 			"visible"		"0"
-			"enabled"		"0"
 		}
 
 		"DisabledLabel"
@@ -26,26 +36,26 @@
 		}
 	}
 
-	"ToggleFriendsListButton"
-	{
-		"command"		"engine hud_hide_friends_off; wait 5; hud_reloadscheme"
-
-		"SubImage"
-		{
-			"image" "replay/thumbnails/menu/glyph_yesview"
-		}
-	}
-
 	"MainMenuOverride"
 	{
 		"FriendsContainer"
 		{
+			"ToggleFriendsListButton"
+			{
+				"command"		"engine hud_hide_friends_off; hud_reloadscheme"
+
+				"SubImage"
+				{
+					"scaleImage"	"1"
+					"image" "replay/thumbnails/menu/glyph_yesview"
+				}
+			}
+
 			"SteamFriendsList"
 			{
 				"xpos"			"9999"
 				"wide"			"0"
 				"visible"		"0"
-				"enabled"		"0"
 			}
 
 			"DisabledLabel"
@@ -62,17 +72,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"TanDark"
-			}
-		}
-
-		"ToggleFriendsListButton"
-		{
-			"command"		"engine hud_hide_friends_off; hud_reloadscheme"
-
-			"SubImage"
-			{
-				"image" "replay/thumbnails/menu/glyph_yesview"
+				"fgcolor"	"TanDark"
 			}
 		}
 	}
