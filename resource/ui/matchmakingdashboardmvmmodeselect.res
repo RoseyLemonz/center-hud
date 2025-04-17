@@ -207,65 +207,64 @@
 
 			"image"		"gradient_pure_black"
 		}
-
-		"PracticeButton"
-		{
-			//"ControlName"	"CExButton"
-			"fieldName"		"PracticeButton"
-			"xpos"			"cs-0.5-20"
-			"ypos"			"rs1-5"
-			"zpos"			"20"
-			"tall"			"25"
-			"wide"			"120"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"bootcamp"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
-		}
-
-		"PotatoMVMButton"
+		
+		"ButtonBomboBox"
 		{
 			"ControlName"			"EditablePanel"
-			"fieldName"				"PotatoMVMButton"
-			"xpos"					"168"
+			"fieldName"				"ButtonBomboBox"
+			"xpos"					"cs-0.5"
 			"ypos"					"rs1-5"
-			"zpos"					"102"
-			"wide"					"25"
+			"zpos"					"20"
+			"wide"					"150"
 			"tall"					"25"
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionaltoparent"	"1"
-
-			"SubButton"
+		
+			"PracticeButton"
 			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SubButton"
+				"ControlName"	"CExButton"
+				"fieldName"		"PracticeButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
 				"tall"			"f0"
+				"wide"			"120"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		" "
-				"default"		"1"
-				"command"		"url https://potato.tf/"
+				"labelText"		"#TF_MvM_BootCamp"
+				"font"			"HudFontMediumSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"bootcamp"
+				"actionsignallevel"	"3"
 				"proportionaltoparent"	"1"
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"paintbackground"	"1"
+
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override"		"TanLight"
+				"depressedFgColor_override" "TanLight"
+			}
+
+			"PotatoMVMButton"	
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"PotatoMVMButton"
+				"xpos"					"125"
+				"ypos"					"0"
+				"wide"					"25"
+				"tall"					"f0"
+				"visible"				"1"
+				"enabled"				"1"
+				"proportionaltoparent"	"1"
+				"labelText"				" "
+				"default"				"1"
+				"command"				"url https://potato.tf/"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"paintbackground"		"1"
 				"paintbackgroundtype"	"2"
 
 				"image_default"			"replay/thumbnails/menu/glyph_potatomvm_grey"
@@ -275,7 +274,7 @@
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"cs-0.5"
+					"xpos"			"cs-0.5-1"
 					"ypos"			"cs-0.5"
 					"zpos"			"1"
 					"wide"			"f2"
@@ -287,7 +286,6 @@
 				}
 			}
 		}
-
 
 		"PlayOnCommunityServerExplanation"
 		{
