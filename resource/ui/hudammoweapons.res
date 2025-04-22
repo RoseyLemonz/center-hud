@@ -28,7 +28,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"4"
-		"xpos_minmode"	"28"
+		"xpos_minmode"	"8"
 		"ypos"			"0"
 		"ypos_minmode"	"7"
 		"zpos"			"-1"
