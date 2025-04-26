@@ -19,8 +19,8 @@
   - <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
   - <a href="https://gamebanana.com/members/1932153">Ashe_tf (Spanish)</a>
   - <a href="https://github.com/Yellow-Dev1l">Yellow-Dev1l (Korean)</a>
-  - chillyy (French)
-  - <a href="https://github.com/Hardingfele2212">Hardingfele221v2 (Norwegian)</a>
+  - <a href="https://steamcommunity.com/profiles/76561199122950001/">chillyy (French)</a>
+  - <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
   
   <h2>Credits / Special Thanks</h2>
   
