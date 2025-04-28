@@ -1,6 +1,6 @@
 "lang"
 {
-	"Language" "spanish"
+	"Language" "latam"
 	"Tokens"
 	{
 		// TF2 stuff
@@ -26,12 +26,11 @@
         "CHud_Random"         	  "ALEATORIO (&R)"
 
 		// Main Menu Stuff
-		"CHud_Menu_ReloadHUD"		"Recargar HUD"
+		"CHud_Menu_Pause"					"Pausar"
+		"CHud_Menu_UnPause"					"Continuar"
 
 		// Customization Menu Stuff
-		"CHud_Menu_MinToggle"		"Modo HUD Mínimo"
 		"CHud_Menu_MatchHudToggle"	"HUD: Estado de equipo"
-		"CHud_Menu_ResetOptions"	"Restaurar opciones"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated

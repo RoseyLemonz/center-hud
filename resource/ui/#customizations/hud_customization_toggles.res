@@ -107,7 +107,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
-						"labelText"						"#CHud_Menu_MinToggle"
+						"labelText"						"#GameUI_EnableHUDMinMode"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
 						"fgcolor"						"White"

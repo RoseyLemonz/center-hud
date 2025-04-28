@@ -26,12 +26,11 @@
         "CHud_Random"         	  "RANDOM (&R)"
 
 		// Main Menu Stuff
-		"CHud_Menu_ReloadHUD"		"Reload HUD"
+		"CHud_Menu_Pause"					"Pause"
+		"CHud_Menu_UnPause"					"Unpause"
 
 		// Customization Menu Stuff
-		"CHud_Menu_MinToggle"		"Minimal HUD Mode"
 		"CHud_Menu_MatchHudToggle"	"Team Status In HUD"
-		"CHud_Menu_ResetOptions"	"Reset Options"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated

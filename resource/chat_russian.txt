@@ -26,12 +26,11 @@
         "CHud_Random"         	  "СЛУЧАЙНО (&R)"
 
 		// Main Menu Stuff
-		"CHud_Menu_ReloadHUD"		"Перезагрузить интерфейс"
+		"CHud_Menu_Pause"					"Приостановить"
+		"CHud_Menu_UnPause"					"продолжить"
 
 		// Customization Menu Stuff
-		"CHud_Menu_MinToggle"		"Минималистичный интерфейс"
 		"CHud_Menu_MatchHudToggle"	"Состояние команды в интерфейсе"
-		"CHud_Menu_ResetOptions"	"Сбросить настройки"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated

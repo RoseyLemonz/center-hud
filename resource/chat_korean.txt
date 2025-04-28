@@ -26,12 +26,11 @@
         "CHud_Random"         	  "무작위 (&R)"
 
 		// Main Menu Stuff
-		"CHud_Menu_ReloadHUD"		"HUD 재설정"
+		"CHud_Menu_Pause"					"정지"
+		"CHud_Menu_UnPause"					"계속"
 
 		// Customization Menu Stuff
-		"CHud_Menu_MinToggle"		"HUD 최소화 사용"
 		"CHud_Menu_MatchHudToggle"	"HUD에 팀 상태 표시"
-		"CHud_Menu_ResetOptions"	"설정 초기화"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated

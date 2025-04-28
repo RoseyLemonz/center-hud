@@ -26,12 +26,11 @@
         "CHud_Random"         	  "TILFELDIG (&R)"
 
 		// Main Menu Stuff
-		"CHud_Menu_ReloadHUD"		"Last inn HUD på nytt"
+		"CHud_Menu_Pause"					"Pause"
+		"CHud_Menu_UnPause"					"Gjenoppta"
 
 		// Customization Menu Stuff
-		"CHud_Menu_MinToggle"		"Minimal skjerm"
 		"CHud_Menu_MatchHudToggle"	"Lagstatus i HUD"
-		"CHud_Menu_ResetOptions"	"Tilbakestill valg"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated
 		"CHud_Font_TF2Secondary"	"TF2 Secondary"		// This shouldn't be translated
