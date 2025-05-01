@@ -35,7 +35,6 @@
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	$distancealpha 1
-	"$no_fullbright" 1
 	"$ignorez" 1
 }
 
