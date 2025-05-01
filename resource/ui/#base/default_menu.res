@@ -2179,7 +2179,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicChangePrevButton"
-		"xpos"			"c-64"
+		"xpos"			"c-68"
 		"ypos"			"437"
 		"zpos"			"7"
 		"wide"			"28"
@@ -2598,7 +2598,7 @@
 	
 	"DevModeEnabledLabel"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExImageButton" 
 		"fieldName"		"DevModeEnabledLabel"
 		"enabled"		"0"
 	}
