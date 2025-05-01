@@ -62,8 +62,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Weapon_PDA_Engineer"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -81,8 +79,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Weapon_PDA_Engineer"
 		"textAlignment"	"West"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 		
 	"active_item_1"
@@ -257,8 +253,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
 	}
@@ -277,8 +271,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"BuildHintLabel_Dim"
@@ -296,8 +288,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"West"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 	
 	"DestroyHintIcon"
@@ -312,8 +302,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_toggle_function"
 	}
@@ -332,8 +320,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"DestroyHintLabel_Dim"
@@ -351,8 +337,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelHintIcon"
@@ -367,8 +351,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}
@@ -387,8 +369,6 @@
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"ButtonLegendBG"
 	{
@@ -416,8 +396,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_left"
 	}
@@ -433,8 +411,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_right"
 	}

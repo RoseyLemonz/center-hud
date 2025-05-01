@@ -58,8 +58,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 		"allcaps"				"1"
 		"fgcolor_override"		"255 255 255 255"
@@ -81,8 +79,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}				
 		
 	"PipesPresentPanel"
@@ -133,8 +129,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontMediumSmall"
 		}	
@@ -188,8 +182,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"1"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontMediumSmall"
 		}			

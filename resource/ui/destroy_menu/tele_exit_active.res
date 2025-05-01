@@ -14,8 +14,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Tele_Exit_360"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"ItemBackground"	
@@ -97,7 +95,5 @@
 		"enabled"		"1"
 		"labelText"		"4"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

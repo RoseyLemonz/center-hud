@@ -74,8 +74,6 @@
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}

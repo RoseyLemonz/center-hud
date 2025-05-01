@@ -18,8 +18,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"

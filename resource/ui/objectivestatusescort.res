@@ -215,8 +215,6 @@
 			"enabled"		"1"
 			"labelText"		"%recede%"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			
 			"if_multiple_trains"
 			{
@@ -423,8 +421,6 @@
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			
 			"if_multiple_trains"
 			{
@@ -549,8 +545,6 @@
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
-				"dulltext"			"0"
-				"brighttext"		"0"
 				"centerwrap"		"1"
 				
 				"if_multiple_trains"

@@ -34,8 +34,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Ubercharge"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 	}
 	"IndividualChargesLabel"
@@ -53,8 +51,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUbercharges"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 	}
 	"ChargeMeter"
@@ -72,8 +68,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"bgcolor_override"		"255 255 255 30"
 	}		
 
@@ -92,8 +86,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"bgcolor_override"		"255 255 255 30"
 	}
 
@@ -112,8 +104,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"bgcolor_override"		"255 255 255 30"
 	}
 
@@ -132,8 +122,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"bgcolor_override"		"255 255 255 30"
 	}
 
@@ -152,8 +140,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"bgcolor_override"		"255 255 255 30"
 	}
 	

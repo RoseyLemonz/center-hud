@@ -15,8 +15,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"HudOffWhite"
 	}
@@ -123,8 +121,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}

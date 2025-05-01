@@ -57,8 +57,6 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"West"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}		
 	
@@ -107,8 +105,6 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
 			"textAlignment"		"North-West"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		
 		"FreezePanelHealth"
@@ -292,8 +288,6 @@
 			"enabled"		"1"
 			"labelText"		"%text%"
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 	}	
 }

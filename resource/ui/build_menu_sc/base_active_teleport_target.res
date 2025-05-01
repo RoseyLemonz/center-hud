@@ -14,8 +14,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"ItemBackground"

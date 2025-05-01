@@ -94,8 +94,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontMediumSmall"
 	}

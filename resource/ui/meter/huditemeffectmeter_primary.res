@@ -74,8 +74,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 		"allcaps"				"1"
 	}
@@ -96,7 +94,5 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}					
 }

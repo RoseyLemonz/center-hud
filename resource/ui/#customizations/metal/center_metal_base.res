@@ -49,8 +49,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"CenterFont"
 		"font_minmode"	"CenterFont"
 		"fgcolor"		"CenterWhite"
@@ -70,8 +68,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"CenterFont"
 		"fgcolor"		"CenterShadow"
 	}

@@ -73,8 +73,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_KART"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmall"
 		"font_minmode"					"TFFontSmall"
 	}
@@ -96,8 +94,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"West"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 	
 	"ItemEffectMeterCount"
@@ -117,8 +113,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
 		"font_minmode"			"TFFontSmall"
 	}

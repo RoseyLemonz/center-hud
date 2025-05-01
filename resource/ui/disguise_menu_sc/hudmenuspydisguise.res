@@ -45,8 +45,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -64,8 +62,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}	
 		
 	"ShadedBar"
@@ -356,8 +352,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Toggle"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"DisguiseHintIcon"
@@ -389,8 +383,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Select_Disguise"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 		
 	"CancelHintIcon"
@@ -422,8 +414,6 @@
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"ButtonLegendBG"
 	{

@@ -62,8 +62,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"TitleLabelDropshadow"
@@ -81,8 +79,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"West"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 		
 	"available_target_1"
@@ -144,8 +140,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}
@@ -164,8 +158,6 @@
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"ButtonLegendBG"
 	{

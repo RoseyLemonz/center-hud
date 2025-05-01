@@ -14,8 +14,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
 	}
@@ -33,8 +31,6 @@
 		"enabled"		"1"
 		"labelText"		"Y"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_toggle_function"
 	}
@@ -51,8 +47,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}

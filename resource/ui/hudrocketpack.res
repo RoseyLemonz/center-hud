@@ -89,8 +89,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"White"
 	}
 
@@ -111,8 +109,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"White"
 	}
 	
@@ -133,8 +129,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_RocketPack_Disabled"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 		"allcaps"				"1"
 	}

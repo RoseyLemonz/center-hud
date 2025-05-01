@@ -164,8 +164,6 @@
 		"font"			"HudFontSmallBold"
 		"command"		"open_rank_type_menu"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"vo/null.mp3"
@@ -398,8 +396,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"actionsignallevel" "2"
 
@@ -470,8 +466,6 @@
 			"font"			"HudFontSmallBold"
 			"command"		"questlog"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
@@ -536,8 +530,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 
 			"actionsignallevel" "2"
@@ -643,8 +635,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
 
@@ -829,8 +819,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
@@ -863,8 +851,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 
 			"Command"		"motd_prev"
@@ -910,8 +896,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 
 			"Command"		"motd_next"
@@ -972,8 +956,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"0"
 
 			"actionsignallevel"	"2"
@@ -1089,8 +1071,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1334,8 +1314,6 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#MMenu_ShowPromoCodes"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"command"		"showpromocodes"
 
@@ -1554,8 +1532,6 @@
 		"textinsetx"	"22"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
@@ -1608,8 +1584,6 @@
 		"textinsetx"	"22"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
@@ -1663,8 +1637,6 @@
 		"textinsetx"	"22"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
@@ -1718,8 +1690,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"22"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
@@ -2422,8 +2392,6 @@
 		"textAlignment"	"west"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 
@@ -2461,8 +2429,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
@@ -2540,8 +2506,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"use_proportional_insets" "1"
 		"proportionaltoparent"	"1"

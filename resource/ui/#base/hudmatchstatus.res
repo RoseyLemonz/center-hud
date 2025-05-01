@@ -422,8 +422,6 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"West"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"bgcolor_override"	   "80 80 80 255"
 				"proportionaltoparent"	"1"
 			}
@@ -440,8 +438,6 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"West"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
 				"fgcolor_override"	   "255 255 255 160"
 				"proportionaltoparent"	"1"

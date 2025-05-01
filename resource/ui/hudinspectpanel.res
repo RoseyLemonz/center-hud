@@ -49,8 +49,6 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"West"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}	
 }
