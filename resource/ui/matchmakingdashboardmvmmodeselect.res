@@ -274,7 +274,7 @@
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"cs-0.5-1"
+					"xpos"			"cs-0.5"
 					"ypos"			"cs-0.5"
 					"zpos"			"1"
 					"wide"			"f2"
