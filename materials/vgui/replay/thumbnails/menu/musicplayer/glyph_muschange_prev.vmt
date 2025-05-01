@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/menu/glyph_muschange_prev"
+	"$basetexture" "vgui/replay/thumbnails/menu/musicplayer/glyph_muschange_prev"
 	"$translucent" 1
                 "$ignorez" 1
 	"$vertexcolor" 1

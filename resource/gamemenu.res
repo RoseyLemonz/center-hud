@@ -53,7 +53,7 @@
 	"MusicPlayButton"
 	{
 		"label"			""
-		"command"		"engine tfsongcurrent"
+		"command"		"engine tfnomusic; tfsongcurrent"
 		"tooltip"		"#CHud_Menu_UnPause"
 	}
 

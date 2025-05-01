@@ -2223,7 +2223,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_muschange_prev"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_prev"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -2282,7 +2282,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_musstop"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_musstop"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -2341,7 +2341,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_musstop"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_musplay"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -2399,7 +2399,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_muschange_next"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_next"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
