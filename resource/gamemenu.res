@@ -64,6 +64,20 @@
 		"tooltip"		"#TF_Next"
 	}
 
+	"StreamerTooltipPanel"
+	{
+		"label"			""
+		"command"		"engine"
+		"tooltip"		"#CHud_Changes_Info"
+	}
+
+	"CustomizationTooltipPanel"
+	{
+		"label"			""
+		"command"		"engine"
+		"tooltip"		"#CHud_Changes_Info"
+	}
+
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 

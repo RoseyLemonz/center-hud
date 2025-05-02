@@ -1,6 +1,9 @@
 // CUSTOMIZATIONS
 
+#base "../../../../cfg/centerhud/hud_freezepanel_streamer.txt"
 #base "../../../../cfg/centerhud/hud_freezepanel.txt"
+
+#base "../../cfg/centerhud/hud_freezepanel_streamer.txt"
 #base "../../cfg/centerhud/hud_freezepanel.txt"
 
 // BASE

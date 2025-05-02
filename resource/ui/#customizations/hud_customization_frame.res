@@ -39,6 +39,52 @@
 			"bgcolor_override"				"Black"
 		}
 		
+		"CustomizationTooltipPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CustomizationTooltipPanel"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"7"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+
+				"paintbackground"   "0"
+
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+					
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"f0"
+					"tall"			"f0"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"info"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+		}
+
 		"CloseButton"
 		{
 			"ControlName"					"CExButton"

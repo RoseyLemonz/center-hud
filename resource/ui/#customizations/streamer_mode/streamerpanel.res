@@ -7,14 +7,14 @@
 		"fieldName"		"StreamerModeSettingsPanel"
 		"xpos"			"c128"
 		"ypos"			"28"
-		"zpos"			"9"
+		"zpos"			"0"
 		"wide"			"190"
-		"tall"			"265"
+		"tall"			"230"
 
 		"ignorescheme"		"1"
 
 		"collapsed_height"	"34"
-		"expanded_height"	"265"
+		"expanded_height"	"230"
 		"resize_time"		"0"
 
 		"Container"        { "visible"        "0" }
@@ -74,7 +74,7 @@
 			"ypos"			"34"
 			"zpos"			"-2"
 			"wide"			"f0"
-			"tall"			"232"
+			"tall"			"197"
 			"visible"		"1"
 			"border"		"MainMenuBGBorder"
 			"use_proportional_insets"	"1"
@@ -109,6 +109,54 @@
             "pin_to_sibling_corner" "1"
 		}
 
+		"StreamerTooltipPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"StreamerTooltipPanel"
+			"xpos"			"-5"
+			"ypos"			"-5"
+			"zpos"			"7"
+			"wide"			"7"
+			"tall"			"7"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"pin_to_sibling"	"SettingsBG"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+
+				"paintbackground"   "0"
+
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+					
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"f0"
+					"tall"			"f0"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"info"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+		}
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -136,7 +184,7 @@
 			"ypos"			"rs1-10"
 			"zpos"			"-1"
 			"wide"			"f20"
-			"tall"			"188"
+			"tall"			"154"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 
@@ -334,7 +382,7 @@
 					"labelText"							"#TF_On"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							" "
+					"command"							"engine hud_userinfo_on; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -362,124 +410,7 @@
 					"labelText"							"#TF_Off"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							" "
-					"actionsignallevel"					"4"
-					"sound_depressed"					"UI/buttonclick.wav"
-
-					"defaultBgColor_override"			"190 60 60 255"
-					"armedBgColor_override"				"100 30 30 255"
-					"depressedBgColor_override"			"100 30 30 255"
-
-					"defaultFgColor_override"			"White"
-					"armedFgColor_override"				"White"
-					"depressedFgColor_override"			"White"
-
-					"pin_to_sibling"	"Enable"
-					"pin_to_sibling_corner"	"1"
-				}
-			}
-		}
-
-		"BlockUserImages"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"BlockUserImages"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"f20"
-			"tall"					"35"
-			"visible"				"1"
-			"enabled"				"1"
-			"PaintBackgroundType"	"0"
-
-			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
-
-			"pin_to_sibling"	"UserInfoOption"
-			"pin_to_sibling_corner"	"2"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"FontStorePrice"
-				"labelText"		"#CHud_Streamer_UserImagesTitle"
-				"textAlignment"	"center"
-				"xpos"			"0"
-				"ypos"			"2"
-				"wide"			"f0"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override"	"235 227 203 255"
-				"mouseinputenabled"	"0"
-
-				"use_proportional_insets"	"1"
-				"proportionaltoparent"	"1"
-			}
-
-			"EnableDisable"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"EnableDisable"
-				"xpos"								"cs-0.5"
-				"ypos"								"rs1-2"
-				"zpos"								"22"
-				"wide"								"f0"
-				"tall"								"f20"
-				"visible"							"1"
-				"enabled"							"1"
-				"use_proportional_insets"			"1"
-				"proportionaltoparent"				"1"
-				"paintbackground"					"0"
-				"paintBackgroundType"				"0"
-
-				"Enable"
-				{
-					"ControlName"						"CExButton"
-					"fieldName"							"Enable"
-					"xpos"								"12"
-					"ypos"								"0"
-					"zpos"								"20"
-					"wide"								"f100"
-					"tall"								"15"
-					"visible"							"1"
-					"enabled"							"1"
-					"use_proportional_insets"			"1"
-					"proportionaltoparent"				"1"
-					"labelText"							"#TF_On"
-					"font"								"ItemFontNameSmall"
-					"textAlignment"						"center"
-					"command"							" "
-					"actionsignallevel"					"4"
-					"sound_depressed"					"UI/buttonclick.wav"
-
-					"defaultBgColor_override"			"CreditsGreen"
-					"armedBgColor_override"				"GreenSolid"
-					"depressedBgColor_override"			"GreenSolid"
-
-					"defaultFgColor_override"			"White"
-					"armedFgColor_override"				"White"
-					"depressedFgColor_override"			"White"
-				}
-				"Disable"
-				{
-					"ControlName"						"CExButton"
-					"fieldName"							"Disable"
-					"xpos"								"5"
-					"ypos"								"0"
-					"zpos"								"20"
-					"wide"								"f100"
-					"tall"								"15"
-					"visible"							"1"
-					"enabled"							"1"
-					"use_proportional_insets"			"1"
-					"proportionaltoparent"				"1"
-					"labelText"							"#TF_Off"
-					"font"								"ItemFontNameSmall"
-					"textAlignment"						"center"
-					"command"							" "
+					"command"							"engine hud_userinfo_off; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -513,7 +444,7 @@
 			"use_proportional_insets"	"1"
 			"proportionaltoparent"	"1"
 
-			"pin_to_sibling"	"BlockUserImages"
+			"pin_to_sibling"	"UserInfoOption"
 			"pin_to_sibling_corner"	"2"
 
 			"TitleLabel"

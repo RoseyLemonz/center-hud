@@ -794,10 +794,5 @@
 	"DevModeEnabledLabel"
 	{
 		"xpos"			"cs-0.5"
-		"textAlignment"	"center"
-	}
-	"DevModeEnabledShadowLabel"
-	{
-		"textAlignment"	"center"
 	}
 }
