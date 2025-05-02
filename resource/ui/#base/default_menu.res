@@ -164,7 +164,6 @@
 		"font"			"HudFontSmallBold"
 		"command"		"open_rank_type_menu"
 		"textAlignment"	"west"
-		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"vo/null.mp3"
 		"actionsignallevel" "1"
@@ -396,7 +395,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"default"		"1"
 			"actionsignallevel" "2"
 
 			"Command"		"noti_show"
@@ -429,15 +427,6 @@
 		}
 	}
 
-	"WatchStreamButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WatchStreamButton"
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -466,7 +455,6 @@
 			"font"			"HudFontSmallBold"
 			"command"		"questlog"
 			"textAlignment"	"west"
-			"default"		"1"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 
@@ -530,7 +518,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"default"		"1"
 
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
@@ -635,7 +622,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"0"
 			"actionsignallevel"	"2"
 
 			"navDown"			"MOTD_URLButton"
@@ -819,7 +805,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
@@ -851,7 +836,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"1"
 
 			"Command"		"motd_prev"
 			"actionsignallevel"	"2"
@@ -896,7 +880,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"1"
 
 			"Command"		"motd_next"
 			"actionsignallevel"	"2"
@@ -956,7 +939,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"0"
 
 			"actionsignallevel"	"2"
 			"Command"		"noti_hide"
@@ -1071,7 +1053,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1314,7 +1295,6 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#MMenu_ShowPromoCodes"
 		"textAlignment"	"center"
-		"default"		"1"
 		"command"		"showpromocodes"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1351,7 +1331,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1408,8 +1387,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"default"		"1"
-
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1467,7 +1445,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"default"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1571,7 +1548,6 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"command" "engine open_store"
 
 		"pin_to_sibling"	"CharacterSetupButton"
@@ -1624,7 +1600,6 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"engine replay_reloadbrowser"
 
 		"pin_to_sibling"	"CharacterSetupButton"
@@ -1677,7 +1652,6 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 
 		"pin_to_sibling"	"AReplayButton"
@@ -1732,7 +1706,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"view_newuser_forums"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1780,7 +1753,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
 
 		"pin_to_sibling"	"NewUserForumsButton"
@@ -1831,7 +1803,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 
 		"pin_to_sibling"	"AchievementsButton"
@@ -1882,7 +1853,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
 
 		"pin_to_sibling"	"CommentaryButton"
@@ -1933,7 +1903,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"engine bug"
 
 		"pin_to_sibling"	"WorkshopButton"
@@ -1984,7 +1953,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"opentf2options"
 
 		"pin_to_sibling"	"ReportBugButton"
@@ -2392,7 +2360,6 @@
 		"textAlignment"	"west"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2429,7 +2396,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
-		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"25"
@@ -2496,7 +2462,6 @@
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"default"		"1"
 		"Command"		"exitreplayeditor"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2558,12 +2523,5 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"wide"			"0"
-	}
-	
-	"DevModeEnabledLabel"
-	{
-		"ControlName"	"CExImageButton" 
-		"fieldName"		"DevModeEnabledLabel"
-		"enabled"		"0"
 	}
 }

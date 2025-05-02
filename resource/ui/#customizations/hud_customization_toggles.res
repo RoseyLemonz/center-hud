@@ -110,7 +110,6 @@
 						"labelText"						"#GameUI_EnableHUDMinMode"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}
@@ -189,7 +188,6 @@
 						"labelText"						"#CHud_Menu_MatchHudToggle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}
@@ -267,7 +265,6 @@
 						"labelText"						"#GameUI_HudPlayerClassUsePlayerModelDialogTitle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}

@@ -52,8 +52,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-135"
-		"ypos"			"438"
+		"xpos"			"c-185"
+		"ypos"			"437"
 		"zpos"			"-1"
 		"wide"			"27"
 		"tall"			"24"
@@ -623,7 +623,7 @@
 	"ReportPlayerButton"
 	{
 		"xpos"			"c-161"
-		"ypos"			"438"
+		"ypos"			"417"
 		"zpos"			"-1"
 		"wide"			"24"
 		"tall"			"24"
@@ -648,8 +648,6 @@
 		"wide"			"24"
 		"tall"			"24"
 
-		"pin_to_sibling"	"WorkshopButton"
-
 		"SubButton"
 		{
 			"border_default"	"EconItemBorder"
@@ -664,7 +662,7 @@
 
 	"MutePlayersButton"
 	{
-		"xpos"			"2"
+		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"24"
@@ -686,8 +684,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-112"
-		"ypos"			"438"
+		"xpos"			"c-162"
 		"wide"			"27"
 		"tall"			"24"
 
@@ -726,7 +723,7 @@
 
 	"ReportBugButton"
 	{
-		"xpos"			"28"
+		"xpos"			"128"
 		"zpos"			"5"
 		"wide"			"26"
 		"tall"			"24"
@@ -768,12 +765,39 @@
 			}
 		}
 	}
+
+	"MusicChangePrevButton"
+	{
+		"xpos"			"c-48"
+		"tall"			"24"
+	}
+
+	"MusicStopButton"
+	{
+		"tall"			"24"
+	}
+
+	"MusicPlayButton"
+	{
+		"tall"			"24"
+	}
+
+  	"MusicChangeNextButton"
+	{
+		"tall"			"24"
+	}
+
 	"DevModePanel"
 	{
 		"xpos"			"cs-0.5"
 	}
 	"DevModeEnabledLabel"
 	{
-		"wide"			"0"
+		"xpos"			"cs-0.5"
+		"textAlignment"	"center"
+	}
+	"DevModeEnabledShadowLabel"
+	{
+		"textAlignment"	"center"
 	}
 }

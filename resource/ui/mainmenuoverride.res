@@ -18,6 +18,7 @@
 
 #base "#base/default_menu.res"
 #base "../preload.res" 
+#base "#customizations/streamer_mode/streamerpanel.res"
 #base "#customizations/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"

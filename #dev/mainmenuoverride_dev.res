@@ -481,24 +481,55 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"DevModeEnabledLabel"
-		"xpos"				"c50"
-		"ypos"				"r45"
+		"xpos"				"c-302"
+		"ypos"				"38"
 		"zpos"				"1"
-		"wide"				"250"
+		"wide"				"500"
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMediumBigBold"
 		"labelText"			"Dev Mode Enabled"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 
 		"sound_released"	"ui/hi.mp3"
 
 		"Command"                        "toggle_collapse"
         
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"TanDark"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override"	"TanDark"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override"	"TanLight"
+	}
+
+	"DevModeEnabledShadowLabel"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"DevModeEnabledShadowLabel"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"0"
+		"wide"				"500"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"HudFontMediumBigBold"
+		"labelText"			"Dev Mode Enabled"
+		"textAlignment"		"west"
+		"Command"                        "toggle_collapse"
+        
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"TFOrange"
+		"armedFgColor_override"		"TFOrange"
+		"depressedFgColor_override"	"TFOrange"
+
+		"pin_to_sibling"	"DevModeEnabledLabel"
+	}
+
+	"TFLogoImage"
+	{
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
 	}
 }

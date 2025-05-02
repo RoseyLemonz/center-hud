@@ -25,7 +25,7 @@
         "CHud_Loadout"         	  "СНАРЯЖЕНИЕ (&E)"
         "CHud_Random"         	  "СЛУЧАЙНО (&R)"
 
-		// Main Menu Stuff
+		// Music Player Stuff
 		"CHud_Menu_Pause"					"Приостановить"
 		"CHud_Menu_UnPause"					"продолжить"
 

@@ -25,7 +25,7 @@
         "CHud_Loadout"         	  "로드아웃 (&E)"
         "CHud_Random"         	  "무작위 (&R)"
 
-		// Main Menu Stuff
+		// Music Player Stuff
 		"CHud_Menu_Pause"					"정지"
 		"CHud_Menu_UnPause"					"계속"
 

@@ -25,7 +25,7 @@
         "CHud_Loadout"         	  "LOADOUT (&E)"
         "CHud_Random"         	  "RANDOM (&R)"
 
-		// Main Menu Stuff
+		// Music Player Stuff
 		"CHud_Menu_Pause"					"Pause"
 		"CHud_Menu_UnPause"					"Unpause"
 

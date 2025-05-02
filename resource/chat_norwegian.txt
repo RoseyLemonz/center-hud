@@ -25,7 +25,7 @@
         "CHud_Loadout"         	  "OPPAKNING (&E)"
         "CHud_Random"         	  "TILFELDIG (&R)"
 
-		// Main Menu Stuff
+		// Music Player Stuff
 		"CHud_Menu_Pause"					"Pause"
 		"CHud_Menu_UnPause"					"Gjenoppta"
 
