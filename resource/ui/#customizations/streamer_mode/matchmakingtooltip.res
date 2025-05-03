@@ -4,7 +4,10 @@
 	{
 		"TipLabel"
 		{
-			"alpha"									"0"
+			"xpos"			"9999"
+			"wide"			"0"
+			"enabled"		"0"
+			"alpha"			"0"
 		}
 	}
 }

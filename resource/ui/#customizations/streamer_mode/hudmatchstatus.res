@@ -6,16 +6,22 @@
 		{
 			"playername"
 			{
-				"fgcolor"							"Blank"
+				"fgcolor"		"Blank"
 			}
 		}
 	}
 	"BlueTeamPanel"
 	{
-		"alpha"										"0"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+		"alpha"			"0"
 	}
 	"RedTeamPanel"
 	{
-		"alpha"										"0"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+		"alpha"			"0"
 	}
 }
