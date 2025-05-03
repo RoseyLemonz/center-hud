@@ -135,4 +135,31 @@ Scheme
 			}
 		}
 	}
+
+	Borders
+	{
+		MainMenuSubButtonBorderUpDown
+		{
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+		}
+	}
+
 }

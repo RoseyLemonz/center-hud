@@ -7,134 +7,33 @@
 
 	}
 
-	"QuestLogButton2"
+	"MOTD_ShowButtonPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton2"
-		"xpos"			"c-133"
-		"ypos"			"438"
-		"zpos"			"10"
-		"wide"			"26"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"26"
-			"tall"			"26"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"Z"
-			"textinsety"	"-2"
-			"font"				"TFHudIcons"
-			"use_proportional_insets"	"1"
-			"textAlignment"		"center"
-			"centerwrap"	"1"
-			"default"		"1"
-			"actionsignallevel" "2"
-
-			"Command"		"questlog"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-			"paintbackground"   "0"
-
-			"image_drawcolor"	"20 20 20 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.52"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_contract"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
+		"xpos"			"c130"
+		"ypos"			"94"
 	}
 
-	"MOTD_ShowButtonPanel2"
+	"QuestLogButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel2"
-		"xpos"			"-2"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"26"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"c130"
+		"ypos"			"127"
+	}
 
-		"pin_to_sibling"	"ShowHUDOptionsButton"
-		"pin_to_sibling_corner"	"1"
+	"StreamerModeSettingsPanel"
+	{
+		"xpos"			"c130"
+		"ypos"			"159"
 
-		"SubButton"
+		"SettingsOpenButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"26"
-			"tall"			"26"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"Z"
-			"textinsety"	"-2"
-			"font"				"TFHudIcons"
-			"use_proportional_insets"	"1"
-			"textAlignment"		"center"
-			"centerwrap"	"1"
-			"default"		"1"
-
-			"actionsignallevel" "2"
-			"Command"		"motd_show"
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-			"paintbackground"   "0"
-
-			"image_drawcolor"	"20 20 20 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.52"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_motd"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
 		}
 	}
 
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-157"
+		"xpos"			"c-37"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -219,7 +118,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-109"
+		"xpos"			"c-145"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -295,15 +194,19 @@
 			"tall"			"14"
 		}
 	}
+	
 	"ReportBugButton"
 	{
-		"xpos"			"22"
+		"xpos"			"10"
 		"wide"			"26"
 		"tall"			"26"
 
 		"border_default"    "MainMenuButtonDefault"
 		"border_armed"      "MainMenuButtonArmed"
 		"paintbackground"   "0"
+
+		"pin_to_sibling"	"MutePlayersButton"
+		"pin_to_sibling_corner"	"1"
 
 		"image_drawcolor"	"20 20 20 255"
 		"SubImage"
@@ -314,6 +217,7 @@
 			"tall"			"14"
 		}
 	}
+
 	"TF2SettingsButton"
 	{
 		"xpos"			"-2"
@@ -377,6 +281,120 @@
 
 		"image_drawcolor"	"20 20 20 255"
 		"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangePrevButton"
+	{
+		"xpos"			"c-156"
+		"ypos"			"92"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicStopButton"
+	{
+		"xpos"			"0"
+		"ypos"			"-24"
+		"wide"			"26"
+		"tall"			"26"
+
+		"pin_to_sibling_corner"	"0"
+		
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicPlayButton"
+	{
+		"xpos"			"0"
+		"ypos"			"-24"
+		"wide"			"26"
+		"tall"			"26"
+
+		"pin_to_sibling_corner"	"0"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangeNextButton"
+	{
+		"xpos"			"0"
+		"ypos"			"-24"
+		"wide"			"26"
+		"tall"			"26"
+
+		"pin_to_sibling_corner"	"0"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"

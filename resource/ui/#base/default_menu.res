@@ -498,12 +498,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-
 		"MOTD_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"
@@ -546,32 +540,13 @@
 		}
 	}
 
-	"Notifications_ShowButtonPanel2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Notifications_ShowButtonPanel2"
-		"wide"			"0"
-	}
-	"QuestLogButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton2"
-		"wide"			"0"
-	}
-	"MOTD_ShowButtonPanel2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel2"
-		"wide"			"0"
-	}
-
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"c18"
 		"ypos"			"62"
-		"zpos"			"1"
+		"zpos"			"10"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
@@ -623,9 +598,6 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"actionsignallevel"	"2"
-
-			"navDown"			"MOTD_URLButton"
-			"navActivate"		"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -809,10 +781,6 @@
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -839,9 +807,6 @@
 
 			"Command"		"motd_prev"
 			"actionsignallevel"	"2"
-
-			"navUp"			"MOTD_CloseButton"
-			"navRight"		"MOTD_URLButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -883,9 +848,6 @@
 
 			"Command"		"motd_next"
 			"actionsignallevel"	"2"
-
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_URLButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1309,6 +1271,16 @@
 		"depressedFgColor_override" "46 43 42 255"
 	}
 
+
+	"InGameBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"InGameBG"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}
+
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
@@ -1316,7 +1288,7 @@
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c55"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"
@@ -1369,7 +1341,7 @@
 		"fieldname"		"CallVoteButton"
 		"xpos"			"-3"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"7"
 		"wide"			"26"
 		"tall"			"25"
 		"visible"		"1"
@@ -1427,7 +1399,7 @@
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"-3"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"27"
 		"tall"			"25"
 		"visible"		"1"

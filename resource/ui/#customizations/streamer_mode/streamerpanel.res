@@ -7,7 +7,7 @@
 		"fieldName"		"StreamerModeSettingsPanel"
 		"xpos"			"c128"
 		"ypos"			"28"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"190"
 		"tall"			"230"
 
@@ -71,7 +71,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"SettingsBG"
 			"xpos"			"0"
-			"ypos"			"34"
+			"ypos"			"rs1"
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"197"

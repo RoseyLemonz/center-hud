@@ -9,7 +9,7 @@
 
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-78"
+		"xpos"			"c21"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
@@ -245,6 +245,114 @@
 	}
 
 	"ShowHUDOptionsButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangePrevButton"
+	{
+		"xpos"			"c-88"
+		"ypos"			"435"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicStopButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicPlayButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangeNextButton"
 	{
 		"xpos"			"-1"
 		"ypos"			"0"
