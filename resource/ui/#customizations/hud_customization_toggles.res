@@ -107,7 +107,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
-						"labelText"						"#GameUI_EnableHUDMinMode"
+						"labelText"						"#CHud_Menu_MinToggle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
 						"mouseinputenabled"				"0"

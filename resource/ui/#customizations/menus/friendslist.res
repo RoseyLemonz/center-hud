@@ -22,7 +22,7 @@
 
 		"DisabledLabel"
 		{
-			"font"			"HudFontBiggerBold"
+			"font"			"HudFontMediumBigBold"
 			"labelText"		"#TF_RocketPack_Disabled"
 			"centerwrap"	"1"
 			"xpos"			"cs-0.5"
@@ -62,7 +62,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"DisabledLabel"
-				"font"			"HudFontBiggerBold"
+				"font"			"HudFontMediumBigBold"
 				"labelText"		"#TF_RocketPack_Disabled"
 				"centerwrap"	"1"
 				"xpos"			"cs-0.5"

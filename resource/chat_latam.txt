@@ -26,10 +26,22 @@
         "CHud_Random"         	  "ALEATORIO (&R)"
 
 		// Music Player Stuff
-		"CHud_Menu_Pause"					"Pausar"
-		"CHud_Menu_UnPause"					"Continuar"
+		"CHud_Menu_Pause"			"Stop"
+		"CHud_Menu_UnPause"			"Play"
+
+		// Streamer Mode Stuff
+		"CHud_Streamer_Streaming"		"Streamer Mode"
+		"CHud_Streamer_Title"			"Streamer Mode Settings"
+		"CHud_Streamer_ChatTitle"		"Chat History"
+		"CHud_Streamer_UserInfoTitle"	"Block User Info"
+		"CHud_Streamer_UserDecalsTitle"	"Block User Decals"
+		"CHud_Streamer_AllTitle"		"All Options"
+
+		// Info bubble thingye
+		"CHud_Changes_Info"			"For all changes to apply, please restart your game."
 
 		// Customization Menu Stuff
+		"CHud_Menu_MinToggle"		"Modo HUD Mínimo"
 		"CHud_Menu_MatchHudToggle"	"HUD: Estado de equipo"
 
 		"CHud_Font_TF2Build"		"TF2 Build"			// This shouldn't be translated

@@ -107,6 +107,7 @@
 		"TextAlignment"		"center"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
+		"autoresize"	"1"	// Stick to the right.  It's going to resize and we want to resize with it
 	}
 
 	"StateBorderOverlay"
@@ -118,6 +119,7 @@
 		"zpos"			"999"
 		"wide"			"f0"
 		"tall"			"f0"
+		"autoresize"	"3"	// Stick to the bottom and right.  It's going to resize and we want to resize with it
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"border"		"CYOANodeViewBorder_Inactive"
@@ -149,6 +151,7 @@
 		"zpos"			"1"
 		"wide"			"199"
 		"tall"			"f3"
+		"autoresize"	"2"	// Stick to the bottom.  It's going to resize and we want to resize with it
 		"proportionaltoparent"	"1"
 
 		"ContractsLabel"

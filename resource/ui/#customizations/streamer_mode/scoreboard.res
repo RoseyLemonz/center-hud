@@ -23,6 +23,16 @@
 
 		"use_proportional_insets"	"1"
 		"proportionaltoparent"	"1"
+
+		"if_mvm"
+		{
+			"font"			"HudFontBiggerBold"
+			"xpos"			"cs-0.54"
+			"ypos"			"85"
+			"wide"			"520"
+			"tall"			"140"
+			"zpos"		"11"
+		}
 	}
 
 	"ServerLabel"
