@@ -5,10 +5,12 @@
 #base "../../../../cfg/centerhud/hud_menuicons.txt"
 #base "../../../../cfg/centerhud/hud_menu.txt"
 #base "../../../../cfg/centerhud/hud_friendslist.txt"
+#base "../../../../cfg/centerhud/hud_partychat.txt"
 
 #base "../../cfg/centerhud/hud_menuicons.txt"
 #base "../../cfg/centerhud/hud_menu.txt"
 #base "../../cfg/centerhud/hud_friendslist.txt"
+#base "../../cfg/centerhud/hud_partychat.txt"
 
 // DEV MODE
 
@@ -134,20 +136,5 @@
 				"zpos"			"9"
 			}
 		}
-	}
-
-	"ChatPopupPin"
-	{
-		"fieldName"		"ChatPopupPin"
-		"ControlName"	"Panel"
-		"xpos"			"c-314"
-		"ypos"			"c-244"
-	}
-	"InviteNotifPin"
-	{
-		"fieldName"		"InviteNotifPin"
-		"ControlName"	"Panel"
-		"xpos"			"c-318"
-		"ypos"			"c-244"
 	}
 }
