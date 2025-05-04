@@ -5,7 +5,7 @@
 	"OkIntroHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
-		"fieldName"		"OkHintIcon"
+		"fieldName"		"OkIntroHintIcon"
 		"xpos"			"c246"
 		"ypos"			"r38"
 		"zpos"			"7"

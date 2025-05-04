@@ -1271,182 +1271,6 @@
 		"depressedFgColor_override" "46 43 42 255"
 	}
 
-
-	"InGameBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"InGameBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}
-
-	// command comes from GameMenu.res
-	"ReportPlayerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c55"
-		"ypos"			"437"
-		"zpos"			"6"
-		"wide"			"27"
-		"tall"			"25"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"1"
-
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "232 222 182 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.56"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_report"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
-	"CallVoteButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
-		"xpos"			"-3"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"26"
-		"tall"			"25"
-		"visible"		"1"
-
-		"pin_to_sibling"	"ReportPlayerButton"
-		"pin_to_sibling_corner"	"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuSubButtonBorder"
-			"border_armed"      ""
-			"paintbackground"	"1"
-
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "232 222 182 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.56"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_vote"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
-	"MutePlayersButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MutePlayersButton"
-		"xpos"			"-3"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"27"
-		"tall"			"25"
-		"visible"		"1"
-
-		"pin_to_sibling"	"CallVoteButton"
-		"pin_to_sibling_corner"	"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "232 222 182 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.44"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_mute"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"MenuContainerBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -2310,6 +2134,173 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_next"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
+
+	// command comes from GameMenu.res
+	"ReportPlayerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReportPlayerButton"
+		"xpos"			"c-68"
+		"ypos"			"437"
+		"zpos"			"6"
+		"wide"			"28"
+		"tall"			"25"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+
+			"defaultFgColor_override" "232 222 182 255"
+			"armedFgColor_override" "232 222 182 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.56"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/glyph_report"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
+	"CallVoteButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CallVoteButton"
+		"xpos"			"-3"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"26"
+		"tall"			"25"
+		"visible"		"1"
+
+		"pin_to_sibling"	"ReportPlayerButton"
+		"pin_to_sibling_corner"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuSubButtonBorder"
+			"border_armed"      ""
+			"paintbackground"	"1"
+
+			"defaultFgColor_override" "232 222 182 255"
+			"armedFgColor_override" "232 222 182 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.56"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/glyph_vote"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
+	"MutePlayersButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MutePlayersButton"
+		"xpos"			"-3"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"28"
+		"tall"			"25"
+		"visible"		"1"
+
+		"pin_to_sibling"	"CallVoteButton"
+		"pin_to_sibling_corner"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override" "232 222 182 255"
+			"armedFgColor_override" "232 222 182 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.44"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/glyph_mute"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}

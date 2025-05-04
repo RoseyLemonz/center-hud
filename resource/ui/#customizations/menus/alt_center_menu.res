@@ -7,29 +7,6 @@
 
 	}
 
-	"MOTD_ShowButtonPanel"
-	{
-		"xpos"			"c130"
-		"ypos"			"94"
-	}
-
-	"QuestLogButton"
-	{
-		"xpos"			"c130"
-		"ypos"			"127"
-	}
-
-	"StreamerModeSettingsPanel"
-	{
-		"xpos"			"c130"
-		"ypos"			"159"
-
-		"SettingsOpenButton"
-		{
-			"xpos"			"0"
-		}
-	}
-
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{
@@ -292,8 +269,8 @@
 
 	"MusicChangePrevButton"
 	{
-		"xpos"			"c-156"
-		"ypos"			"92"
+		"xpos"			"c-49"
+		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
 
@@ -319,13 +296,10 @@
 
 	"MusicStopButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-24"
+		"xpos"			"-2"
 		"wide"			"26"
 		"tall"			"26"
 
-		"pin_to_sibling_corner"	"0"
-		
 		"SubButton"
 		{
 
@@ -348,12 +322,9 @@
 
 	"MusicPlayButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-24"
+		"xpos"			"-2"
 		"wide"			"26"
 		"tall"			"26"
-
-		"pin_to_sibling_corner"	"0"
 
 		"SubButton"
 		{
@@ -377,12 +348,9 @@
 
 	"MusicChangeNextButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-24"
+		"xpos"			"-2"
 		"wide"			"26"
 		"tall"			"26"
-
-		"pin_to_sibling_corner"	"0"
 
 		"SubButton"
 		{

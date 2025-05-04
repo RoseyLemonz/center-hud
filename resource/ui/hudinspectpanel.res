@@ -7,5 +7,4 @@
 
 // BASE
 
-#base "#customizations/streamer_mode/hudinspectpanel.res"
 #base "#base/hudinspectpanel.res"

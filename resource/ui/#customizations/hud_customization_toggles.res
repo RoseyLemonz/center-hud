@@ -153,7 +153,7 @@
 					"MatchHudCheckbox"
 					{
 						"ControlName"					"CvarToggleCheckButton"
-						"fieldName"						"MinmodeCheckbox"
+						"fieldName"						"MatchHudCheckbox"
 						"xpos"							"0"
 						"ypos"							"0"
 						"zpos"							"2"

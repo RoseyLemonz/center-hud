@@ -42,7 +42,6 @@
 			"xpos_minmode"	"57"
 			"ypos_minmode"	"15"
 			"wide_minmode"	"30"
-			"wide_minmode"	"30"
 		}	
 	}				
 	"StatusIcon"

@@ -4,7 +4,7 @@
 	{
 		"Customizations_Scroller"
 		{
-			"Metal"
+			"CenteredMetal"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"CenteredMetal"
@@ -119,7 +119,7 @@
 				"Metal_DEFAULT"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"Metal_OFF"
+					"fieldName"							"Metal_DEFAULT"
 					"xpos"								"7"
 					"ypos"								"0"
 					"zpos"								"20"

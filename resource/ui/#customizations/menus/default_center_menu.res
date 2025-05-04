@@ -48,26 +48,33 @@
 		"xpos"			"cs-0.5"
 	}
 
+	"Notifications_ShowButtonPanel"
+	{
+		"xpos"			"c-162"
+		"ypos"			"93"
+	}
+
 	"MOTD_ShowButtonPanel"
 	{
 		"xpos"			"c130"
-		"ypos"			"94"
+		"ypos"			"93"
 	}
 
 	"QuestLogButton"
 	{
 		"xpos"			"c130"
-		"ypos"			"127"
+		"ypos"			"126"
 	}
 
 	"StreamerModeSettingsPanel"
 	{
 		"xpos"			"c130"
-		"ypos"			"159"
+		"ypos"			"157"
 
 		"SettingsOpenButton"
 		{
 			"xpos"			"0"
+			"ypos"			"2"
 		}
 	}
 
@@ -147,7 +154,7 @@
 		}
 	}
 
-	"Notifications_Panel"
+	"Notifications_Panel1"
 	{
 		"xpos"			"c-105"
 		"ypos"			"232"
@@ -168,90 +175,16 @@
 		"xpos"			"c-124"
 	}
 
-	// command comes from GameMenu.res
-	"ReportPlayerButton"
-	{
-		"xpos"			"c-38"
-		"ypos"			"437"
-		"zpos"			"6"
-		"wide"			"27"
-		"tall"			"24"
-
-		"SubButton"
-		{
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.56"
-				"ypos"			"cs-0.5"
-			}
-		}
-	}
-
-	"CallVoteButton"
-	{
-		"xpos"			"-3"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
-
-		"SubButton"
-		{
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-			}
-		}
-	}
-
-	"MutePlayersButton"
-	{
-		"xpos"			"-3"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"27"
-		"tall"			"24"
-		"SubButton"
-		{
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.44"
-				"ypos"			"cs-0.5"
-			}
-		}
-	}
-
 	"NewUserForumsButton"
 	{
 		"xpos"			"c-162"
-		"wide"			"28"
-		"tall"			"24"
-
-		"border_default"	"EconItemBorder"
-	}
-
-	"AchievementsButton"
-	{
-		"wide"			"26"
-		"tall"			"24"
-	}
-
-	"CommentaryButton"
-	{
-		"wide"			"26"
-		"tall"			"24"
 	}
 
 	"WorkshopButton"
 	{
 		"xpos"			"-3"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"27"
-		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
 
@@ -266,15 +199,14 @@
 
 	"ReportBugButton"
 	{
-		"xpos"			"124"
+		"xpos"			"122"
 		"wide"			"28"
-		"tall"			"24"
 
 		"border_default"	"EconItemBorder"
 
 		"SubImage"
 		{
-			"xpos"			"cs-0.56"
+			"xpos"			"cs-0.58"
 			"ypos"			"cs-0.5"
 		}
 	}
@@ -282,110 +214,18 @@
 	"TF2SettingsButton"
 	{
 		"xpos"			"-3"
-		"wide"			"26"
-		"tall"			"24"
-	}
-
-	"ReloadHUDButton"
-	{
-		"wide"			"26"
-		"tall"			"24"
-
-		"SubButton"
-		{
-			"border_default"	"MainMenuSubButtonBorder"
-		}
-	}
-
-	"ShowHUDOptionsButton"
-	{
-		"xpos"			"-3"
-		"wide"			"27"
-		"tall"			"24"
-
-		"SubButton"
-		{
-			"border_default"	"EconItemBorder"
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.44"
-				"ypos"			"cs-0.5"
-			}
-		}
 	}
 
 	"MusicChangePrevButton"
 	{
-		"xpos"			"c-158"
-		"ypos"			"94"
-		"zpos"			"2"
-		"wide"			"26"
-
-		"SubButton"
-		{
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-			}
-		}
+		"xpos"			"c-50"
 	}
-
-	"MusicStopButton"
+	
+	// command comes from GameMenu.res
+	"ReportPlayerButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-23"
-		"wide"			"26"
-
-		"pin_to_sibling_corner"	"0"
-		"SubButton"
-		{
-			"border_default"	"MainMenuSubButtonBorderUpDown"
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-			}
-		}
-	}
-
-	"MusicPlayButton"
-	{
-		"xpos"			"0"
-		"ypos"			"-24"
-		"wide"			"26"
-
-		"pin_to_sibling_corner"	"0"
-		"SubButton"
-		{
-			"border_default"	"MainMenuSubButtonBorderUpDown"
-
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-			}
-		}
-	}
-
-  	"MusicChangeNextButton"
-	{
-		"xpos"			"0"
-		"ypos"			"-23"
-		"wide"			"26"
-
-		"pin_to_sibling_corner"	"0"
-
-		"SubButton"
-		{
-			"SubImage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-			}
-		}
+		"xpos"			"c-38"
+		"ypos"			"437"
 	}
 
 	"DevModePanel"

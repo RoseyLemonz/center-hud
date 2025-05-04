@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
+		"fieldName"		"scores"
 		"xpos"			"cs-0.5"
 		"ypos"			"31"
 		"wide"			"640"
@@ -109,7 +109,6 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
-		"fieldName"		"BlueTeamImage"
 		"xpos"			"571"
 		"ypos"			"-5"
 		"zpos"			"20"
@@ -696,7 +695,7 @@
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
+		"fieldName"		"MapName"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
@@ -1071,7 +1070,7 @@
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
+			"fieldName"		"GameType"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
@@ -1393,7 +1392,6 @@
 			"textAlignment"		"east"
 			"xpos"			"445"
 			"ypos"			"10"
-			"zpos"			"3"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"

@@ -9,7 +9,7 @@
 
 	"ReportPlayerButton"
 	{
-		"xpos"			"c21"
+		"xpos"			"c-88"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"

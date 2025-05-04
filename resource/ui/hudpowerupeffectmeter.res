@@ -21,7 +21,6 @@
 		"teambg_2"		"replay/thumbnails/meter/hud_left_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_left_meter_blue"
 	}
-	}
 
 	"MinmodeMeterBG"
 	{

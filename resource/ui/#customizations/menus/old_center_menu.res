@@ -7,41 +7,6 @@
 
 	}
 
-	"Notifications_ShowButtonPanel"
-	{
-		"xpos"			"c94"
-		"ypos"			"238"
-		"wide"			"26"
-		"tall"			"26"
-
-		"Notifications_ShowButtonPanel_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"Notifications_ShowButtonPanel_SB"
-
-			"border_default"    "MainMenuButtonDefault"
-			"border_armed"      "MainMenuButtonArmed"
-			"paintbackground"   "0"
-
-			"image_drawcolor"	"255 133 0 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_alert"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"CharacterSetupButton"
 	{
 		"xpos"			"c-122"

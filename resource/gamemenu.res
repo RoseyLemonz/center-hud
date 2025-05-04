@@ -23,30 +23,6 @@
 		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
-	"MusicChangePrevButton"
-	{
-		"label"			""
-		"command"		"engine tfsongprev"
-		"tooltip"		"#TF_Prev"
-	}
-	"MusicStopButton"
-	{
-		"label"			""
-		"command"		"engine tfnomusic"
-		"tooltip"		"#CHud_Menu_Pause"
-	}
-	"MusicPlayButton"
-	{
-		"label"			""
-		"command"		"engine tfnomusic; tfsongcurrent"
-		"tooltip"		"#CHud_Menu_UnPause"
-	}
-	"MusicChangeNextButton"
-	{
-		"label"			""
-		"command"		"engine tfsongnext"
-		"tooltip"		"#TF_Next"
-	}
 	"StreamerTooltipPanel"
 	{
 		"label"			""
@@ -58,6 +34,38 @@
 		"label"			""
 		"command"		"engine"
 		"tooltip"		"#CHud_Changes_Info"
+	}
+
+	// These buttons are only shown while at the menu
+	// and also are positioned by the .res file
+
+	"MusicChangePrevButton"
+	{
+		"label"			""
+		"command"		"engine tfsongprev"
+		"tooltip"		"#TF_Prev"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicStopButton"
+	{
+		"label"			""
+		"command"		"engine tfnomusic"
+		"tooltip"		"#CHud_Menu_Pause"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicPlayButton"
+	{
+		"label"			""
+		"command"		"engine tfnomusic; tfsongcurrent"
+		"tooltip"		"#CHud_Menu_UnPause"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicChangeNextButton"
+	{
+		"label"			""
+		"command"		"engine tfsongnext"
+		"tooltip"		"#TF_Next"
+		"OnlyAtMenu"	"1"
 	}
 
 	// These buttons are only shown while in-game

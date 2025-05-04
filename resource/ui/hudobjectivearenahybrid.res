@@ -1075,7 +1075,6 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"CountdownImage"
-			"fieldName"		"CountdownImage"
 			"xpos"			"115"
 			"ypos"			"15"
 			"zpos"			"2"
@@ -1245,7 +1244,7 @@
 		"count"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"edEscrow"
+			"fieldName"		"count"
 			"xpos"			"23"
 			"ypos"			"7"
 			"zpos"			"2"
@@ -1264,7 +1263,7 @@
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"RedEscrow"
+			"fieldName"		"countshadow"
 			"xpos"			"24"
 			"ypos"			"8"
 			"zpos"			"1"
