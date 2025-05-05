@@ -265,7 +265,7 @@
 					"labelText"							"#TF_On"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_chat_vis_on; wait 60; hud_reloadscheme"
+					"command"							"engine hud_saytext_time 12"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -293,7 +293,7 @@
 					"labelText"							"#TF_Off"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_chat_vis_off; wait 60; hud_reloadscheme"
+					"command"							"engine hud_saytext_time 0"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -382,7 +382,7 @@
 					"labelText"							"#TF_On"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_userinfo_on; wait 60; hud_reloadscheme"
+					"command"							"engine hud_userinfo_off; wait 60; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -410,7 +410,7 @@
 					"labelText"							"#TF_Off"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_userinfo_off; wait 60; hud_reloadscheme"
+					"command"							"engine hud_userinfo_on; wait 60; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -428,10 +428,10 @@
 			}
 		}
 
-		"BlockUserDecals"
+		"UserDecalsOption"
 		{
 			"ControlName"			"EditablePanel"
-			"fieldName"				"BlockUserDecals"
+			"fieldName"				"UserDecalsOption"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"0"
@@ -499,7 +499,7 @@
 					"labelText"							"#TF_On"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine tf_hide_custom_decals 1"
+					"command"							"engine tf_hide_custom_decals 0"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -527,7 +527,7 @@
 					"labelText"							"#TF_Off"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine tf_hide_custom_decals 0"
+					"command"							"engine tf_hide_custom_decals 1"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -561,7 +561,7 @@
 			"use_proportional_insets"	"1"
 			"proportionaltoparent"	"1"
 
-			"pin_to_sibling"	"BlockUserDecals"
+			"pin_to_sibling"	"UserDecalsOption"
 			"pin_to_sibling_corner"	"2"
 
 			"TitleLabel"
@@ -616,7 +616,7 @@
 					"labelText"							"#TF_On"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_streamer_mode_on; hud_reloadscheme"
+					"command"							"engine hud_streamer_mode_off; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 
@@ -644,7 +644,7 @@
 					"labelText"							"#TF_Off"
 					"font"								"ItemFontNameSmall"
 					"textAlignment"						"center"
-					"command"							"engine hud_streamer_mode_off; hud_reloadscheme"
+					"command"							"engine hud_streamer_mode_on; hud_reloadscheme"
 					"actionsignallevel"					"4"
 					"sound_depressed"					"UI/buttonclick.wav"
 

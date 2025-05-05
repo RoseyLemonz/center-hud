@@ -26,7 +26,6 @@
 			"border_armed"      "MainMenuButtonArmed"
 			"paintbackground"   "0"
 
-			"image_drawcolor"	"20 20 20 255"
 			"SubImage"
 			{
 				"xpos"			"cs-0.5"
@@ -95,7 +94,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-145"
+		"xpos"			"c-155"
 		"ypos"			"438"
 		"wide"			"26"
 		"tall"			"26"
@@ -174,7 +173,7 @@
 	
 	"ReportBugButton"
 	{
-		"xpos"			"10"
+		"xpos"			"20"
 		"wide"			"26"
 		"tall"			"26"
 

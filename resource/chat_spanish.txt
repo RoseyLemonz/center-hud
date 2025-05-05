@@ -33,8 +33,8 @@
 		"CHud_Streamer_Streaming"		"Streamer Mode"
 		"CHud_Streamer_Title"			"Streamer Mode Settings"
 		"CHud_Streamer_ChatTitle"		"Chat History"
-		"CHud_Streamer_UserInfoTitle"	"Block User Info"
-		"CHud_Streamer_UserDecalsTitle"	"Block User Decals"
+		"CHud_Streamer_UserInfoTitle"	"User Info"
+		"CHud_Streamer_UserDecalsTitle"	"User Decals"
 		"CHud_Streamer_AllTitle"		"All Options"
 
 		// Info bubble thingye
