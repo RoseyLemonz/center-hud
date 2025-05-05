@@ -38,7 +38,8 @@
 		"CHud_Streamer_AllTitle"		"All Options"
 
 		// Info bubble thingye
-		"CHud_Changes_Info"			"For all changes to apply, please restart your game."
+		"CHud_Changes_Info"			"For all changes to apply,\nplease restart your game."	// \n means new line, used for neater looking tooltip, 
+																							// so dont remove (or add more if it fit better)
 
 		// Customization Menu Stuff
 		"CHud_Menu_MinToggle"		"Minimal HUD Mode"

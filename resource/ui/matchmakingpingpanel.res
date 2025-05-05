@@ -106,6 +106,7 @@
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
+		"textinsetx"		"5"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -164,9 +165,10 @@
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
-		"labeltext"		""
+		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
+		"textinsetx"		"5"
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
@@ -178,24 +180,8 @@
 
 	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
 	// and the above checkbox has that behavior.  To get around it, make another label
-	"CheckLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"CheckLabel"
-		"xpos"		"42"
-		"ypos"		"110"
-		"zpos"		"3"
-		"wide"		"208"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
-		"smallcheckimage"	"1"
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-		"button_activation_type"	"1"
-	}
+	//
+	// You're stupid :] -Rose
 
 	"DescLabel"
 	{
