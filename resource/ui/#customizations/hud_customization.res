@@ -76,7 +76,8 @@
 //==============================================================
 // FOLDERCHECK
 //==============================================================
-#base "foldercheck/hud_customization_checkfailed.res"
+#base "../../../../center-hud/resource/ui/#customizations/foldercheck/hud_customization_checkpass.res"
+#base "foldercheck/hud_customization_checkfail.res"
     
 //==============================================================
 // FRAME

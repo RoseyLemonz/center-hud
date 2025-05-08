@@ -16,11 +16,14 @@
 
 #base "../../dev/mainmenuoverride_dev.res"
 
+// STREAMER MODE
+#base "../../../center-hud/resource/ui/#customizations/foldercheck/streamerpanel_checkpass.res"
+#base "#customizations/foldercheck/streamerpanel_checkfail.res"
+
 // BASE
 
 #base "#base/default_menu.res"
 #base "../preload.res" 
-#base "#customizations/streamer_mode/streamerpanel.res"
 #base "#customizations/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"

@@ -15,6 +15,32 @@
 		"paintbackground"			"0"
 		"border"					"ReplayDefaultBorder"
 		
+		"CheckFailedBox"
+		{
+			"visible"	"0"
+		}
+
+		"CustomizationTooltipPanel"
+		{
+			"xpos"		"6"
+		}
+
+		"ApplyButton"
+		{
+			"visible"	"1"
+		}
+
+		"ResetAllButton"
+		{
+			"visible"	"1"
+		}
+	
+		"ConsoleButton"
+		{
+			"tall"							"46"
+			"pin_to_sibling"				"ResetAllButton"
+		}
+
 		"Customizations_Scroller"
 		{
 			"ControlName"					"CScrollableList"
