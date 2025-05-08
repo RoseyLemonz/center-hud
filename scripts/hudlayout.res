@@ -21,7 +21,7 @@
 
 // STREAMER MODE
 
-#base "../cfg/centerhud/hud_hudlayout.txt"
+#base "../cfg/centerhud/hud_str_killandvoice.txt"
 
 // BASE
 

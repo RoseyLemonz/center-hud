@@ -1,7 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_roundinfo.txt"
-#base "../../cfg/centerhud/hud_roundinfo.txt"
+#base "../../../../cfg/centerhud/hud_uw_roundinfo.txt"
 
 // BASE
 

@@ -1,8 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_matchmakingtooltip.txt"
-
-#base "../../cfg/centerhud/hud_matchmakingtooltip.txt"
+#base "../../../../cfg/centerhud/hud_str_matchmakingtooltip.txt"
 
 // BASE
 

@@ -1,9 +1,7 @@
 
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_dashboardpartymember.txt"
-
-#base "../../cfg/centerhud/hud_dashboardpartymember.txt"
+#base "../../../../cfg/centerhud/hud_str_partymember.txt"
 
 // BASE
 

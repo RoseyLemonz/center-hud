@@ -1,8 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_hudmatchsummary.txt"
-
-#base "../../cfg/centerhud/hud_hudmatchsummary.txt"
+#base "../../../../cfg/centerhud/hud_str_matchendleaderboard.txt"
 
 // BASE
 

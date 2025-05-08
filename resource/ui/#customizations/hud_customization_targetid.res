@@ -110,7 +110,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_targetid_on"
+						"command"							"engine hud_targetid_health_on"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
@@ -186,7 +186,7 @@
 						"proportionaltoparent"				"1"
 						"labelText"							""
 						"font"								""
-						"command"							"engine hud_targetid_off"
+						"command"							"engine hud_targetid_health_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}

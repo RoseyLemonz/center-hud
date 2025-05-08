@@ -1,9 +1,7 @@
 
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_votehud.txt"
-
-#base "../../cfg/centerhud/hud_votehud.txt"
+#base "../../../../cfg/centerhud/hud_str_hidevoteheader_.txt"
 
 // BASE
 

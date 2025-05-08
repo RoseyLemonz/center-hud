@@ -1,10 +1,7 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_matchstatus_streamer.txt"
-#base "../../../../cfg/centerhud/hud_matchstatus.txt"
-
-#base "../../cfg/centerhud/hud_matchstatus_streamer.txt"
-#base "../../cfg/centerhud/hud_matchstatus.txt"
+#base "../../../../cfg/centerhud/hud_str_hudmatchstatus.txt"
+#base "../../../../cfg/centerhud/hud_uw_matchdoors.txt"
 
 // BASE
 

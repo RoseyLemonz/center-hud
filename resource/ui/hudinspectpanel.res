@@ -1,9 +1,7 @@
 
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_hudinspectpanel.txt"
-
-#base "../../cfg/centerhud/hud_hudinspectpanel.txt"
+#base "../../../../cfg/centerhud/hud_str_inspect.txt"
 
 // BASE
 

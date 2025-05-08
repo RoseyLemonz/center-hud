@@ -5,18 +5,14 @@
 #base "../../../../cfg/centerhud/hud_menuicons.txt"
 #base "../../../../cfg/centerhud/hud_menu.txt"
 #base "../../../../cfg/centerhud/hud_friendslist.txt"
-#base "../../../../cfg/centerhud/hud_partychat.txt"
-
-#base "../../cfg/centerhud/hud_menuicons.txt"
-#base "../../cfg/centerhud/hud_menu.txt"
-#base "../../cfg/centerhud/hud_friendslist.txt"
-#base "../../cfg/centerhud/hud_partychat.txt"
+#base "../../../../cfg/centerhud/hud_str_partychat.txt"
 
 // DEV MODE
 
 #base "../../dev/mainmenuoverride_dev.res"
 
 // STREAMER MODE
+
 #base "../../../center-hud/resource/ui/#customizations/foldercheck/streamerpanel_checkpass.res"
 #base "#customizations/foldercheck/streamerpanel_checkfail.res"
 

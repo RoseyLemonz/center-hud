@@ -1,8 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_winpanel.txt"
-
-#base "../../cfg/centerhud/hud_winpanel.txt"
+#base "../../../../cfg/centerhud/hud_str_hidemvp.txt"
 
 // BASE
 

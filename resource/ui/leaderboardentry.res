@@ -1,7 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_leaderboardentry.txt"
-#base "../../cfg/centerhud/hud_leaderboardentry.txt"
+#base "../../../../cfg/centerhud/hud_str_hidedduelstats.txt"
 
 // BASE
 

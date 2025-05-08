@@ -1,8 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_mvmscoreboard.txt"
-
-#base "../../cfg/centerhud/hud_mvmscoreboard.txt"
+#base "../../../../cfg/centerhud/hud_str_hidemvmscoreboard.txt"
 
 // BASE
 

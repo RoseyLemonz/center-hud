@@ -1,8 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_spectatortournament.txt"
-
-#base "../../cfg/centerhud/hud_spectatortournament.txt"
+#base "../../../../cfg/centerhud/hud_str_hidespectourname.txt"
 
 // BASE
 

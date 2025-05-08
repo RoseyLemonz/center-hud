@@ -1,7 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_spectourguihealth.txt"
-#base "../../cfg/centerhud/hud_spectourguihealth.txt"
+#base "../../../../cfg/centerhud/hud_tid_spectourguihealth.txt"
 
 // BASE
 
