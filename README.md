@@ -1,4 +1,3 @@
-![centerhud3long](https://github.com/RoseyLemonz/center-hud/assets/97610612/fe6e4ca8-e06e-4940-9ef7-aa191a214106) 
   <h1>Center HUD</h1>
   A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
 
