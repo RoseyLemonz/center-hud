@@ -6,11 +6,6 @@
 		{
 			"BlueTeamPanel"
 			{
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-				"alpha"			"0"
-
 				"BluePlayerListParent"
 				{
 					"BluePlayerList"
@@ -24,11 +19,6 @@
 			}
 			"RedTeamPanel"
 			{
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-				"alpha"			"0"
-
 				"RedPlayerListParent"
 				{
 					"RedPlayerListParent"
