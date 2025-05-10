@@ -6,7 +6,6 @@
 		"tall"	 		"22"
 	}
 
-
 	"ChatFiltersButton"
 	{
 		"xpos"			"9999"

@@ -261,7 +261,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_saytext_time 12"
+						"command"							"engine hud_str_chat_vis_off; wait 60; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -289,7 +289,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_saytext_time 0"
+						"command"							"engine hud_str_chat_vis_on; wait 60; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
