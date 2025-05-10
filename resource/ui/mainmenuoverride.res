@@ -15,6 +15,7 @@
 
 #base "../../../center-hud/resource/ui/#customizations/foldercheck/streamerpanel_checkpass.res"
 #base "#customizations/foldercheck/streamerpanel_checkfail.res"
+#base "#customizations/streamer_mode/str_streamerpanel.res"
 
 // BASE
 

@@ -48,7 +48,6 @@
 				"fieldName"								"WarningLabel"
 				"xpos"									"cs-0.5"
 				"ypos"									"15"
-				"zpos"									"10"
 				"wide"									"f10"
 				"tall"									"45"
 				"visible"								"1"
@@ -57,7 +56,7 @@
 				"labelText"								"#CHud_Foldercheck_Warning"
 				"font"									"HudfontBiggerBold"
 				"textAlignment"							"center"
-				"fgcolor"								"Red"
+				"fgcolor"								"RedSolid"
 			}
 			"Text_Part1"
 			{
@@ -65,7 +64,6 @@
 				"fieldName"								"Text_Part1"
 				"xpos"									"cs-0.5"
 				"ypos"									"60"
-				"zpos"									"10"
 				"wide"									"f50"
 				"tall"									"60"
 				"visible"								"1"
@@ -82,7 +80,6 @@
 				"fieldName"								"HudFolderName"
 				"xpos"									"cs-0.5"
 				"ypos"									"120"
-				"zpos"									"10"
 				"wide"									"100"
 				"tall"									"20"
 				"visible"								"1"
@@ -99,7 +96,6 @@
 				"fieldName"								"Text_Part2"
 				"xpos"									"cs-0.5"
 				"ypos"									"rs1-15"
-				"zpos"									"10"
 				"wide"									"f50"
 				"tall"									"65"
 				"visible"								"1"
@@ -117,17 +113,14 @@
 			"xpos"		"9999"
 			"visible"	"0"
 		}
-
 		"ApplyButton"
 		{
 			"visible"	"0"
 		}
-
 		"ResetAllButton"
 		{
 			"visible"	"0"
 		}
-	
 		"ConsoleButton"
 		{
 			"tall"							"22"

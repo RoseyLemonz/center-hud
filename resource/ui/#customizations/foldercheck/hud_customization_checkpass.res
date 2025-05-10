@@ -19,22 +19,18 @@
 		{
 			"visible"	"0"
 		}
-
 		"CustomizationTooltipPanel"
 		{
 			"xpos"		"6"
 		}
-
 		"ApplyButton"
 		{
 			"visible"	"1"
 		}
-
 		"ResetAllButton"
 		{
 			"visible"	"1"
 		}
-	
 		"ConsoleButton"
 		{
 			"tall"							"46"
