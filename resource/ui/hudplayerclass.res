@@ -11,13 +11,14 @@
 #base "../../../../cfg/centerhud/hud_speedometer.txt"
 #base "../../../../cfg/centerhud/hud_player_class.txt"
 #base "../../../../cfg/centerhud/hud_spy_disguise.txt"
-
+#base "../../../../cfg/centerhud/hud_transparent_viewmodels.txt"
 
 // BASE
 
 #base "#base/speedometer_base.res"
 #base "#base/spy_disguise_base.res"
 #base "#base/player_model_base.res"
+#base "#base/transparent_viewmodels_base.res"
 
 "Resource/UI/HudPlayerClass.res"
 {

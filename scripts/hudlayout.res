@@ -7,10 +7,6 @@
 
 #base "../cfg/centerhud/hud_metal_pos.txt"
 
-// TRANSPARENT VIEWMODELS
-
-#base "../cfg/centerhud/hud_transparent_viewmodels.txt"
-
 // KILLFEED ROWS
 
 #base "../cfg/centerhud/hud_killfeed.txt"
