@@ -165,7 +165,7 @@
 			"labelText"		"#CHud_Streamer_Title"
 			"centerwrap"	"1"
 			"xpos"			"cs-0.5"
-			"ypos"			"37"
+			"ypos"			"36"
 			"wide"			"f20"
 			"tall"			"30"
 			"visible"		"1"

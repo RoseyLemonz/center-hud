@@ -11,12 +11,6 @@
 		"subimage"			"glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"ReloadHUDButton"
-	{
-		"label"			""
-		"command"		"engine fix_all"
-		"tooltip"		"#GameUI_Refresh"
-	}
 	"ShowHUDOptionsButton"
 	{
 		"label"			""

@@ -1,17 +1,11 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
-	{
-
-	}
-
 	"ShowPromoCodesButton"
 	{
 		"xpos"			"c-125"
 		"ypos"			"405"
 		"tall"			"16"
 	}
-
 
 	"TFLogoImage"
 	{
@@ -48,6 +42,8 @@
 		"xpos"			"cs-0.5"
 	}
 
+
+
 	"Notifications_ShowButtonPanel"
 	{
 		"xpos"			"c-162"
@@ -77,6 +73,8 @@
 			"ypos"			"2"
 		}
 	}
+
+
 
 	"MOTD_Panel"
 	{
@@ -154,7 +152,7 @@
 		}
 	}
 
-	"Notifications_Panel1"
+	"Notifications_Panel"
 	{
 		"xpos"			"c-105"
 		"ypos"			"232"
@@ -170,10 +168,14 @@
 		"xpos"			"cs-0.5"
 	}
 
+
+
 	"CharacterSetupButton"
 	{
 		"xpos"			"c-124"
 	}
+
+
 
 	"NewUserForumsButton"
 	{
@@ -211,16 +213,20 @@
 		}
 	}
 
-	"TF2SettingsButton"
+	"ReplayButton"
 	{
 		"xpos"			"-3"
 	}
+
+
 
 	"MusicChangePrevButton"
 	{
 		"xpos"			"c-50"
 	}
 	
+
+
 	// command comes from GameMenu.res
 	"ReportPlayerButton"
 	{

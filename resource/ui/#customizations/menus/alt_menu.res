@@ -1,12 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
-	{
-
-	}
-
 	// command comes from GameMenu.res
-
 	"ReportPlayerButton"
 	{
 		"xpos"			"c-88"
@@ -16,7 +10,6 @@
 
 		"SubButton"
 		{
-
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
 			"paintbackground"   "0"
@@ -40,7 +33,6 @@
 
 		"SubButton"
 		{
-
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
 
@@ -65,7 +57,6 @@
 
 		"SubButton"
 		{
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -191,6 +182,27 @@
 			"tall"			"14"
 		}
 	}			
+
+	"ReplayButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"image_drawcolor"	"20 20 20 255"
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"14"
+			"tall"			"14"
+		}
+	}		
 
 	"TF2SettingsButton"
 	{

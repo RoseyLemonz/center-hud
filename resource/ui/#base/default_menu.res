@@ -1385,10 +1385,10 @@
 		}
 	}
 
-	"AReplayButton"
+	"ASettingsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"AReplayButton"
+		"fieldName"		"ASettingsButton"
 		"xpos"			"0"
 		"ypos"			"-30"
 		"zpos"			"2"
@@ -1396,62 +1396,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine replay_reloadbrowser"
+		"Command"		"OpenOptionsDialog"
 
 		"pin_to_sibling"	"CharacterSetupButton"
 		"pin_to_sibling_corner"	"0"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"labelText"		"#MMenu_Replays"
-		"textinsetx"	"22"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-
-		"border_default"    "MainMenuButtonDefault"
-		"border_armed"      "MainMenuButtonArmed"
-		"paintbackground"   "0"
-
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-
-		"use_proportional_insets" "1"
-		"proportionaltoparent"	"1"
-
-		"image_drawcolor"	"50 50 50 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_tv"
-			"scaleImage"	"1"
-		}
-	}
-
-	"ASettingsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ASettingsButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"124"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"OpenOptionsDialog"
-
-		"pin_to_sibling"	"AReplayButton"
-		"pin_to_sibling_corner"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1488,6 +1436,58 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
+		}
+	}
+
+	"RefreshButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RefreshButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"124"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine fix_all"
+
+		"pin_to_sibling"	"ASettingsButton"
+		"pin_to_sibling_corner"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"labelText"		"#GameUI_Refresh"
+		"textinsetx"	"22"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+
+		"use_proportional_insets" "1"
+		"proportionaltoparent"	"1"
+
+		"image_drawcolor"	"50 50 50 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/menu/glyph_reloadhud"
+			"scaleImage"	"1"
 		}
 	}
 
@@ -1738,6 +1738,51 @@
 		}
 	}
 
+	"ReplayButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReplayButton"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"27"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine replay_reloadbrowser"
+		
+		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling_corner"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+
+		"border_default"	"MainMenuSubButtonBorder"
+		"border_armed"      ""
+		"paintbackground"   "1"
+
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_tv"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}				
+	}
+
 	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1751,7 +1796,7 @@
 		"enabled"		"1"
 		"Command"		"opentf2options"
 
-		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling"	"ReplayButton"
 		"pin_to_sibling_corner"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1788,82 +1833,19 @@
 		}
 	}
 
-
-	"ReloadHUDButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ReloadHUDButton"
-		"xpos"			"-1"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"27"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"	"TF2SettingsButton"
-		"pin_to_sibling_corner"	"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"pin_to_sibling"	"TF2SettingsButton"
-			"pin_to_sibling_corner"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuSubButtonBorder"
-			"border_armed"      ""
-			"paintbackground"   "1"
-
-			"defaultFgColor_override" "232 222 182 255"
-			"armedFgColor_override" "232 222 182 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"use_proportional_insets" "1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.54"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_reloadhud"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"ShowHUDOptionsButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ShowHUDOptionsButton"
 		"xpos"			"-3"
 		"ypos"			"0"
-		"zpos"			"7"
+		"zpos"			"6"
 		"wide"			"28"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"	"ReloadHUDButton"
+		"pin_to_sibling"	"TF2SettingsButton"
 		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
