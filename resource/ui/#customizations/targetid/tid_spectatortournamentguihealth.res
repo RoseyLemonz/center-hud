@@ -1,4 +1,4 @@
-#base "alt_spectatorguihealth.res"
+#base "tid_spectatorguihealth.res"
 
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
