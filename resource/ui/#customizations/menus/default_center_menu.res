@@ -42,8 +42,6 @@
 		"xpos"			"cs-0.5"
 	}
 
-
-
 	"Notifications_ShowButtonPanel"
 	{
 		"xpos"			"c-162"
@@ -73,8 +71,6 @@
 			"ypos"			"2"
 		}
 	}
-
-
 
 	"MOTD_Panel"
 	{
@@ -168,14 +164,10 @@
 		"xpos"			"cs-0.5"
 	}
 
-
-
 	"CharacterSetupButton"
 	{
 		"xpos"			"c-124"
 	}
-
-
 
 	"NewUserForumsButton"
 	{
@@ -218,14 +210,10 @@
 		"xpos"			"-3"
 	}
 
-
-
 	"MusicChangePrevButton"
 	{
 		"xpos"			"c-50"
 	}
-	
-
 
 	// command comes from GameMenu.res
 	"ReportPlayerButton"

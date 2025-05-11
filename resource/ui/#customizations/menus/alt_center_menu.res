@@ -18,8 +18,6 @@
 		"xpos"			"-2"
 	}
 
-
-
 	"NewUserForumsButton"
 	{
 		"xpos"			"c-155"
@@ -63,8 +61,6 @@
 	{
 		"xpos"			"-2"
 	}
-
-
 
 	"MusicChangePrevButton"
 	{

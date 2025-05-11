@@ -1486,7 +1486,7 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/glyph_reloadhud"
+			"image"			"replay/thumbnails/menu/glyph_refresh"
 			"scaleImage"	"1"
 		}
 	}
@@ -1758,12 +1758,17 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
 
 		"border_default"	"MainMenuSubButtonBorder"
 		"border_armed"      ""
 		"paintbackground"   "1"
+
+		"defaultFgColor_override" "232 222 182 255"
+		"armedFgColor_override" "232 222 182 255"
+		"depressedFgColor_override" "46 43 42 255"
+
+		"use_proportional_insets" "1"
+		"proportionaltoparent"	"1"
 
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -1777,7 +1782,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_tv"
+			"image"			"replay/thumbnails/menu/glyph_replay"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}				

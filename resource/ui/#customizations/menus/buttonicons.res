@@ -38,18 +38,6 @@
 		}
 	}
 
-	"TF2SettingsButton"
-	{
-        "labelText"		"+"
-		"textAlignment"	"north-west"
-		"textinsetx"	"19"
-		"font"			"HudFontSmallestBold"
-		"SubImage"
-		{
-			"image"			"glyph_options"
-		}
-	}
-
 	"NewUserForumsButton"
 	{
 		"SubImage"
@@ -82,19 +70,31 @@
 		}
 	}
 
-	"ReplayButton"
-	{
-		"SubImage"
-		{
-			"image"			"glyph_tv"
-		}
-	}
-
 	"ReportBugButton"
 	{
 		"SubImage"
 		{
 			"image"			"glyph_bug"
+		}
+	}
+
+	"ReplayButton"
+	{
+		"SubImage"
+		{
+			"image"			"glyph_tv"
+		}				
+	}
+
+	"TF2SettingsButton"
+	{
+        "labelText"		"+"
+		"textAlignment"	"north-west"
+		"textinsetx"	"19"
+		"font"			"HudFontSmallestBold"
+		"SubImage"
+		{
+			"image"			"glyph_options"
 		}
 	}
 }
