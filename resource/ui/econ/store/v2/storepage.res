@@ -475,7 +475,7 @@
 		"xpos"				"c-300"
 		"ypos"				"30"
 		"zpos"				"1"
-		"wide"				"225"
+		"wide"				"230"
 		"tall"				"19"
 		"visible"			"1"
 		"enabled"			"1"
