@@ -10,14 +10,10 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 		"fgcolor"		"0 255 0 255"
 	}
 	
@@ -47,14 +43,10 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}	
 
@@ -68,14 +60,10 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}		
 			
 	"NumberBg"	
@@ -105,14 +93,10 @@
 		"zpos"			"1"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 }

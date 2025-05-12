@@ -3,7 +3,7 @@
 	"HudTeamScore"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"HudPasstimeTeamScore"
+		"fieldName"			"HudTeamScore"
 		"xpos"				"0"
 		"ypos"				"25"
 		"zpos"				"0"
@@ -121,8 +121,6 @@
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -143,8 +141,6 @@
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -179,8 +175,6 @@
 			"enabled"		"1"
 			"labelText"		"#TF_PlayingTo"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontSmall"
 			"fgcolor"		"TanLight"
 		}
@@ -197,7 +191,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 			"scaleImage"	"1"
 		}
 	}

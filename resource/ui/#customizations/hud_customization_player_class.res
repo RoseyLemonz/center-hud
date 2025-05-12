@@ -7,7 +7,7 @@
 			"Player_Class"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"Player_class"
+				"fieldName"							"Player_Class"
 				"xpos"								"305"
 				"ypos"								"140"
 				"zpos"								"0"

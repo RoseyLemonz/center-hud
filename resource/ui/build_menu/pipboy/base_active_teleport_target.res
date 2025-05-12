@@ -10,15 +10,10 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 
@@ -65,8 +60,6 @@
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -100,13 +93,9 @@
 		"zpos"			"1"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

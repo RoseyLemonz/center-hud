@@ -53,14 +53,10 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"textAlignment"	"West"
 		}
 	}		
 	
@@ -105,14 +101,10 @@
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
-			"autoResize"		"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
 			"textAlignment"		"North-West"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		
 		"FreezePanelHealth"
@@ -143,12 +135,10 @@
 			"zpos"			"5"
 			"wide"			"252"
 			"tall"			"18"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"		"Left"
+			"textAlignment"		"West"
 		}
 
 		"AvatarImage"
@@ -222,8 +212,6 @@
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
-				"autoResize"		"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
@@ -239,8 +227,6 @@
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
-				"autoResize"		"0"
-				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
@@ -298,14 +284,10 @@
 			"zpos"			"2"
 			"wide"			"133"
 			"tall"			"12"
-			"autoResize"		"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%text%"
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 	}	
 }

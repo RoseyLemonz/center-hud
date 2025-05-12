@@ -1,6 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_freezehealth.txt"
+#base "../../../../cfg/centerhud/hud_tid_freezehealth.txt"
 
 // BASE
 

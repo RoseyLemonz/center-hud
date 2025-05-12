@@ -10,14 +10,10 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Tele_Exit_360"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 	}
 	
 	"ItemBackground"	
@@ -95,11 +91,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"West"	
 	}
 }

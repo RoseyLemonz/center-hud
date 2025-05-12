@@ -110,7 +110,6 @@
 						"labelText"						"#CHud_Menu_MinToggle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}
@@ -154,7 +153,7 @@
 					"MatchHudCheckbox"
 					{
 						"ControlName"					"CvarToggleCheckButton"
-						"fieldName"						"MinmodeCheckbox"
+						"fieldName"						"MatchHudCheckbox"
 						"xpos"							"0"
 						"ypos"							"0"
 						"zpos"							"2"
@@ -189,7 +188,6 @@
 						"labelText"						"#CHud_Menu_MatchHudToggle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}
@@ -267,7 +265,6 @@
 						"labelText"						"#GameUI_HudPlayerClassUsePlayerModelDialogTitle"
 						"font"							"HudFontSmallestBold"
 						"textAlignment"					"center"
-						"fgcolor"						"White"
 						"mouseinputenabled"				"0"
 					}
 				}

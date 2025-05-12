@@ -10,14 +10,10 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Tele_Entrance_360"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 		"fgcolor"		"0 255 0 255"
 	}
 	
@@ -96,14 +92,10 @@
 		"zpos"			"1"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 }

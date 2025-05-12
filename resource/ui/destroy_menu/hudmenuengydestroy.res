@@ -54,14 +54,10 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 	}
 	
 	"TitleLabelDropshadow"
@@ -75,14 +71,10 @@
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"Left"
-		"dulltext"		"1"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 	}
 
 	"CancelLabel"
@@ -95,14 +87,10 @@
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"active_item_1"

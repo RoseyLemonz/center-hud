@@ -39,6 +39,52 @@
 			"bgcolor_override"				"Black"
 		}
 		
+		"CustomizationTooltipPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CustomizationTooltipPanel"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"7"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+
+				"paintbackground"   "0"
+
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+					
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"f0"
+					"tall"			"f0"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"info"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}
+			}
+		}
+
 		"CloseButton"
 		{
 			"ControlName"					"CExButton"
@@ -59,47 +105,13 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 		}
-		
-		"Customizations_Scroller"
-		{
-			"ControlName"					"CScrollableList"
-			"fieldName"						"Customizations_Scroller"
-			"xpos"							"cs-0.5"
-			"ypos"							"26"
-			"zpos"							"-1"
-			"wide"							"f0"
-			"tall"							"239"
-			"visible"						"1"
-			"enabled"						"1"
-			"proportionaltoparent"			"1"
-			"paintBackground"				"0"
-			"bgcolor_override"				"Gray"
-			
-			"Scrollbar"
-			{
-
-				"xpos"							"rs1+2"
-				"ypos"							"0"
-				"wide"							"6"
-				"tall"							"f0"
-				"zpos"							"1000"
-				"proportionaltoparent"			"1"
-				"nobuttons"						"1"
-
-				"Slider"
-				{
-					"PaintBackgroundType"		"0"
-					"fgcolor_override"			"Gray"
-				}
-			}
-		}
 
 		"ApplyButton"
 		{
 			"ControlName"					"CExButton"
 			"fieldname"						"ApplyButton"
 			"xpos"							"7"
-			"ypos"							"rs2.3"
+			"ypos"							"rs2.4"
 			"zpos"							"20"
 			"wide"							"205"
 			"tall"							"22"
@@ -123,10 +135,10 @@
 			"depressedFgColor_override"		"White"
 		}
 
-		"WikiButton"
+		"ResetAllButton"
 		{
 			"ControlName"					"CExButton"
-			"fieldname"						"WikiButton"
+			"fieldName"						"ResetAllButton"
 			"xpos"							"3"
 			"ypos"							"0"
 			"zpos"							"20"
@@ -135,25 +147,26 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"labelText"						"HUD Wiki"
+			"labelText"						"#GameUI_UseDefaults"
 			"font"							"ItemFontNameLarge"
 			"textAlignment"					"center"
-			"Command"						"url https://github.com/RoseyLemonz/center-hud/wiki"
+			"Command"						"engine customization_reset; hud_crosshair_reset"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"80 90 190 255"
-			"armedBgColor_override"			"60 70 170 255"
-			"depressedBgColor_override"		"60 70 170 255"
+			"defaultBgColor_override"		"190 60 60 255"
+			"armedBgColor_override"			"160 30 40 255"
+			"depressedBgColor_override"		"160 30 40 255"
 
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"White"
-			"depressedFgColor_override"		"White"
 
 			"pin_to_sibling"				"ApplyButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"White"
+			"depressedFgColor_override"		"White"
 		}
 
 		"ConsoleButton"
@@ -180,7 +193,7 @@
 			"armedBgColor_override"			"55 55 55 255"
 			"depressedBgColor_override"		"55 55 55 255"
 
-			"pin_to_sibling"				"WikiButton"
+			"pin_to_sibling"				"ResetAllButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 
@@ -189,34 +202,33 @@
 			"depressedFgColor_override"		"White"
 		}
 
-		"ResetAllButton"
+		"WikiButton"
 		{
 			"ControlName"					"CExButton"
-			"fieldName"						"ResetAllButton"
+			"fieldname"						"WikiButton"
 			"xpos"							"7"
-			"ypos"							"rs1-4"
+			"ypos"							"rs1-6"
 			"zpos"							"20"
 			"wide"							"205"
 			"tall"							"22"
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"labelText"						"#CHud_Menu_ResetOptions"
+			"labelText"						"HUD Wiki"
 			"font"							"ItemFontNameLarge"
 			"textAlignment"					"center"
-			"Command"						"engine customization_reset; hud_crosshair_reset"
+			"Command"						"url https://github.com/RoseyLemonz/center-hud/wiki"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"190 60 60 255"
-			"armedBgColor_override"			"160 30 40 255"
-			"depressedBgColor_override"		"160 30 40 255"
+			"defaultBgColor_override"		"80 90 190 255"
+			"armedBgColor_override"			"60 70 170 255"
+			"depressedBgColor_override"		"60 70 170 255"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-
 		}
 
 		"ReloadGameButton"
@@ -247,7 +259,7 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 
-			"pin_to_sibling"				"ResetAllButton"
+			"pin_to_sibling"				"WikiButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}

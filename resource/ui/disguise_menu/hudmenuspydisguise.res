@@ -54,14 +54,10 @@
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -75,14 +71,10 @@
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"west"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}	
 	
 	"ToggleLabel"
@@ -95,14 +87,10 @@
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -115,14 +103,10 @@
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"class_item_red_1"
@@ -368,14 +352,10 @@
 		"zpos"			"5"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"NumberBg2"
@@ -405,14 +385,10 @@
 		"zpos"			"5"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 	
 	"NumberBg3"
@@ -442,13 +418,9 @@
 		"zpos"			"5"
 		"wide"			"18"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

@@ -1,3 +1,7 @@
+
+#base "musicbutton.res"
+
+
 "GameMenu"
 {
 	"VRModeButton"
@@ -7,80 +11,55 @@
 		"subimage"			"glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"ReloadHUDButton"
-	{
-		"label"			""
-		"command"		"engine fix_all"
-		"tooltip"		"#CHud_Menu_ReloadHUD"
-	}
 	"ShowHUDOptionsButton"
 	{
 		"label"			""
-		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape:"
+		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
-	"QuestLogButton2"
+	"StreamerTooltipPanel"
 	{
 		"label"			""
-		"command"		"questlog"
-		"tooltip"		"#TF_Contract_Progress"
+		"command"		"engine"
+		"tooltip"		"#CHud_Changes_Info"
 	}
-	"MOTD_ShowButtonPanel2"
+	"CustomizationTooltipPanel"
 	{
 		"label"			""
-		"command"		"motd_show"
-		"tooltip"		"#MMenu_News"
-	}
-	"DrawTreeButton"
-	{
-
-        "label"    		"Draw Tree Button"
-		"command"		"engine +vgui_drawtree"
-		"tooltip"		"Draw VGUI Panel Tree"
-	
-	}
-	"ShowConsoleButton"
-	{
-		"label"			"Game Console"
-		"command"		"engine toggleconsole"
-		"tooltip"		"Toggle Game Console"
-	}
-	"ReloadschemeButton"
-	{
-		"label"			"Reloads HUD Scheme"
-		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Reloads HUD scheme"
-	}
-	"FullHUDReloadButton"
-	{
-		"label"			"Full HUD Reload"
-		"command"		"engine toggle mat_aaquality; hud_reloadscheme"
-		"tooltip"		"Full HUD And Material System Reload"
-	}
-	"SV_CheatsButton"
-	{
-		"label"			"Enable Cheats"
-		"command"		"engine sv_cheats 1"
-		"tooltip"		"Enable SV_Cheats (local server only)"
+		"command"		"engine"
+		"tooltip"		"#CHud_Changes_Info"
 	}
 
-	"AddRedPuppetButton"
+	// These buttons are only shown while at the menu
+	// and also are positioned by the .res file
+
+	"MusicChangePrevButton"
 	{
-		"label"			"Red Puppet"
-		"command"		"engine mp_teams_unbalance_limit 0; bot -team red"
-		"tooltip"		"Add a Red Puppet Bot"
+		"label"			""
+		"command"		"engine tfsongprev"
+		"tooltip"		"#TF_Prev"
+		"OnlyAtMenu"	"1"
 	}
-	"AddBluePuppetButton"
+	"MusicStopButton"
 	{
-		"label"			"Blue Puppet"
-		"command"		"engine mp_teams_unbalance_limit 0; bot -team blue"
-		"tooltip"		"Add a Blue Puppet Bot"
+		"label"			""
+		"command"		"engine tfnomusic"
+		"tooltip"		"#CHud_Menu_Pause"
+		"OnlyAtMenu"	"1"
 	}
-	"KickPuppetButton"
+	"MusicPlayButton"
 	{
-		"label"			"Kick Puppets"
-		"command"		"engine mp_teams_unbalance_limit 0; bot_kick all"
-		"tooltip"		"Kick Puppet Bots"
+		"label"			""
+		"command"		"engine tfnomusic; tfsongcurrent"
+		"tooltip"		"#CHud_Menu_UnPause"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicChangeNextButton"
+	{
+		"label"			""
+		"command"		"engine tfsongnext"
+		"tooltip"		"#TF_Next"
+		"OnlyAtMenu"	"1"
 	}
 
 	// These buttons are only shown while in-game

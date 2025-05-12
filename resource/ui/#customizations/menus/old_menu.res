@@ -1,8 +1,27 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
+	"FriendsContainer"
 	{
+		"ToggleFriendsListButton"
+		{
+			"xpos"			"rs1-8"
+			"ypos"			"6"
+			"wide"			"18"
+			"tall"			"18"
 
+			"PaintBackgroundType"   "2"
+			"paintbackground"   "1"
+
+			"defaultFgColor_override" "232 222 202 255"
+			"armedFgColor_override" "232 222 202 255"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
 	}
 
 	"CharacterSetupButton"
@@ -49,7 +68,7 @@
 		}
 	}
 
-	"AReplayButton"
+	"ASettingsButton"
 	{
 		"xpos"			"0"
 		"ypos"			"-29"
@@ -71,7 +90,7 @@
 		}
 	}
 
-	"ASettingsButton"
+	"RefreshButton"
 	{
 		"xpos"			"3"
 		"ypos"			"0"

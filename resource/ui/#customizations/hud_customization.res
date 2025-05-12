@@ -74,6 +74,12 @@
 #base "hud_customization_spy_disguise.res"
 
 //==============================================================
+// FOLDERCHECK
+//==============================================================
+#base "../../../../center-hud/resource/ui/#customizations/foldercheck/hud_customization_checkpass.res"
+#base "foldercheck/hud_customization_checkfail.res"
+    
+//==============================================================
 // FRAME
 //==============================================================
 #base "hud_customization_frame.res"

@@ -10,14 +10,10 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"West"
 	}
 	
 	"ItemBackground"	
@@ -47,8 +43,6 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cant_Afford"
@@ -82,11 +76,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"
+		"textAlignment"	"West"
 	}
 }

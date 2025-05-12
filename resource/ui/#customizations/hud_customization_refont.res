@@ -81,7 +81,7 @@
 					"RefontTFShadow"
 					{
 						"ControlName"				"CExLabel"
-						"fieldName"					"RefontTF"
+						"fieldName"					"RefontTFShadow"
 						"xpos"						"cs-0.5+1"
 						"ypos"						"cs-0.5+1"
 						"zpos"						"6"
@@ -157,7 +157,7 @@
 					"RefontVerdanaShadow"
 					{
 						"ControlName"				"CExLabel"
-						"fieldName"					"RefontVerdana"
+						"fieldName"					"RefontVerdanaShadow"
 						"xpos"						"cs-0.5+1"
 						"ypos"						"cs-0.5+1"
 						"zpos"						"6"

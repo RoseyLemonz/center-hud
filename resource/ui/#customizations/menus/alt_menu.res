@@ -1,27 +1,19 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
-	{
-
-	}
-
 	// command comes from GameMenu.res
-
 	"ReportPlayerButton"
 	{
-		"xpos"			"c-78"
+		"xpos"			"c-88"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
 
 		"SubButton"
 		{
-
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
 			"paintbackground"   "0"
 
-			"image_drawcolor"	"20 20 20 255"
 			"SubImage"
 			{
 				"xpos"			"cs-0.5"
@@ -41,7 +33,6 @@
 
 		"SubButton"
 		{
-
 			"border_default"    "MainMenuButtonDefault"
 			"border_armed"      "MainMenuButtonArmed"
 
@@ -66,7 +57,6 @@
 
 		"SubButton"
 		{
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -88,7 +78,7 @@
 
 	"NewUserForumsButton"
 	{
-		"xpos"			"c-290"
+		"xpos"			"c-297"
 		"ypos"			"435"
 		"wide"			"26"
 		"tall"			"26"
@@ -193,6 +183,27 @@
 		}
 	}			
 
+	"ReplayButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"border_default"    "MainMenuButtonDefault"
+		"border_armed"      "MainMenuButtonArmed"
+		"paintbackground"   "0"
+
+		"image_drawcolor"	"20 20 20 255"
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"14"
+			"tall"			"14"
+		}
+	}		
+
 	"TF2SettingsButton"
 	{
 		"xpos"			"-1"
@@ -245,6 +256,114 @@
 	}
 
 	"ShowHUDOptionsButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangePrevButton"
+	{
+		"xpos"			"c-88"
+		"ypos"			"435"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicStopButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicPlayButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"wide"			"26"
+		"tall"			"26"
+
+		"SubButton"
+		{
+
+			"border_default"    "MainMenuButtonDefault"
+			"border_armed"      "MainMenuButtonArmed"
+			"paintbackground"   "0"
+
+			"defaultFgColor_override" "46 43 42 255"
+
+			"image_drawcolor"	"20 20 20 255"
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"14"
+				"tall"			"14"
+			}
+		}
+	}
+
+	"MusicChangeNextButton"
 	{
 		"xpos"			"-1"
 		"ypos"			"0"

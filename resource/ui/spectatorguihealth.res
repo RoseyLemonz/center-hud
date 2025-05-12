@@ -1,6 +1,6 @@
 // CUSTOMIZATIONS
 
-#base "../../../../cfg/centerhud/hud_specguihealth.txt"
+#base "../../../../cfg/centerhud/hud_tid_specguihealth.txt"
 
 // BASE
 

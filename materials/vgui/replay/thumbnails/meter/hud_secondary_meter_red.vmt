@@ -10,8 +10,8 @@
 	}
 
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_red"
-	"$detail" "vgui\replay\thumbnails\meter\hud_secondary_meter"
+	"$baseTexture" "hud/gradient_red"
+	"$detail" "vgui/replay/thumbnails/meter/hud_secondary_meter"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
@@ -42,8 +42,6 @@
 
 //	"$vertexcolor" 1
 	$distancealpha 1
-	"$no_fullbright" 1
 	"$ignorez" 1
-	"%keywords" "tf"
 }
 
