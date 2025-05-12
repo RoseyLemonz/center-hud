@@ -13,7 +13,8 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "resource/fonts/TF2.ttf"
+		"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
+		"font" "resource/fonts/tf2.ttf"			[$WINDOWS]
 		"name" "TF2"
 		
 			"russian"
@@ -95,7 +96,7 @@ Scheme
 		}
 		"4" 
 		{
-		"font" "resource/fonts/TF2Secondary.ttf"
+		"font" "resource/fonts/tf2secondary.ttf"
 		"name" "TF2 Secondary"
 		
 			"russian"
@@ -177,7 +178,7 @@ Scheme
 		}
 		"5" 
 		{
-		"font" "resource/fonts/TF2Professor.ttf"
+		"font" "resource/fonts/tf2professor.ttf"
 		"name" "TF2 Professor"
 
 			"russian"
@@ -259,7 +260,7 @@ Scheme
 		}
 		"6" 
 		{
-		"font" "resource/fonts/TF2Build.ttf"
+		"font" "resource/fonts/tf2build.ttf"
 		"name" "TF2 Build"
 		
 			"russian"
