@@ -20,6 +20,7 @@
   -- <a href="https://steamcommunity.com/profiles/76561199122950001/">chillyy (French)</a>
   <br>
   <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
+  -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)<a/>
   
   <h2>Credits / Special Thanks</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
