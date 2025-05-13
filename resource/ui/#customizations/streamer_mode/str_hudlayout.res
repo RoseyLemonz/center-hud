@@ -2,7 +2,7 @@
 {
 	"HudDeathNotice"
 	{
-		"TextFont"				"HudFontSmallestStreamer"
+		"TextFont"				"HudFontTinyStreamer"
 	}
 	"HudVoiceStatus"
 	{

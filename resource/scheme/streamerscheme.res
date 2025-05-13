@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"38"
 				"weight"	"500"
 				"additive"	"0"
@@ -28,7 +28,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"34"
 				"weight"	"500"
 				"additive"	"0"
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -48,7 +48,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -58,7 +58,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -68,7 +68,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -78,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -88,7 +88,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -98,7 +98,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -108,7 +108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Streamer"
+				"name"		"Streamer Mode"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"

@@ -2,7 +2,7 @@
 {
 	"DisguiseNameLabel"
 	{
-		"font"	"HudFontTinyStreamer"
+		"font"	"HudFontSmallestStreamer"
 		"font_minmode"	"HudFontTinyestStreamer"
 	}
 }

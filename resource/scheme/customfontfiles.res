@@ -422,15 +422,9 @@ Scheme
 				"range" "0x0020 0x2116"
 			}
 		}
-		"8"
-		{
-		"font"	"resource/fonts/streamermode.ttf"
-		"name"	"Streamer"	
-		"range" "0x0000 0xFFFF"
-		}	
 
-		"10"		"resource/HALFLIFE2.ttf"
-		"11"		"resource/HL2EP2.ttf"
+		"10"	"resource/HALFLIFE2.ttf"
+		"11"	"resource/HL2EP2.ttf"
 		"12"	"resource/marlett.ttf"
 
 		"13"	"resource/linux_fonts/DejaVuSans.ttf"
@@ -442,5 +436,10 @@ Scheme
 		"19"	"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"20"	"resource/linux_fonts/FiraSans-Regular.ttf"
 
+		"21"
+		{
+		"font"	"resource/fonts/streamermode.ttf"
+		"name"	"Streamer Mode"	
+		}	
 	}
 }
