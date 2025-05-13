@@ -11,7 +11,7 @@
 		"tall"			"f2"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"scaleImage"	"1"
+		"scaleImage"	"1" 
 	}
 
 	"EmptyImage"

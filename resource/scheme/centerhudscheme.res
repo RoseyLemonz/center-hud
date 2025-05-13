@@ -134,10 +134,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
-
-	Borders
-	{
-
+		"HudFontStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
 	}
 }

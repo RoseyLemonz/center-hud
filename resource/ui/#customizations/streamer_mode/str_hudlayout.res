@@ -2,7 +2,7 @@
 {
 	"HudDeathNotice"
 	{
-		"TextFont"				""
+		"TextFont"				"HudFontSmallestStreamer"
 	}
 	"HudVoiceStatus"
 	{
@@ -12,6 +12,6 @@
 	}
 	"HudSpectatorExtras"
 	{
-		"player_name_font"		""
+		"player_name_font"		"HudFontTinyStreamer"
 	}
 }

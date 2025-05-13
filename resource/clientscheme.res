@@ -1,6 +1,7 @@
 // CUSTOM THINGS
 
 #base "scheme/centerhudscheme.res"
+#base "scheme/streamerscheme.res"
 
 // CROSSHAIR CUSTOMIZATIONS
 

@@ -422,19 +422,25 @@ Scheme
 				"range" "0x0020 0x2116"
 			}
 		}
+		"8"
+		{
+		"font"	"resource/fonts/streamermode.ttf"
+		"name"	"Streamer"	
+		"range" "0x0000 0xFFFF"
+		}	
 
-		"8"		"resource/HALFLIFE2.ttf"
-		"9"		"resource/HL2EP2.ttf"
-		"10"	"resource/marlett.ttf"
+		"10"		"resource/HALFLIFE2.ttf"
+		"11"		"resource/HL2EP2.ttf"
+		"12"	"resource/marlett.ttf"
 
-		"11"	"resource/linux_fonts/DejaVuSans.ttf"
-		"12"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"13"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"14"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"15"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"16"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"17"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"18"	"resource/linux_fonts/FiraSans-Regular.ttf"
+		"13"	"resource/linux_fonts/DejaVuSans.ttf"
+		"14"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"15"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"16"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"17"	"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"18"	"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"19"	"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"20"	"resource/linux_fonts/FiraSans-Regular.ttf"
 
 	}
 }
