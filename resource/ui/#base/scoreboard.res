@@ -604,33 +604,131 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"18"
+		"fov"			"26"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
 
 		if_mvm
 		{
-		    "ypos"			"rs1.140"
 			"visible"		"0"
 		}
 				
 		"model"
 		{
-			"force_pos"			"1"
+			"force_pos"	"1"
 
-			"angles_x"			"-10"
-			"angles_y"			"202"
-			"angles_z"			"0"
-			"origin_x"			"200"
-			"origin_y"			"0"
-			"origin_z"			"-105"
+
+			"angles_x"		"-14"
+			"angles_y"		"175"
+			"angles_z"		"0"
+			"origin_x"		"145"
+			"origin_y"		"-2"
+			"origin_z"		"-102"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-
+		
 			"modelname"		""
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"27"
+				"angles_x"		"-20"
+				"angles_y"		"174"
+				"angles_z"		"0"
+				"origin_x"		"105"
+				"origin_y"		"3"
+				"origin_z"		"-92"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-14"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"0"
+				"origin_z"		"-104"
+			}
+			"Soldier"
+			{
+				"fov"			"26"
+				"angles_x"		"-14"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-2"
+				"origin_z"		"-102"
+			}
+			"Demoman"
+			{
+				"fov"			"23"
+				"angles_x"		"-18"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"-2"
+				"origin_z"		"-100"
+			}
+			"Medic"
+			{
+				"fov"			"19"
+				"angles_x"		"-5"
+				"angles_y"		"178"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"0"
+				"origin_z"		"-98"
+			}
+			"Heavy"
+			{
+				"fov"			"18"
+				"angles_x"		"-5"
+				"angles_x_minmode"	"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"4"
+				"origin_z"		"-104"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-2"
+				"origin_z"		"-98"
+			}
+			"Spy"
+			{
+				"fov"			"21"
+				"angles_x"		"-5"
+				"angles_y"		"165"
+				"angles_z"		"0"
+				"origin_x"		"170"
+				"origin_y"		"0"
+				"origin_z"		"-106"
+			}
+			"Engineer"
+			{
+				"fov"			"24"
+				"angles_x"		"-15"
+				"angles_y"		"174"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-96"
+			}
 		}
 	}
 	"PlayerNameBG"

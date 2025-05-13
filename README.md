@@ -25,6 +25,7 @@
   <h2>Credits / Special Thanks</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
   -- <a href="https://gamebanana.com/mods/385807">(Deleted) Enhanced Default HUD</a>
+  -- <a href="https://gamebanana.com/mods/584943">Repositioned HUD Playermodel</a>
   -- <a href="https://gamebanana.com/mods/314848">Source Text Refont</a>
   -- <a href="https://github.com/Hypnootize/TF2-HUD-Icons">Hypnotize's icon font</a>
   <br>
