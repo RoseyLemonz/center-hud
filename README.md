@@ -1,7 +1,10 @@
   <h1>Center HUD</h1>
-  Changes that not ready for the main branch.
+  A TF2 HUD focused on putting critical HUD info in the center, while sticking to the style of the default HUD, adding customization and fixing things.
   <br><br>
-  <a href="https://discord.gg/p5JV3k5CfE">Discord</a>
+  <a href="https://github.com/RoseyLemonz/center-hud/releases">Downloads</a>
+  -- <a href="https://discord.gg/p5JV3k5CfE">Discord</a>
+  -- <a href="https://github.com/RoseyLemonz/center-hud/tree/lite">Lite Version</a>
+  -- <a href="https://github.com/RoseyLemonz/center-hud/tree/tf2c">TF2C Version</a>
   -- <a href="https://github.com/RoseyLemonz/center-hud/wiki">Wiki</a>
   
   <h2>Translators</h2>
@@ -17,7 +20,7 @@
   -- <a href="https://steamcommunity.com/profiles/76561199122950001/">chillyy (French)</a>
   <br>
   <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
-  -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)<a/>
+  -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)</a>
   
   <h2>Credits</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
