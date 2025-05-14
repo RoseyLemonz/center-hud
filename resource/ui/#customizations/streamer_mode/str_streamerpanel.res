@@ -496,7 +496,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_str_hidedecals_on; wait 20; hud_reloadscheme"
+						"command"							"engine hud_str_hidedecals_on; wait 20; exec centerhud/hud_str_hidedecals.txt"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -524,7 +524,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_str_hidedecals_off; wait 20; hud_reloadscheme"
+						"command"							"engine hud_str_hidedecals_off"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
