@@ -262,7 +262,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_str_chat_vis_on; wait 60; hud_reloadscheme"
+						"command"							"engine hud_str_chat_vis_on; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -290,7 +290,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_str_chat_vis_off; wait 60; hud_reloadscheme"
+						"command"							"engine hud_str_chat_vis_off; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -379,7 +379,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_userinfo_on; wait 60; hud_reloadscheme"
+						"command"							"engine hud_userinfo_on; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -407,7 +407,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_userinfo_off; wait 60; hud_reloadscheme"
+						"command"							"engine hud_userinfo_off; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -496,7 +496,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine tf_hide_custom_decals 1"
+						"command"							"engine hud_str_hidedecals_on; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -524,7 +524,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine tf_hide_custom_decals 0"
+						"command"							"engine hud_str_hidedecals_off; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -613,7 +613,7 @@
 						"labelText"							"#TF_On"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_streamer_mode_on; hud_reloadscheme"
+						"command"							"engine hud_streamer_mode_on; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
@@ -641,7 +641,7 @@
 						"labelText"							"#TF_Off"
 						"font"								"ItemFontNameSmall"
 						"textAlignment"						"center"
-						"command"							"engine hud_streamer_mode_off; hud_reloadscheme"
+						"command"							"engine hud_streamer_mode_off; wait 20; hud_reloadscheme"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 
