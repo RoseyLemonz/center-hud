@@ -134,15 +134,5 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontStreamer"
-		{
-			"1"
-			{
-				"name"		"Streamer"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-			}
-		}
 	}
 }
