@@ -2,25 +2,13 @@
 {
 	"FreezePanelBase"
 	{
-		"FreezeLabel"
-		{
-			"xpos"			"9999"
-			"wide"			"0"
-			"enabled"		"0"
-			"alpha"			"0"
-		}
 		"FreezeLabelKiller"
 		{
-			"xpos"			"9999"
-			"wide"			"0"
-			"enabled"		"0"
-			"alpha"			"0"
+			"font"	"HudFontSmallStreamer"
 		}
 		"AvatarImage"
 		{
-			"xpos"			"9999"
 			"wide"			"0"
-			"enabled"		"0"
 			"alpha"			"0"
 		}	
 	}

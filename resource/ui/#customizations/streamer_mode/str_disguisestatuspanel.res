@@ -2,9 +2,7 @@
 {
 	"DisguiseNameLabel"
 	{
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-		"alpha"			"0"
+		"font"	"HudFontSmallestStreamer"
+		"font_minmode"	"HudFontTinyestStreamer"
 	}
 }

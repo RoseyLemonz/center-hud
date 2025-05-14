@@ -135,9 +135,4 @@ Scheme
 			}
 		}
 	}
-
-	Borders
-	{
-
-	}
 }
