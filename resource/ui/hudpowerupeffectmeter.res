@@ -6,8 +6,8 @@
 	{
 		"xpos"			"c-324"
 		"ypos"			"r90"
-		"xpos_minmode"	"c-295"
-		"ypos_minmode"	"r42"
+		"xpos_minmode"	"c-310"
+		"ypos_minmode"	"r40"
 	}
 
 	"ItemEffectMeterBG"
@@ -20,7 +20,6 @@
 		"image"			"replay/thumbnails/meter/hud_left_meter"
 		"teambg_2"		"replay/thumbnails/meter/hud_left_meter_red"
 		"teambg_3"		"replay/thumbnails/meter/hud_left_meter_blue"
-	}
 	}
 
 	"MinmodeMeterBG"
