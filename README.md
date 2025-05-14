@@ -19,13 +19,16 @@
   <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
   -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)<a/>
   
-  <h2>Credits / Special Thanks</h2>
+  <h2>Credits</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
   -- <a href="https://gamebanana.com/mods/385807">(Deleted) Enhanced Default HUD</a>
-  -- <a href="https://github.com/jakadak/TF2-extended-fonts">TF2 Extended Fonts</a>
   -- <a href="https://gamebanana.com/mods/314848">Source Text Refont</a>
-  -- <a href="https://github.com/Hypnootize/TF2-HUD-Icons">Hypnotize's icon font</a>
-  <br>
+  </br>
+  <a href="https://github.com/Hypnootize/TF2-HUD-Icons">Hypnotize's icon font</a>
+  -- <a href="https://github.com/jakadak/TF2-extended-fonts">TF2 Extended Fonts</a>
+  -- <a href="https://gamebanana.com/mods/584943">Repositioned HUD Playermodel</a>
+
+  <h2>Special Thanks</h2>
   <a href="https://gamebanana.com/members/1672887">GoopSwagger (Helped with the meter BGs)</a>
   -- <a href="https://gamebanana.com/members/1767717">Firebert_ (Made the original Centered Vanilla HUD)</a>
   
