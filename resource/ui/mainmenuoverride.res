@@ -2,6 +2,7 @@
 
 // CUSTOMIZATIONS
 
+#base "../../../../cfg/centerhud/hud_menutopbarpins.txt"
 #base "../../../../cfg/centerhud/hud_menuicons.txt"
 #base "../../../../cfg/centerhud/hud_menu.txt"
 #base "../../../../cfg/centerhud/hud_friendslist.txt"

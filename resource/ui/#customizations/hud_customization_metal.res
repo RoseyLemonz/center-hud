@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"CenteredMetal"
 				"xpos"								"5"
-				"ypos"								"408"
+				"ypos"								"428"
 				"zpos"								"0"
 				"wide"								"147"
 				"tall"								"80"

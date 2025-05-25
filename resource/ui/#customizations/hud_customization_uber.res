@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Uber"
 				"xpos"								"155"
-				"ypos"								"408"
+				"ypos"								"428"
 				"zpos"								"0"
 				"wide"								"147"
 				"tall"								"80"
