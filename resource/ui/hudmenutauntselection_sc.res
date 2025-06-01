@@ -483,7 +483,7 @@
 
 	"ButtonLegendBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"15"
 		"ypos"			"144"
@@ -492,7 +492,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

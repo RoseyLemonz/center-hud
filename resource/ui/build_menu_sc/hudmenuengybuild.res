@@ -312,7 +312,7 @@
 		"fieldName"		"DestroyHintLabel_Bright"
 		"font"			"ControllerHintText"
 		"xpos"			"212"			// align me to the left edge of the first selection
-		"ypos"			"151"
+		"ypos"			"150"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -372,7 +372,7 @@
 	}
 	"ButtonLegendBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"15"
 		"ypos"			"154"
@@ -381,8 +381,8 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 
 	"PrevHintIcon"

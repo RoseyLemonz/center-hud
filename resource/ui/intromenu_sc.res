@@ -2,6 +2,11 @@
 
 "Resource/UI/IntroMenu.res"
 {
+	"Skip"
+	{
+		"labelText"		"#Button_SkipIntro"
+	}
+
 	"ContinueHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -18,6 +23,11 @@
 		"actionName"	"menu_select"
 	}
 	
+	"Back"
+	{
+		"labelText"		"#TF_Back"
+	}
+
 	"BackHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"

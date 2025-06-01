@@ -66,7 +66,7 @@
 		
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"15"
 		"ypos"			"45"
@@ -75,8 +75,8 @@
 		"tall"			"87"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"active_selection_bg"
@@ -417,7 +417,7 @@
 	}
 	"ButtonLegendBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"15"
 		"ypos"			"134"
@@ -426,8 +426,8 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 
 	"PrevHintIcon"

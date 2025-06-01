@@ -9,7 +9,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"450"
+		"wide"			"165"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevOptionHintIcon"
-		"xpos"			"c-145"
+		"xpos"			"c-110"
 		"ypos"			"r38"
 		"wide"			"25"
 		"tall"			"25"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextOptionHintIcon"
-		"xpos"			"c120"
+		"xpos"			"c85"
 		"ypos"			"r38"
 		"wide"			"25"
 		"tall"			"25"
@@ -109,11 +109,18 @@
 		"actionName"	"menu_select"
 	}
 	
+	"CancelButton"
+	{
+		"xpos"			"cs1"
+		"wide"			"120"
+		"labelText"		"#TF_Cancel_NoKey"
+	}
+
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"r185"
+		"xpos"			"c245"
 		"ypos"			"r38"
 		"zpos"			"7"
 		"wide"			"25"
@@ -123,5 +130,29 @@
 		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
+	}
+
+	"teambutton0"
+	{
+		"tabposition"	"3"
+		"labelText"		""
+	}
+
+	"teambutton1"
+	{
+		"tabposition"	"4"
+		"labelText"		""
+	}
+
+	"teambutton2"
+	{
+		"tabposition"	"1"
+		"labelText"		""
+	}
+	
+	"teambutton3"
+	{
+		"tabposition"	"2"
+		"labelText"		""
 	}
 }

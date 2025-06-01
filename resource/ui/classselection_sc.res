@@ -194,6 +194,11 @@
 		"actionName"	"menu_select"
 	}
 
+	"CancelButton"
+	{
+		"labelText"		"#TF_Cancel_NoKey"
+	}
+
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -210,6 +215,13 @@
 		"actionName"	"menu_cancel"
 	}
 	
+
+	"EditLoadoutButton"
+	{
+		"labelText"		"#EditLoadout"
+	}
+
+
 	"EditLoadoutHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"

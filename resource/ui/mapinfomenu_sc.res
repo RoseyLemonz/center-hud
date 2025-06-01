@@ -2,6 +2,11 @@
 
 "Resource/UI/MapInfoMenu.res"
 {
+	"AltMapInfoContinue"
+	{
+		"labelText"		"#TF_Continue"
+	}
+
 	"MapInfoContinueHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -16,6 +21,11 @@
 		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
+	}
+
+	"MapInfoWatchIntro"
+	{
+		"labelText"		"#TF_WatchIntro"
 	}
 
 	"MapInfoIntroHintIcon"
@@ -33,6 +43,11 @@
 		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_toggle_function"
+	}
+
+	"MapInfoBack"
+	{
+		"labelText"		"#TF_Back"
 	}
 
 	"MapInfoBackHintIcon"

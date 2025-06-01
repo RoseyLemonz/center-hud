@@ -2,6 +2,11 @@
 
 "Resource/UI/TextWindow.res"
 {
+	"ok"
+	{
+		"labelText"		"#TF_Continue"
+	}
+
 	"OkIntroHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
