@@ -214,12 +214,17 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
+		"wide"				"480"
 		"tall"				"28"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RankUpLabel"
@@ -347,7 +352,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-
 		"max_size"	"19"
 
 		"6v6_gap"	"4"
@@ -355,11 +359,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-50"
-		"team1_max_expand"	"200"
+		"team1_max_expand"	"185"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c50"
-		"team2_max_expand"	"200"
+		"team2_max_expand"	"185"
 
 		"playerpanels_kv"
 		{
