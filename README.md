@@ -21,6 +21,7 @@
   <br>
   <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
   -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)</a>
+  -- <a href="https://github.com/Pyromaniax">Pyromaniax (Portugues [Brazillian])</a>
   
   <h2>Credits</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
