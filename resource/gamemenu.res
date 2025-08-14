@@ -14,7 +14,7 @@
 	"ShowHUDOptionsButton"
 	{
 		"label"			""
-		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape"
+		"command"		"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"StreamerTooltipPanel"
