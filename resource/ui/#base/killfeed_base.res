@@ -1,4 +1,0 @@
-"Resource/HudLayout.res"
-{
-
-}
