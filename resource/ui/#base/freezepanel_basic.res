@@ -147,7 +147,7 @@
 			"fieldName"		"AvatarImage"
 			"xpos"			"49"
 			"ypos"			"174"
-			"zpos"			"0"
+			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
 			"visible"		"1"
