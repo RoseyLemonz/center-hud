@@ -2,7 +2,6 @@
 {	
 	"ChargeMeter"
 	{
-		"enabled"		"0"
-    	"disabledBgColor2_override" "White"
+		"fgcolor_override"		"White"
 	}					
 }
