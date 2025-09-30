@@ -1,0 +1,1 @@
+#base "../../_centerhud/resource/ui/hudbowcharge.res"
