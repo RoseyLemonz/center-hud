@@ -9,7 +9,7 @@
 	{
         "xpos"			"cs-0.5+207"
         "ypos"			"rs1-11"
-		"image"			"../console/hud/ingame/ammo_over"
+		"image"			"replay/thumbnails/ingame/ammo_over"
 	}
 	"AmmoInClip"
 	{

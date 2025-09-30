@@ -11,7 +11,7 @@
 
 	"$translucent" 1
 	"$baseTexture" "hud/gradient_red"
-	"$detail" "console/hud/meter/hud_left_meter"
+	"$detail" "vgui/replay/thumbnails/meter/hud_secondary_meter"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1
