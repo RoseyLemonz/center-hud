@@ -28,12 +28,19 @@
 		"ypos"			"r85"
 	}
 
-
     HudMedicCharge
 	{
 		"xpos"	"0"
 		"ypos"	"0"	
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"xpos"				"cs-0.5-215"
+		"ypos"				"rs1-11"
+		"wide"				"60"
+		"tall"				"18"
 	}
 }

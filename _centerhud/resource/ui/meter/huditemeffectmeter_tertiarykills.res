@@ -1,15 +1,10 @@
-#base "meter/huditemeffectmeter_secondary.res"
+#base "huditemeffectmeter_tertiary.res"
 
 "HudItemEffectMeter.res"
-{		
-	"HudItemEffectMeter"
-	{
-		"x_offset"		"0"
-	}
-
+{
 	"ItemEffectMeterLabel"
 	{
-		"xpos"					"25"
+		"xpos"					"24"
 		"ypos"					"27"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -17,7 +12,7 @@
 
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"25"
+		"xpos"					"26"
 		"ypos"					"8"
 	}
 }
