@@ -18,8 +18,8 @@
 		"ypos"			"r160"
 		"wide"			"285"
 		"tall"			"5"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillColor"		"255 255 255 255"
 	}	
 
