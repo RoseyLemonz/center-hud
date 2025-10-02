@@ -9,4 +9,10 @@
 		"autoResize"			"0"
 		"pinCorner"				"0"
 	}
+	
+	"ItemEffectMeterCount"
+	{
+		"autoResize"			"0"
+		"pinCorner"				"0"
+	}
 }

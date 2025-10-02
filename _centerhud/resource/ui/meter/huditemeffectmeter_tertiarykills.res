@@ -14,5 +14,7 @@
 	{
 		"xpos"					"26"
 		"ypos"					"8"
+		"autoResize"			"0"
+		"pinCorner"				"0"
 	}
 }
