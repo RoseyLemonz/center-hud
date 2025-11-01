@@ -1,28 +1,28 @@
 
 // MEDIC CHARGE POS
 
-#base "../cfg/centerhud/hud_uber_pos.txt"
+#base "../../../cfg/centerhud/hud_uber_pos.txt"
 
 // METAL POS
 
-#base "../cfg/centerhud/hud_metal_pos.txt"
+#base "../../../cfg/centerhud/hud_metal_pos.txt"
 
 // TRANSPARENT VIEWMODELS
 
-#base "../cfg/centerhud/hud_transparent_viewmodels.txt"
+#base "../../../cfg/centerhud/hud_transparent_viewmodels.txt"
 
 
 // KILLFEED ROWS
 
-#base "../cfg/centerhud/hud_killfeed.txt"
+#base "../../../cfg/centerhud/hud_killfeed.txt"
 
 // FRIENDS LIST
 
-#base "../cfg/centerhud/hud_friendslist.txt"
+#base "../../../cfg/centerhud/hud_friendslist.txt"
 
 // STREAMER MODE
 
-#base "../cfg/centerhud/hud_str_killandvoice.txt"
+#base "../../../cfg/centerhud/hud_str_killandvoice.txt"
 
 // BASE
 

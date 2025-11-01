@@ -1,6 +1,6 @@
 #base "tid_spectatorguihealth.res"
 
-"Resource/UI/SpectatorTournamentGUIHealth.res"
+"resource/ui/spectatortournamentguihealth.res"
 {
 	"PlayerStatusHealthBonusImage"
 	{

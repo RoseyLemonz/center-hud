@@ -1,7 +1,7 @@
 #base "alt_menu.res"
 #base "default_center_menu.res"
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	// command comes from GameMenu.res
 	"ReportPlayerButton"

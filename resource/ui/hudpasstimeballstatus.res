@@ -11,7 +11,7 @@
 // 	PIN_CENTER_LEFT,
 // };
 
-"Resource/UI/HudPasstimeBallStatus.res"
+"resource/ui/hudpasstimeballstatus.res"
 {	
 	"HudPasstimeBallStatus"
 	{

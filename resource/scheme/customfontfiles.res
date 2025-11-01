@@ -449,18 +449,18 @@ Scheme
 			}
 		}
 
-		"10" "resource/HALFLIFE2.ttf"
-		"11" "resource/HL2EP2.ttf"
+		"10" "resource/halflife2.ttf"
+		"11" "resource/hl2ep2.ttf"
 		"12" "resource/marlett.ttf"
 
-		"13" "resource/linux_fonts/DejaVuSans.ttf"
-		"14" "resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"15" "resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"16" "resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"17" "resource/linux_fonts/LiberationSans-Regular.ttf"
-		"18" "resource/linux_fonts/LiberationSans-Bold.ttf"
-		"19" "resource/linux_fonts/LiberationMono-Regular.ttf"
-		"20" "resource/linux_fonts/FiraSans-Regular.ttf"
+		"13" "resource/linux_fonts/dejavusans.ttf"
+		"14" "resource/linux_fonts/dejavusans-bold.ttf"
+		"15" "resource/linux_fonts/dejavusans-boldoblique.ttf"
+		"16" "resource/linux_fonts/dejavusans-oblique.ttf"
+		"17" "resource/linux_fonts/liberationsans-regular.ttf"
+		"18" "resource/linux_fonts/liberationsans-bold.ttf"
+		"19" "resource/linux_fonts/liberationmono-regular.ttf"
+		"20" "resource/linux_fonts/firasans-regular.ttf"
 
 		"21"
 		{

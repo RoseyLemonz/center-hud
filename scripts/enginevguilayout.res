@@ -1,4 +1,4 @@
-"Resource/EngineVGuiLayout.res"
+"resource/enginevguilayout.res"
 {
 	BudgetPanel
 	{

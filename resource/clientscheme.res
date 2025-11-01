@@ -5,12 +5,12 @@
 
 // CROSSHAIR CUSTOMIZATIONS
 
-#base "../cfg/centerhud/hud_crosshair_color.txt"
+#base "../../../cfg/centerhud/hud_crosshair_color.txt"
 #base "ui/#customizations/crosshair/crosshair_scheme.res"
 
 // REFONT
 
-#base "../cfg/centerhud/hud_clientscheme.txt"
+#base "../../../cfg/centerhud/hud_clientscheme.txt"
 
 // BASE
 

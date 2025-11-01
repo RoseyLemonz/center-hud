@@ -1,4 +1,4 @@
-"Resource/UI/HudRocketPack.res"
+"resource/ui/hudrocketpack.res"
 {
 	HudItemEffectMeter
 	{

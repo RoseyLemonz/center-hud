@@ -1,4 +1,4 @@
-"Resource/UI/Meter/HudItemEffectMeter_PrimaryKill.res"
+"resource/ui/meter/huditemeffectmeter_primarykill.res"
 {
 	HudItemEffectMeter
 	{

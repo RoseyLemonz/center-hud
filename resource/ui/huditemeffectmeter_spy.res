@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_primarykill.res"
 
-"Resource/UI/HudItemEffectMeter_Spy.res"
+"resource/ui/huditemeffectmeter_spy.res"
 {
 	"SkullIcon"
 	{

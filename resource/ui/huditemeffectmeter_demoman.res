@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_secondarykill.res"
 
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"resource/ui/huditemeffectmeter_demoman.res"
 {
 
 }

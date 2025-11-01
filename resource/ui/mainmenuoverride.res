@@ -24,7 +24,7 @@
 #base "../preload.res" 
 #base "#customizations/hud_customization.res"
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride"
 	{

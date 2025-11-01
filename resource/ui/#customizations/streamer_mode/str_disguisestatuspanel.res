@@ -1,4 +1,4 @@
-"Resource/UI/DiguiseStatusPanel.res"
+"resource/ui/diguisestatuspanel.res"
 {
 	"DisguiseNameLabel"
 	{
