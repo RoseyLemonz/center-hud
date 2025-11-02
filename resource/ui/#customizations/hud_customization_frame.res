@@ -214,7 +214,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"labelText"						"HUD Wiki"
+			"labelText"						"#CHud_Customizations_HUDWiki"
 			"font"							"ItemFontNameLarge"
 			"textAlignment"					"center"
 			"Command"						"url https://github.com/RoseyLemonz/center-hud/wiki"
