@@ -283,12 +283,12 @@
 		"ControlName"	"CExLabel"
 		"FieldName"		"SpotRotateLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"Rotate"
+		"labelText"		"#CHud_Loadout_Class_Part1"
 		"textAlignment"	"west"
 		"xpos"			"c-144"
 		"ypos"			"90"
 		"zpos"			"15"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"10"
 		"fgcolor_override"	"TanDark"
 	}
@@ -312,12 +312,12 @@
 		"ControlName"	"CExLabel"
 		"FieldName"		"ZoomLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"Zoom"
+		"labelText"		"#Store_Zoom"
 		"textAlignment"	"west"
 		"xpos"			"c-144"
 		"ypos"			"100"
 		"zpos"			"15"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"10"
 		"fgcolor_override"	"TanDark"
 	}
@@ -341,12 +341,12 @@
 		"ControlName"	"CExLabel"
 		"FieldName"		"MoveLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"Move"
+		"labelText"		"#CHud_Loadout_Class_Part3"
 		"textAlignment"	"west"
 		"xpos"			"c-144"
 		"ypos"			"110"
 		"zpos"			"15"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"10"
 		"fgcolor_override"	"TanDark"
 	}
@@ -370,12 +370,12 @@
 		"ControlName"	"CExLabel"
 		"FieldName"		"SpotlightLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"Spotlight"
+		"labelText"		"#CHud_Loadout_Class_Part4"
 		"textAlignment"	"west"
 		"xpos"			"c-144"
 		"ypos"			"120"
 		"zpos"			"15"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"10"
 		"fgcolor_override"	"TanDark"
 	}
@@ -399,12 +399,12 @@
 		"ControlName"	"CExLabel"
 		"FieldName"		"RotateLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"Roll"
+		"labelText"		"#CHud_Loadout_Class_Part5"
 		"textAlignment"	"west"
 		"xpos"			"c-144"
 		"ypos"			"130"
 		"zpos"			"15"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"10"
 		"fgcolor_override"	"TanDark"
 	}
@@ -642,7 +642,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
 	"BlueButton"
@@ -668,7 +667,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
 	"TauntsExplanation"

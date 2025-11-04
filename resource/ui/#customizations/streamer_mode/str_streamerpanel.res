@@ -726,7 +726,7 @@
 				"visible"								"1"
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
-				"labelText"								"#CHud_Foldercheck_HudName"
+				"labelText"								"center-hud"
 				"font"									"HudfontSmall"
 				"textAlignment"							"center"
 				"fgcolor"								"White"
