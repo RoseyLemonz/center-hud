@@ -3,7 +3,7 @@
 #base "#customizations/spy_disguise/spy_disguise.res"
 #base "#customizations/player_model/player_model.res"
 
-"Resource/UI/HudPlayerClass.res"
+"resource/ui/hudplayerclass.res"
 {
 	// player class data
 	"HudPlayerClass"

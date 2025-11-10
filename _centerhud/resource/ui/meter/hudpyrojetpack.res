@@ -1,6 +1,6 @@
 #base "huditemeffectmeter_main.res"
 
-"Resource/UI/HudRocketPack.res"
+"resource/ui/hudrocketpack.res"
 {
 	"ItemEffectIcon"
 	{

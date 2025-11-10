@@ -1,6 +1,6 @@
 #base "statsummary_embedded.res"
 
-"Resource/UI/winpanel.res"
+"resource/ui/winpanel.res"
 {
 	"TFStatsSummary"
 	{
