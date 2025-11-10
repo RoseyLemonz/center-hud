@@ -1,0 +1,1 @@
+#base "../../_hudfixes/resource/ui/mvmvictorymannuppanel.res"

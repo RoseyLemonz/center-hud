@@ -1,0 +1,1 @@
+#base "../../_hudfixes/resource/ui/classloadoutpanel.res"

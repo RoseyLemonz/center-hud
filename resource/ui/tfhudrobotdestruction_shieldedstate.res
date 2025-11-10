@@ -1,0 +1,1 @@
+#base "../../_hudfixes/resource/ui/tfhudrobotdestruction_shieldedstate.res"
