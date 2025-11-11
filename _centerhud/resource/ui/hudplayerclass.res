@@ -11,6 +11,17 @@
 		"wide_minmode"	"0"
 		"tall_minmode"	"0"
 	}
+
+	"classmodelpanel"
+	{
+		"xpos"			"cs-0.5-217"
+		"ypos"			"rs1.076"
+		"xpos_minmode"	"0"	
+		"ypos_minmode"	"0"
+		"wide_minmode"	"0"
+		"tall_minmode"	"0"
+	}
+
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
