@@ -25,8 +25,9 @@
 
 	"PlayerStatusHealthImage"
 	{
-		"xpos"			"cs-0.5-175"
-		"ypos"			"rs1-36"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"
 	}	
 
 	"PlayerStatusHealthImageBG"
@@ -56,9 +57,11 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"PlayerStatusPin"
-		"xpos"			"cs-0.5+93"
-		"ypos"			"c128"
-		"visible"		"0"
+		"xpos"			"cs-0.5-150"
+		"ypos"			"rs1-102"
+		"wide"			"0"
+		"enabled"		"1"
+		"visible"		"1"
 		"xpos_minmode"	"0"
 	}
 	"PlayerStatusBleedImage"

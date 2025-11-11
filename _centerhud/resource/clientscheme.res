@@ -1,0 +1,849 @@
+Scheme
+{
+	"Colors"
+	{
+		"CenterBG"				"50 50 50 120"
+		"CenterWhite"				"255 255 255 255"
+		"CenterShadow"						"0 0 0 220"
+		"CenterLightShadow"					"0 0 0 110"
+		"TrueBlack"			"0 0 0 255"
+	}
+
+	"Fonts"
+	{
+
+		"RefontTF"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"RefontVerdana"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"CenterFont"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"EngieBuilding"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"8"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumOutline"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontMediumBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontMediumSmallOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontSmallOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"HudFontSmallBoldBlur"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"2"
+			}
+		}
+		"ScoreboardMediumSmallBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"HudMenuNumberFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"weight"	"500"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+        // STREAMER FONTS
+
+		"HudFontGiantStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+
+		"HudFontBiggerStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+
+		"HudFontBigStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontMediumBigStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontMediumStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontMediumSmallStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontSmallishStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontSmallStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontSmallestStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontTinyStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+		"HudFontTinyestStreamer"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+			}
+		}
+	}
+	CustomFontFiles
+	{
+
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
+			"font" "resource/fonts/tf2.ttf" 		[!$LINUX]
+			"name" "TF2"	
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
+		}
+		"4" 
+		{
+			"font" "resource/fonts/tf2secondary.ttf"
+			"name" "TF2 Secondary"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
+		}
+		"5" 
+		{
+			"font" "resource/fonts/tf2professor.ttf"
+			"name" "TF2 Professor"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
+		}
+		"6" 
+		{
+			"font" "resource/fonts/tf2build.ttf"
+			"name" "TF2 Build"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
+		}
+		"7" 
+		{
+			"font" "resource/fonts/ocra.ttf"
+			"name" "ocra"	
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
+		}
+
+		"10" "resource/halflife2.ttf"
+		"11" "resource/hl2ep2.ttf"
+		"12" "resource/marlett.ttf"
+
+		"13" "resource/linux_fonts/dejavusans.ttf"
+		"14" "resource/linux_fonts/dejavusans-bold.ttf"
+		"15" "resource/linux_fonts/dejavusans-boldoblique.ttf"
+		"16" "resource/linux_fonts/dejavusans-oblique.ttf"
+		"17" "resource/linux_fonts/liberationsans-regular.ttf"
+		"18" "resource/linux_fonts/liberationsans-bold.ttf"
+		"19" "resource/linux_fonts/liberationmono-regular.ttf"
+		"20" "resource/linux_fonts/firasans-regular.ttf"
+
+		"21"
+		{
+		"font"	"resource/fonts/streamermode.ttf"
+		"name"	"Streamer Mode"				
+		
+		"arabic"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}	
+	}
+}

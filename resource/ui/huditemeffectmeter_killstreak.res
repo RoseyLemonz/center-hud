@@ -1,1 +1,3 @@
-#base "../../_hudfixes/resource/ui/huditemeffectmeter_demoman.res"
+#base "../../_centerhud/resource/ui/huditemeffectmeter_killstreak.res"
+
+#base "../../_hudfixes/resource/ui/huditemeffectmeter_killstreak.res"

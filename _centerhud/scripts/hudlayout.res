@@ -35,6 +35,14 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
+
+	CHealthAccountPanel
+	{
+		"xpos"					"cs-0.5-144"
+		"ypos"					"rs1+20"
+		"xpos_minmode"			"61"
+		"ypos_minmode"			"r134"
+	}
 	
 	"CurrencyStatusPanel"
 	{
