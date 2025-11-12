@@ -10,8 +10,8 @@
 
 	"MapInfoContinue"
 	{
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
+		"xpos"			"r0"
+		"xpos_minmode"	"r0"
 		"wide"			"0"
 		"visible"		"0"
 	}

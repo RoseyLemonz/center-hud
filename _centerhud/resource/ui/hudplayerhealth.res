@@ -13,13 +13,11 @@
 	"TheMeasuringStickTM"
 	{
 		"controlName"	"ImagePanel"
-		"fieldName"		"TheMeasuringStickTM"
 		"xpos"			"cs-0.5"
 		"ypos"			"r160"
 		"wide"			"285"
 		"tall"			"5"
 		"visible"		"0"
-		"enabled"		"0"
 		"fillColor"		"255 255 255 255"
 	}	
 
@@ -55,7 +53,7 @@
 
 	"PlayerStatusPin"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"PlayerStatusPin"
 		"xpos"			"cs-0.5-150"
 		"ypos"			"rs1-102"
