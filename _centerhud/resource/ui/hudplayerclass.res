@@ -59,7 +59,7 @@
     "PlayerStatusClassImageBG"
 	{
 		"xpos"			"9999"
-        "xpos_minmode"  "9999"
+		"xpos_minmode"	"9999"
 		"wide"			"0"
 		"visible"		"0"
 	}
