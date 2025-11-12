@@ -1,17 +1,3 @@
-event RDPositiveScorePulse
-{
-	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
-	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
-}
-
-event RDNegativeScorePulse
-{
-	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
-	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
-}
-
-//==================================================================================
-
 event HudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Spline 0.0 0.8
@@ -56,16 +42,19 @@ event HudSpyDisguiseHide
 
 //==================================================================================
 
-event CompetitiveGame_LowerChatWindow
+event CompetitiveGame_LowerChatWindow 	{ }
+
+event CompetitiveGame_RestoreChatWindow 
 {
-	//Fix stuck animations
-    RunEvent HudHealthDyingPulseStop 0.1
-    RunEvent HudHealthBonusPulseStop 0.1
-    RunEvent HudLowAmmoPulseStop 0.1
-    RunEvent HudMedicChargedStop 0.1
+	//Run animations that need to be run after respawn to fix things
+	//RunEventChild because RunEvent didnt consistently work
+	RunEventChild HudPlayerHealth HudHealthDyingPulseStop	0.1
+	RunEventChild HudPlayerHealth HudHealthBonusPulseStop	0.1
+    RunEvent HudLowAmmoPulseStop	0.1
+    RunEvent HudMedicChargedStop 	0.1
+	RunEvent HudSpyDisguiseFadeOut	0.1
 }
 
-event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
 
-//==================================================================================
+//====================================
