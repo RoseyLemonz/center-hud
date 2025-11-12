@@ -36,6 +36,14 @@
 		"tall"	"f0"
 	}
 
+
+	DisguiseStatus
+	{
+		"xpos"		"cs-0.5-218"
+		"wide"		"105"
+		"tall"		"65"
+	}
+
 	CHealthAccountPanel
 	{
 		"xpos"					"cs-0.5-144"

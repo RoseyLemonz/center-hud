@@ -6,34 +6,18 @@
 		"ypos"			"rs1.2"
 		"wide"			"75"
 		"tall"			"75"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide_minmode"	"0"
-		"tall_minmode"	"0"
 	}
 
 	"classmodelpanel"
 	{
 		"xpos"			"cs-0.5-217"
 		"ypos"			"rs1.076"
-		"xpos_minmode"	"0"	
-		"ypos_minmode"	"0"
-		"wide_minmode"	"0"
-		"tall_minmode"	"0"
 	}
 
 	"PlayerStatusSpyImage"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"
+		"xpos"			"cs-0.5-242"
 		"ypos"			"rs1.27"
-		"wide"			"55"
-		"tall"			"55"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide_minmode"	"0"
-		"tall_minmode"	"0"
 	}	
 	"PlayerClassBG"
 	{		
