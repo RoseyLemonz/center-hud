@@ -2,9 +2,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_start_y"	"28"
+		"delta_item_start_y"	"26"
 		"delta_item_end_y"		"4"
-		"delta_item_font"		"HudFontMediumSmall"
+		"delta_item_font"		"HudFontMediumSmallOutline"
 	}
 	
 	"AccountBG"
@@ -26,7 +26,7 @@
 	
 	"AccountValue"
 	{
-		"xpos"			"24"
+		"xpos"			"23"
 		"ypos"			"44"
 	}
 }

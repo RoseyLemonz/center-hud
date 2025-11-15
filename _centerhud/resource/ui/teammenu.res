@@ -10,7 +10,7 @@
 	{
 		"xpos"			"cs-0.5-240"
 		"wide"			"0"
-        "auto_wide_tocontents"  "1"
+		"auto_wide_tocontents"	"1"
 	}
 }
 
