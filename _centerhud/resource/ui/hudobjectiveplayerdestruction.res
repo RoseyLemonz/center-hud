@@ -4,8 +4,8 @@
 	{
 		"xpos"			"cs-0.5-185"
 		"ypos"			"rs1-11"
-        "wide"			"40"
-        "tall"			"18"
+		"wide"			"40"
+		"tall"			"18"
 	
 		"CarriedImage"
 		{
@@ -145,6 +145,5 @@
 		{
 			"xpos"				"rs1-100"
 		}
-
 	}
 }

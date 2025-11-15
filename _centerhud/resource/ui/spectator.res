@@ -1,0 +1,47 @@
+"resource/ui/spectator.res"
+{
+	"topbar"
+	{
+        "alpha"         "155"
+	}
+	"ClassOrTeamLabel"
+	{
+		"xpos"			"34"
+		"ypos"			"44"
+		"auto_wide_tocontents"	"1"
+	}
+	"SwitchCamModeLabel"
+	{
+		"xpos"			"r0"
+		"wide"			"0"
+		"visible"		"0"
+	}	
+	"CycleTargetFwdKeyLabel"
+	{
+		"xpos"			"34"
+		"auto_wide_tocontents"	"1"
+	}
+	"CycleTargetFwdLabel"
+	{
+		"xpos"			"10"
+		"ypos"			"0"
+		"auto_wide_tocontents"	"1"
+		"pin_to_sibling" "CycleTargetFwdKeyLabel"
+		"pin_to_sibling_corner" "1"
+	}
+	"CycleTargetRevKeyLabel"
+	{
+		"xpos"			"34"
+		"auto_wide_tocontents"	"1"
+	}
+	"CycleTargetRevLabel"
+	{
+		"xpos"			"10"
+		"ypos"			"0"
+		"auto_wide_tocontents"	"1"
+		"labelText"		"#TF_Spectator_CycleTargetRev"
+		"textAlignment"		"west"
+		"pin_to_sibling" "CycleTargetRevKeyLabel"
+		"pin_to_sibling_corner" "1"
+	}
+}
