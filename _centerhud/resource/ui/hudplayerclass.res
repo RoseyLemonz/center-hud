@@ -173,4 +173,12 @@
 		"wide"			"0"
 		"visible"		"0"
 	}
+
+	"CarryingWeapon"
+	{
+		"xpos"			"r0"
+		"xpos_minmode"	"r0"
+		"wide"			"0"
+		"visible"		"0"
+	}
 }

@@ -2,7 +2,7 @@
 {
 	"topbar"
 	{
-        "alpha"         "155"
+        "alpha"         "196"
 	}
 	"ClassOrTeamLabel"
 	{
