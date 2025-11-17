@@ -88,6 +88,18 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"HudFontMediumSmallBoldOutline"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"HudFontSmallOutline"
 		{
 			"1"
@@ -845,5 +857,10 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}	
+		"100"
+		{
+			"font"	"resource/fonts/crosshairs.ttf"
+			"name"	"TF2Crosshairs"
+		}
 	}
 }

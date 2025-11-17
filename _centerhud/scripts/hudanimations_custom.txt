@@ -50,9 +50,8 @@ event CompetitiveGame_RestoreChatWindow
 	//RunEventChild because RunEvent didnt consistently work
 	RunEventChild HudPlayerHealth HudHealthDyingPulseStop	0.1
 	RunEventChild HudPlayerHealth HudHealthBonusPulseStop	0.1
-    RunEvent HudLowAmmoPulseStop	0.1
-    RunEvent HudMedicChargedStop 	0.1
-	RunEvent HudSpyDisguiseFadeOut	0.1
+	RunEvent HudLowAmmoPulseStop	0.1
+	RunEvent HudMedicChargedStop 	0.1
 }
 
 event HudTournament_MoveChatWindow { }
