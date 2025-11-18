@@ -8,13 +8,7 @@
 		"fgcolor"		"TanLight"
 	}
 
-	"MapInfoContinue"
-	{
-		"xpos"			"r0"
-		"xpos_minmode"	"r0"
-		"wide"			"0"
-		"visible"		"0"
-	}
+	"MapInfoContinue" {"xpos" r0 "visible" 0 "wide" 0}
 
 	"MapInfoContinueCopy" [$WIN32]
 	{

@@ -10,12 +10,7 @@
 		"ypos"			"44"
 		"auto_wide_tocontents"	"1"
 	}
-	"SwitchCamModeLabel"
-	{
-		"xpos"			"r0"
-		"wide"			"0"
-		"visible"		"0"
-	}	
+	"SwitchCamModeLabel" {"xpos" r0 "visible" 0 "wide" 0}
 	"CycleTargetFwdKeyLabel"
 	{
 		"xpos"			"34"

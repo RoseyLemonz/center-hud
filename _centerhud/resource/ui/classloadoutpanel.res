@@ -14,14 +14,8 @@
 		"xpos"		"c-134"
 		"ypos"		"c-180"
 	}
-	"RedButton"
-	{
-		"visible"	"0"
-	}
-	"BlueButton"
-	{
-		"visible"	"0"
-	}
+	"RedButton" {"xpos" r0 "visible" 0 "wide" 0}
+	"BlueButton" {"xpos" r0 "visible" 0 "wide" 0}
 
 	"classmodelpanel"
 	{

@@ -1,7 +1,4 @@
 "resource/ui/huddemomancharge.res"
 {	
-	"ChargeMeter"
-	{
-		"visible"		"0"
-	}					
+	"ChargeMeter" {"xpos" r0 "visible" 0 "wide" 0}
 }

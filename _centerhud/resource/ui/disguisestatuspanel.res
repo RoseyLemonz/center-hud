@@ -28,6 +28,5 @@
 	"SpectatorGUIHealth"
 	{
 		"xpos"			"10"
-	}	
-	
+	}
 }
