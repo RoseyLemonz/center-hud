@@ -246,7 +246,7 @@
 			"labelText"						"#Vote_RestartGame"
 			"font"							"ItemFontNameLarge"
 			"textAlignment"					"center"
-			"Command"						"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
+			"Command"						"engine gameui_allowescape; mat_queue_mode -1; _restart"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
