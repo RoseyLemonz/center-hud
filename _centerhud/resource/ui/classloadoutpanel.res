@@ -9,11 +9,13 @@
 	{
 		"xpos"		"c-162"
 	}
+
 	"TauntLoadoutButton"
 	{
 		"xpos"		"c-134"
 		"ypos"		"c-180"
 	}
+
 	"RedButton" {"xpos" r0 "visible" 0 "wide" 0}
 	"BlueButton" {"xpos" r0 "visible" 0 "wide" 0}
 
@@ -30,7 +32,12 @@
 			"origin_z" "-44"
 		}
 	}
-	
+
+	"PassiveAttribsLabel"
+	{
+		"font"			"ItemFontAttribLargeOutline"
+	}
+
 	"SpotRotateKey"
 	{
 		"ControlName"		"CExLabel"
