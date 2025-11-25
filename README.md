@@ -11,17 +11,19 @@
   
   Everyone that has helped translate Center HUD to other languages, if you're interested in helping, <a href="https://github.com/RoseyLemonz/center-hud/wiki/Translating">look here.</a>
   <br><br>
-  <a href="https://github.com/grousk">grousk (Turkish)</a>
-  -- <a href="https://steamcommunity.com/id/bambambambrrrbrrrboopboop/">bjrkk (Romanian)</a>
+  <a href="https://github.com/grous0">grous0 (Turkish)</a>
+  -- <a href="https://prettyto.foo/">prettytofugirl (Romanian)</a>
   -- <a href="https://github.com/realFunnyScout">realFunnyScout (Russian)</a>
   <br>
   <a href="https://gamebanana.com/members/1932153">Ashe_tf (Spanish)</a>
   -- <a href="https://github.com/Yellow-Dev1l">Yellow-Dev1l (Korean)</a>
-  -- <a href="https://steamcommunity.com/profiles/76561199122950001/">chillyy (French)</a>
+  -- <a href="https://steamcommunity.com/profiles/76561199122950001/">chilly (French)</a>
   <br>
   <a href="https://github.com/Hardingfele2212">Hardingfele2212 (Norwegian)</a>
   -- <a href="https://steamcommunity.com/id/SpecializedUnFunny">UnFunny (Polish)</a>
   -- <a href="https://github.com/Pyromaniax">Pyromaniax (Portugues [Brazillian])</a>
+  <br>
+  <a href="https://github.com/LlamaGR1">LlamaGR1 (Greek)</a>
   
   <h2>Credits</h2>
   <a href="https://github.com/CriticalFlaw/TF2HUD.Fixes">Community HUD Fixes</a>
