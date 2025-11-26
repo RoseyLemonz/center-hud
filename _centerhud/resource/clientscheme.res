@@ -40,6 +40,18 @@ Scheme
 			}
 		}
 
+		"HudFontSmaller"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+
 		"ItemFontAttribLargeOutline"
 		{
 			"1"

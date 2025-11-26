@@ -2,6 +2,8 @@
 * text=auto
 *.res eol=crlf
 *.txt eol=crlf
+*.cfg eol=crlf
+*.vmt eol=crlf
 
 # proper language detection
 *.vdf linguist-detectable=true
