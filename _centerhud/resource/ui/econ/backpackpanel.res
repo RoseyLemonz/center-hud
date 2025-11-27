@@ -17,4 +17,6 @@
 		"tall"			"20"
 		"font"			"HudFontSmallBold"
 	}		
+	
+	"ShowExplanationsButton" {"xpos" r0 "visible" 0 "wide" 0}
 }
