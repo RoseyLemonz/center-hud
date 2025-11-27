@@ -2,6 +2,7 @@
 {
 	"MainMenuOverride" {}
 	"EventPromo" {"xpos" r0 "visible" 0 "wide" 0}
+	"WatchStreamButton" {"xpos" r0 "visible" 0 "wide" 0}
 
 	"RankBorder"
 	{
@@ -136,7 +137,6 @@
 
 	"TF2SettingsButton"
 	{
-
 		"xpos"			"-25"
 		"ypos"			"-6"
 		"wide"			"19"
@@ -412,4 +412,333 @@
 			"proportionaltoparent"	"1"
 		}				
 	}		
+
+	"ReportPlayerButton"
+	{
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"o1.3"
+		"tall"			"25"
+
+		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"PaintBackgroundType"	"1"
+			"border"			"MainMenuButtonDefault"
+
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"xpos"			"6"
+				"ypos"			"cs-0.5"
+				"wide"			"16"
+				"tall"			"o1"
+			}				
+		}
+	}
+
+
+	"CallVoteButton"
+	{
+		"xpos"			"-5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"o1.2"
+		"tall"			"25"
+
+		"pin_to_sibling"	"ReportPlayerButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"16"
+				"tall"			"o1"
+			}				
+		}
+	}
+
+	"MutePlayersButton"
+	{
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"o1.2"
+		"tall"			"25"
+
+		"pin_to_sibling"	"CallVoteButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"16"
+				"tall"			"o1"
+			}				
+		}
+	}
+
+	"RequestCoachButton"
+	{
+		"xpos"			"-5"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"o1.3"
+		"tall"			"25"
+
+		"pin_to_sibling"	"MutePlayersButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"wide"				"f0"
+			"tall"				"f0"
+			
+			"PaintBackgroundType"	"1"
+			"border"			"MainMenuButtonDefault"
+			
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"xpos"			"rs1-6"
+				"ypos"			"cs-0.5"
+				"wide"			"16"
+				"tall"			"o1"
+			}				
+		}
+	}
+
+	"MusicChangePrevButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MusicChangePrevButton"
+		"xpos"			"r0"
+		"zpos"			"0"
+		"wide"			"o1.3"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuButtonDefault"
+			"paintbackground"   "1"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_prev"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
+	"MusicChangeStopButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MusicChangeStopButton"
+		"xpos"			"-5"
+		"zpos"			"1"
+		"wide"			"o1.2"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"MusicChangePrevButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuSubButtonBorder"
+			"paintbackground"   "1"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_stop"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+	"MusicChangePlayButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MusicChangePlayButton"
+		"xpos"			"-1"
+		"zpos"			"2"
+		"wide"			"o1.2"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"MusicChangeStopButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuSubButtonBorder"
+			"paintbackground"   "1"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_play"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+	"MusicChangeNextButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MusicChangeNextButton"
+		"xpos"			"-5"
+		"zpos"			"1"
+		"wide"			"o1.3"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"MusicChangePlayButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuButtonDefault"
+			"paintbackground"   "1"
+
+			"use_proportional_insets" "1"
+			"proportionaltoparent"	"1"
+
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"rs1-6"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_play"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
 }

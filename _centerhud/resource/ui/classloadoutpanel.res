@@ -16,6 +16,33 @@
 		"ypos"		"c-180"
 	}
 
+	"ClassLabel"
+	{
+		"wide"			"0"
+		"auto_wide_tocontents"	"1"
+	}			
+
+	"TauntCaratLabel"
+	{
+		"xpos"			"8"
+		"ypos"			"0"
+		"tall"			"25"
+		"wide"			"0"
+		"auto_wide_tocontents"	"1"
+		"pin_to_sibling"	"ClassLabel"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+
+	"TauntLabel"
+	{
+		"xpos"			"8"
+		"ypos"			"0"
+		"wide"			"0"
+		"auto_wide_tocontents"	"1"
+		"pin_to_sibling"	"TauntCaratLabel"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+
 	"RedButton" {"xpos" r0 "visible" 0 "wide" 0}
 	"BlueButton" {"xpos" r0 "visible" 0 "wide" 0}
 
