@@ -1,0 +1,6 @@
+#base "background01.vmt"
+
+"UnlitGeneric"
+{
+	"$basetexture" "console/background01_widescreen"
+}

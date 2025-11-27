@@ -1,0 +1,37 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/background01"
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+
+	$frame 1000
+	$fh 500
+	$rand 0
+
+	"Proxies"
+	{
+		"UniformNoise"
+		{
+			"minVal" "0"
+			"maxVal" "2.99" // im using vtf with 3 frames
+			"resultVar" "$rand"
+		}
+
+		"LessOrEqual"
+		{
+			"LessEqualVar" "$frame"
+			"greaterVar" "$rand"
+			"srcVar1" "$frame"
+			"srcVar2" "$fh"
+			"resultVar" "$frame"
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "0.10" // once every 33 seconds. each second 0.03 of a frame is shifted (33*0.03 = 0.99, so it scrolls 1 frame)
+		}
+	}
+}
