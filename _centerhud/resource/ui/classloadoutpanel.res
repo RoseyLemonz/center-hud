@@ -68,7 +68,7 @@
 	"SpotRotateKey"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"SpotRotateKey"
+		"fieldName"			"SpotRotateKey"
 		"xpos"				"c-159"
 		"ypos"				"88"
 		"wide"				"20"
@@ -80,7 +80,7 @@
 	"SpotRotateLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"SpotRotateLabel"
+		"fieldName"			"SpotRotateLabel"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"#CenHud_Loadout_Class_Rotate"
 		"tall"				"10"
@@ -93,7 +93,7 @@
 	"ZoomKey"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"ZoomKey"
+		"fieldName"			"ZoomKey"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"RMB:"
 		"wide"				"20"
@@ -105,7 +105,7 @@
 	"ZoomLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"ZoomLabel"
+		"fieldName"			"ZoomLabel"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"#Store_Zoom"
 		"tall"				"10"
@@ -118,7 +118,7 @@
 	"MoveKey"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"MoveKey"
+		"fieldName"			"MoveKey"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"Shift:"
 		"wide"				"20"
@@ -130,7 +130,7 @@
 	"MoveLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"MoveLabel"
+		"fieldName"			"MoveLabel"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"#CenHud_Loadout_Class_Move"
 		"tall"				"10"
@@ -143,7 +143,7 @@
 	"SpotlightKey"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"SpotlightKey"
+		"fieldName"			"SpotlightKey"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"Ctrl:"
 		"wide"				"20"
@@ -155,7 +155,7 @@
 	"SpotlightLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"SpotlightLabel"
+		"fieldName"			"SpotlightLabel"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"#CenHud_Loadout_Class_Spotlight"
 		"tall"				"10"
@@ -168,7 +168,7 @@
 	"RotateKey"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"RotateKey"
+		"fieldName"			"RotateKey"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"Alt:"
 		"wide"				"20"
@@ -180,7 +180,7 @@
 	"RotateLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"RotateLabel"
+		"fieldName"			"RotateLabel"
 		"font"				"FontStoreOriginalPrice"
 		"labelText"			"#CenHud_Loadout_Class_Rotate"
 		"tall"				"10"

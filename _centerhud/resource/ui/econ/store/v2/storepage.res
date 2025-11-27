@@ -73,7 +73,7 @@
 		"wide"				"0"
 		"visible"			"1"
 		"labelText"			"&A"
-		"Command"			"prevpage"
+		"command"			"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -85,7 +85,7 @@
 		"wide"				"0"
 		"visible"			"1"
 		"labelText"			"&D"
-		"Command"			"nextpage"
+		"command"			"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

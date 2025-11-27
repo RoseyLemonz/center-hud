@@ -1,3 +1,5 @@
+#base "#customization/#customization_menu/hud_customization.res"
+
 "resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride" {}
@@ -97,7 +99,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"Command"		"OpenOptionsDialog"
+		"command"		"OpenOptionsDialog"
 		"labelText"		"#TF_Options_Title"
 		"proportionaltoparent"	"1"	
 
@@ -210,7 +212,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"Command"		"engine fix_all"
+		"command"		"engine fix_all"
 		"labelText"		"#TF_PublishedFiles_Refresh"
 		"proportionaltoparent"	"1"	
 
