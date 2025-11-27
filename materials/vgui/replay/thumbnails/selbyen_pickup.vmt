@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\selbyen_pickup"
+	"$baseTexture" "vgui/replay/thumbnails/selbyen_pickup"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

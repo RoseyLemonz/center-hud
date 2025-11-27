@@ -6,10 +6,12 @@ Work in progress rewrite of Center HUD.
 
 ## Credits
 - [Community HUD Fixes - Based On](https://github.com/CriticalFlaw/TF2HUD.Fixes)
-- [TF2 Extended Fonts - Fonts ](https://github.com/jakadak/TF2-extended-fonts)
-- [Repositioned HUD Playermodel - HUD Character Model](https://gamebanana.com/mods/584943)
 - [pinskiHUD - Store Menus (and other things)](https://gamebanana.com/mods/611219)
 - [m0rehud - Customization Menu ](https://github.com/Hypnootize/m0rehud)
+- [TF2 Extended Fonts - Fonts ](https://github.com/jakadak/TF2-extended-fonts)
+- [TF2-HUD-Icons - New Icons](https://github.com/Hypnootize/TF2-HUD-Icons)
+- [Repositioned HUD Playermodel - HUD Character Model](https://gamebanana.com/mods/584943)
+- [Music Buttons - Music Player Script](https://gamebanana.com/mods/576607)
 
 ## Language Files
 - [English & Finnish - RoseyLemonz](https://github.com/RoseyLemonz)

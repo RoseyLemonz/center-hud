@@ -17,6 +17,24 @@
 		"ypos"				"22"
 	}
 	
+	"BackgroundPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundPanel"
+		"xpos"			"cs-0.5"
+		"zpos"			"-1"
+		"wide"			"640"
+		"tall"			"f0"
+		"visible"		"1"
+		"bgcolor_override"		"46 43 42 255"
+		"proportiontoparent"	"1"
+	}
+
+	"StoreBackgroundPanel"
+	{
+		"zpos"			"-2"
+	}
+
 	"PrevPageButton"
 	{
 		"xpos"			"c190"
@@ -62,25 +80,25 @@
 	"BackpackSpaceLabel"
 	{
 		"xpos"			"c-300"
-		"ypos"			"300"
+		"ypos"			"302"
 	}
 	
 	"CartButton"
 	{
 		"xpos"			"c-300"
-		"ypos"			"320"
+		"ypos"			"322"
 	}
 	
 	"CartImage"
 	{
 		"xpos"			"c-295"
-		"ypos"			"322"
+		"ypos"			"324"
 	}
 	
 	"CartFeaturedItemSymbol"
 	{
 		"xpos"			"c-225"
-		"ypos"			"224"
+		"ypos"			"226"
 	}
 	
 	"MarketPlaceButton"

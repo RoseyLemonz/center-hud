@@ -92,23 +92,22 @@
 
 	"BackpackSpaceLabel"
 	{
-		"ypos"			"300"
+		"ypos"			"302"
 	}
 	
 	"CartButton"
 	{
-		"ypos"			"320"
+		"ypos"			"322"
 	}
 	
 	"CartImage"
 	{
-		"ypos"			"322"
+		"ypos"			"324"
 	}
-	
 	
 	"CartFeaturedItemSymbol"
 	{
-		"ypos"			"224"
+		"ypos"			"226"
 	}
 	
 	"NameFilterLabel"

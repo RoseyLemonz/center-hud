@@ -244,7 +244,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_options"
+			"image"			"replay/thumbnails/menu/glyph/refresh"
 			"proportionaltoparent"	"1"
 		}			
 	}
@@ -536,7 +536,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicChangePrevButton"
-		"xpos"			"r0"
+		"xpos"			"10"
 		"zpos"			"0"
 		"wide"			"o1.3"
 		"tall"			"25"
@@ -578,7 +578,7 @@
 				"tall"			"o1"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_prev"
+				"image"			"replay/thumbnails/menu/glyph/mus_back"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -627,11 +627,11 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"16"
+				"wide"			"15"
 				"tall"			"o1"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_stop"
+				"image"			"replay/thumbnails/menu/glyph/mus_pause"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -679,11 +679,11 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"16"
+				"wide"			"15"
 				"tall"			"o1"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_play"
+				"image"			"replay/thumbnails/menu/glyph/mus_play"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -735,7 +735,7 @@
 				"tall"			"o1"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/musicplayer/glyph_muschange_play"
+				"image"			"replay/thumbnails/menu/glyph/mus_next"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
