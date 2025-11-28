@@ -5,16 +5,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"SafeMode"
 		"xpos"							"cs-0.5"
-		"ypos"							"cs-0.5"
+		"ypos"							"cs-0.5-5"
 		"wide"							"600"
 		"tall"							"302"
 		"zpos"							"50"
 		"visible"						"1"
 		"enabled"						"1"
-		"paintBackgroundType"			"2"
+		"paintBackgroundType"			"0"
 		"roundedcorners"				"15"
-		"bgcolor_override"				"FooterBGBlack"
-		"proportionaltoparent"			"1"
+		"border"						"GrayDialogBorder"
 
 		//==========================
 		// TITLE BAR
@@ -24,38 +23,58 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"Title"
-			"xpos"						"cs-0.5"
+			"xpos"						"0"
 			"ypos"						"0"
 			"zpos"						"-1"
-			"wide"						"f0"
-			"tall"						"30"
+			"wide"						"0"
+			"tall"						"35"
 			"visible"					"1"
 			"enabled"					"1"
 			
 			"labelText"					"#TF_OptionCategory_HUD"
-			"font"						"HudFontSmallBold"
+			"font"						"HudFontMediumSmallBold"
 			"textAlignment"				"west"
 			"fgcolor"					"White"
-			"textinsetx"				"15"
 			"allcaps"					"1"
+			"textinsetx"				"15"
 
-			"paintBackgroundType"		"2"
-			"roundedcorners"			"3"
-			"bgcolor_override"			"TanDark"
+			"paintBackgroundType"		"0"	
+
+			"auto_wide_tocontents"		"1"
 			
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
+		}
+
+		"Separator_1"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"Separator_1"
+			"xpos"					"-1"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"f2"
+			"tall"					"2"
+			"visible"				"1"
+			"enabled"					"1"
+			"proportionaltoparent"		"1"
+			"paintBackground"			"1"
+			"paintBackgroundtype"	"0"
+			"bgcolor_override"		"TanDark"
+
+			"pin_to_sibling"			"Title"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		}
 
 		"CloseButton"
 		{
 			"ControlName"				"CExButton"
 			"fieldName"					"CloseButton"
-			"xpos"						"rs1-4"
-			"ypos"						"4"
+			"xpos"						"rs1-7"
+			"ypos"						"7"
 			"zpos"						"20"
 			"wide"						"22"
-			"tall"						"o1"
+			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
 
@@ -70,7 +89,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"paintBackground"			"1"
-			"defaultBgColor_override"	"TanDarker"
 
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
@@ -201,53 +219,43 @@
 		{
 			"ControlName"				"EditablePanel"
 			"fieldName"					"Categories_Navigation"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"165"
-			"tall"						"f51"
+			"xpos"						"15"
+			"ypos"						"48"
+			"wide"						"140"
+			"tall"						"205"
 			"zpos"						"50"
 			"visible"					"1"
 			"enabled"					"1"
 
 			"paintBackgroundType"		"0"
-			"bgcolor_override"			"Black"
+			"bgcolor_override"			"Blank"
 
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"			"Title"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-			"Title"
+			"InnerShadow"
 			{
-				"ControlName"			"CExLabel"
-				"fieldName"				"Title"
-				"xpos"					"cs-0.5"
-				"ypos"					"0"
-				"zpos"					"0"
-				"wide"					"f0"
-				"tall"					"30"
-				"visible"				"1"
-				"enabled"				"1"
-
-				"labelText"				"Select a Category:"
-				"font"					"HudFontSmallBold"
-				"textAlignment"			"center"
-				"fgcolor"				"White"
-				"allcaps"				"1"
-
-				"paintBackground"		"1"
-				"paintBackgroundType"	"0"
-				"roundedcorners"		"0"
-				"bgcolor_override"		"Black"
-
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"501"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"	
+				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"InnerShadowBorder"
 			}
+
 			"Home_Button"
 			{
 				"ControlName"			"CExButton"
 				"fieldName"				"Home_Button"
 				"xpos"					"cs-0.5"
-				"ypos"					"32"
+				"ypos"					"10"
 				"zpos"					"20"
 				"wide"					"f20"
 				"tall"					"22"
@@ -272,7 +280,7 @@
 				"ControlName"			"CExButton"
 				"fieldName"				"Quick_Settings_Button"
 				"xpos"					"0"
-				"ypos"					"2"
+				"ypos"					"3"
 				"zpos"					"20"
 				"wide"					"f20"
 				"tall"					"22"
@@ -301,7 +309,7 @@
 				"ControlName"			"CExButton"
 				"fieldName"				"Damage"
 				"xpos"					"0"
-				"ypos"					"2"
+				"ypos"					"3"
 				"zpos"					"20"
 				"wide"					"f20"
 				"tall"					"22"
@@ -335,32 +343,67 @@
 		{
 			"ControlName"				"EditablePanel"
 			"fieldName"					"Customizations_Panel"
-			"xpos"						"rs1-2"
-			"ypos"						"cs-0.5+4"
+			"xpos"						"rs1-15"
+			"ypos"						"48"
 			"zpos"						"-1"
-			"wide"						"f174"
-			"tall"						"f55"
+			"wide"						"f175"
+			"tall"						"205"
 			"visible"					"1"
 			"enabled"					"1"
 			
-			"paintBackground"			"0"
-			"bgcolor_override"			"Yellow"
+			"paintBackground"			"1"
+			"bgcolor_override"			"Blank"
 
 			"proportionaltoparent"		"1"
+
+			"InnerShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"501"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"	
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"InnerShadowBorder"
+			}
 		}
 
 		//==========================
 		// OK/APPLY BUTTON
 		//==========================
 		
+		"Separator_2"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"Separator_2"
+			"xpos"					"1"
+			"ypos"					"264"
+			"zpos"					"0"
+			"wide"					"f2"
+			"tall"					"2"
+			"visible"				"1"
+			"enabled"					"1"
+			"proportionaltoparent"		"1"
+			"paintBackground"			"1"
+			"paintBackgroundtype"	"0"
+			"bgcolor_override"		"TanDark"
+		}
+
 		"ApplyButton"
 		{
 			"ControlName"				"CExButton"
 			"fieldName"					"ApplyButton"
 			"xpos"						"cs-0.5"
-			"ypos"						"rs1"
+			"ypos"						"rs1-8"
 			"zpos"						"55"
-			"wide"						"f0"
+			"wide"						"f20"
 			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
@@ -378,7 +421,6 @@
 
 			"paintBackground"			"1"
 			"paintBackgroundType"		"2"
-			"roundedcorners"			"12"
 
 			"defaultBgColor_override"	"CreditsGreen"
 			"armedBgColor_override"		"GreenSolid"
