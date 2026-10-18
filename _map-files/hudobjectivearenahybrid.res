@@ -1,6 +1,6 @@
-//#base "hudobjectiveplayerdestruction.res"
+//#base "HudObjectivePlayerDestruction.res"
 
-"resource/ui/hudobjectivearenahybrid.res"
+"Resource/UI/HudObjectiveArenaHybrid.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{
@@ -1252,7 +1252,7 @@
 		"count"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"count"
+			"fieldName"		"edEscrow"
 			"xpos"			"23"
 			"ypos"			"7"
 			"zpos"			"2"
@@ -1273,7 +1273,7 @@
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"countshadow"
+			"fieldName"		"RedEscrow"
 			"xpos"			"24"
 			"ypos"			"8"
 			"zpos"			"1"

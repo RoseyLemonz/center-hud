@@ -1,6 +1,10 @@
 
 // Customization
 
+#base "../../_customization/center_mode/vanilla/resource/ui/hudplayerclass.res"
+
+// Crosshairs
+
 #base	"../../_customization/crosshair/crosshair.res"
 
 // Base

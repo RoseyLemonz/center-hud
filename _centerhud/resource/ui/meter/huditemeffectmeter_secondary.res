@@ -63,11 +63,14 @@
 
 	"ItemEffectMeter"
 	{	
-		"xpos"					"31"
-		"ypos"					"25"
+		"xpos"					"0"
+		"ypos"					"0"
 		"proportionaltoparent"	"1"	
 		"xpos_minmode"			"cs-0.5"
 		"ypos_minmode"			"3"
 		"wide_minmode"			"42"
+		"pin_to_sibling"		"ItemEffectMeterLabel"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 	}
 }
