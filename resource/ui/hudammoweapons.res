@@ -1,7 +1,7 @@
 
 // Customization
 
-#base "../../_customization/center_mode/vanilla/resource/ui/hudammoweapons.res"
+// #base "../../_customization/center_mode/vanilla/resource/ui/hudammoweapons.res"
 
 // Base
 

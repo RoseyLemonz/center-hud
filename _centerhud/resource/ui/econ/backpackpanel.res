@@ -28,5 +28,22 @@
 		"font"			"HudFontSmallBold"
 	}		
 	
+	"DragToNextPageButton"
+	{
+		"xpos"			"cs-0.5+304"
+		"ypos"			"90"
+		"wide"			"20"
+		"tall"			"160"
+		"proportionaltoparent"	"1"
+	}		
+	"DragToPrevPageButton"
+	{
+		"xpos"			"cs-0.5-304"
+		"ypos"			"90"
+		"wide"			"20"
+		"tall"			"160"
+		"proportionaltoparent"	"1"
+	}	
+
 	"ShowExplanationsButton" {"xpos" r0 "visible" 0 "wide" 0}
 }
