@@ -2,8 +2,6 @@
 // Customization
 
 #base	"../_customization/viewmodels/transparent_viewmodels.res"
-
-#base	"../../../cfg/center-hud/cenhud_customization_menu.txt"
 #base	"../_customization/layout_customization.res"
 
 // Base

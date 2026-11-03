@@ -167,7 +167,8 @@
 		"xpos"			"cs-0.5-242"
 		"ypos"			"rs1.27"
 		"xpos_minmode"		"r0"
-	}	
+	}
+	
 	"PlayerClassBG"
 	{		
         "ControlName"	"CTFImagePanel"

@@ -37,7 +37,7 @@
 //==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
-#base "../../center-hud/_customization/hud_customization_folder_set.res"
+#base "../../../center-hud/_customization/settingsmenu/hud_customization_folder_set.res"
 #base "hud_customization_folder.res"
 
 

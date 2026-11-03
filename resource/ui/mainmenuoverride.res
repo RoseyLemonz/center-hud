@@ -1,6 +1,6 @@
 
 // Customization
-#base	"../../_customization/hud_customization.res"
+#base	"../../_customization/settingsmenu/hud_customization.res"
 
 // Base
 #base	"../../_centerhud/resource/ui/mainmenuoverride.res"
