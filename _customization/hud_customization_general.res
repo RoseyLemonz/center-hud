@@ -183,8 +183,8 @@
 						"font"								"HudFontSmallestBold"
 						"labeltext"							"#CenHud_Custom_Gen_Enabled"
 						"textAlignment"						"center"
-						"command"							"engine hud_player_model_on"
-						"actionsignallevel"					"5"
+						"command"							"engine hud_clear_viewmodels_on"
+						"actionsignallevel"					"7"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
 				}
@@ -216,8 +216,8 @@
 						"font"								"HudFontSmallestBold"
 						"labeltext"							"#CenHud_Custom_Gen_Disabled"
 						"textAlignment"						"center"
-						"command"							"engine hud_player_model_off"
-						"actionsignallevel"					"5"
+						"command"							"engine hud_clear_viewmodels_off"
+						"actionsignallevel"					"7"
 						"sound_depressed"					"UI/buttonclick.wav"
 					}
 				}

@@ -24,7 +24,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Operating System:**
 - [x] Windows
-- [x] Linux
+- [ ] Linux/SteamOS
 
 **Additional context**
 Add any other context about the problem here.
